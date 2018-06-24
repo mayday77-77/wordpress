@@ -14,12 +14,11 @@
 --------------------------------
 1) clone from https://github.com/mayday77-77/wordpress.git
 2) run the script:  
-   ./installwp.sh <IP/domain name where the site will be hosted>
-   
-   example:
+   ./installwp.sh <IP/domain name where the site will be hosted>  
+   example:  
    ./installwp.sh 192.168.31.129
    
- 3) Once completed, access the URL : http://<IP/domain>/wordpress
+ 3) Once completed, access the URL : http://<IP/domain>/wordpress  
     e.g http://192.168.31.129/wordpress/
  4) You should be able to see the first page.
  
