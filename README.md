@@ -20,7 +20,8 @@
    
  3) Once completed, access the URL : http://<IP/domain>/wordpress  
     e.g http://192.168.31.129/wordpress/
- 4) You should be able to see the first page.
+ 4) You should be able to see the first page.  
+    e.g https://github.com/mayday77-77/wordpress/blob/master/results/wp.JPG
  
  # Instructions for running monitoring
  --------------------------------------
