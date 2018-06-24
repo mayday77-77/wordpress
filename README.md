@@ -30,7 +30,7 @@
  # Miscellaneous
  ----------------
  1) Wordpress site admin URL: http://<IP/domain>/wordpress/wp-login.php  
-    e.g http://192.168.31.129/wordpress/wp-login.php
+    e.g http://192.168.31.129/wordpress/wp-login.php  
     (image: https://github.com/mayday77-77/wordpress/blob/master/results/tester.JPG)
     
  2) User: tester
