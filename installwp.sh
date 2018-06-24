@@ -65,7 +65,7 @@ installWP()
    wp core config --path=$pathWP --dbname=$DB_NAME --dbuser=$DB_USER --dbpass=$DB_PASSWORD 
 
    # installation
-   wp core install --path=$pathWP --url="http://localhost/wordpress" --title="Testing WP" \
+   wp core install --path=$pathWP --url="$siteInput/wordpress" --title="Testing WP" \
 			--admin_user=tester --admin_password=tester123 --admin_email=mayday77@gmail.com
 
       
@@ -93,6 +93,7 @@ installWPCli()
 
 
 # main
+siteInput=$1
 updatePKG
 installSQL
 installWebServer

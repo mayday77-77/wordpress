@@ -59,7 +59,7 @@ installWP()
    sed -i "s/username_here/$DB_USER/" $dirName/wp-config.php
    sed -i "s/password_here/$DB_PASSWORD/" $dirName/wp-config.php
    cp -rp $dirName /var/www/html
-   installWPCli
+#   installWPCli
    
    service httpd start 
    
