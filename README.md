@@ -13,7 +13,7 @@
 # Instructions for installation
 --------------------------------
 1) clone from https://github.com/mayday77-77/wordpress.git
-2) run the script:
+2) run the script:  
    ./installwp.sh <IP/domain name where the site will be hosted>
    
    example:
