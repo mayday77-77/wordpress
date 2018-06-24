@@ -44,29 +44,52 @@ installWP()
    DB_NAME=wordpress
    DB_USER=wp_user
    DB_PASSWORD=password
+   pathWP=/var/www/html/wordpress
+
    #install php
-   #yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
-   #yum -y install yum-utils
-   #yum-config-manager --enable remi-php72 
    yum -y install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo 
    
    # get latest wp files
-   wget https://wordpress.org/latest.tar.gz
-   tar xfz latest.tar.gz
-   dirName=`tar tf latest.tar.gz| head -1`
+   # wget https://wordpress.org/latest.tar.gz
+   #tar xfz latest.tar.gz
+   #dirName=`tar tf latest.tar.gz| head -1`
+   #rm -f latest.tar.gz
+
+   # install WP cli
+   installWPCli
    
+   # get latest wp files
+   wp core download --path=$pathWP
+
+   # DB credentials
+   wp core config --path=$pathWP --dbname=$DB_NAME --dbuser=$DB_USER --dbpass=$DB_PASSWORD 
+
+   # installation
+   wp core install --path=$pathWP --url="http://localhost/wordpress" --title="Testing WP" \
+			--admin_user=tester --admin_password=tester123 --admin_email=mayday77@gmail.com
+
+      
    # DB credentials in wp-config.php
-   cp $dirName/wp-config-sample.php $dirName/wp-config.php 
-   sed -i "s/database_name_here/$DB_NAME/" $dirName/wp-config.php
-   sed -i "s/username_here/$DB_USER/" $dirName/wp-config.php
-   sed -i "s/password_here/$DB_PASSWORD/" $dirName/wp-config.php
-   # retrieve salt values
-   #wget https://api.wordpress.org/secret-key/1.1/salt/ -O conf/saltfile.txt
-   # replace salt values
-   cp -rp $dirName /var/www/html
-   service httpd start 
+   # cp $dirName/wp-config-sample.php $dirName/wp-config.php 
+   #sed -i "s/database_name_here/$DB_NAME/" $dirName/wp-config.php
+   #sed -i "s/username_here/$DB_USER/" $dirName/wp-config.php
+   #sed -i "s/password_here/$DB_PASSWORD/" $dirName/wp-config.php
+   #cp -rp $dirName /var/www/html
+   
+   service httpd restart 
    
 }
+
+# install wp cli
+installWPCli()
+##############
+{
+   wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+   chmod 755 wp-cli.phar
+   mv wp-cli.phar /usr/bin/wp
+
+}
+
 
 
 # main
