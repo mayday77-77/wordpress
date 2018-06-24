@@ -6,7 +6,7 @@
 
 # Assumptions
 --------------
-1) OS on Linux/Centos
+1) OS on RHEL/Centos
 2) yum update/install is working
 3) installing/running as root user
 
