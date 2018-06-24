@@ -28,9 +28,12 @@ installSQL()
    wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
    rpm -ivh mysql-community-release-el7-5.noarch.rpm
    yum -y install mysql-server
+   service mysqld start
+   service mysqld stop
    /usr/bin/mysqld_safe &
    rm -f mysql-community-release-el7-5.noarch.rpm
    # create user
+   sleep 5
    mysql -u root < conf/mysqluser.sql
 }
 
