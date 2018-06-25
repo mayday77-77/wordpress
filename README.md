@@ -12,6 +12,8 @@
 
 # Instructions for installation
 --------------------------------
+Note: The script will download and install apache webserver, mqsql, php and Wordpress  
+
 1) clone from https://github.com/mayday77-77/wordpress.git
 2) run the script:  
    ./installwp.sh <IP/domain name where the site will be hosted>  
