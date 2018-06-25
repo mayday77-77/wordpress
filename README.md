@@ -20,7 +20,7 @@ Note: The script will download and install apache webserver, mqsql, php and Word
    ./installwp.sh <IP/domain name where the site will be hosted>  
    e.g:  
    ./installwp.sh 192.168.31.129  
-   (sample install log: )  
+   (sample install log: https://github.com/mayday77-77/wordpress/blob/master/results/installwp.log)  
    
 4) Once completed, access the URL : http://<IP/domain>/wordpress  
     e.g http://192.168.31.129/wordpress/
