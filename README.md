@@ -43,4 +43,10 @@ Note: The script will download and install apache webserver, mqsql, php and Word
     (image: https://github.com/mayday77-77/wordpress/blob/master/results/tester.JPG)
     
  2) User: tester
- 3) Password : tester123
+ 3) Password : tester123  
+
+ mysql DB details:  
+ 1) DB_NAME=wordpress
+ 2) DB_USER=wp_user
+ 3) DB_PASSWORD=password  
+ 
