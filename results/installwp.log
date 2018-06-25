@@ -1,0 +1,2658 @@
+Loaded plugins: langpacks, product-id, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Resolving Dependencies
+--> Running transaction check
+---> Package ModemManager.x86_64 0:1.1.0-6.git20130913.el7 will be updated
+---> Package ModemManager.x86_64 0:1.6.10-1.el7 will be an update
+--> Processing Dependency: libqmi-utils for package: ModemManager-1.6.10-1.el7.x86_64
+--> Processing Dependency: libmbim-utils for package: ModemManager-1.6.10-1.el7.x86_64
+---> Package ModemManager-glib.x86_64 0:1.1.0-6.git20130913.el7 will be updated
+---> Package ModemManager-glib.x86_64 0:1.6.10-1.el7 will be an update
+---> Package NetworkManager.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be obsoleted
+---> Package NetworkManager.x86_64 1:1.10.2-13.el7 will be obsoleting
+---> Package NetworkManager-adsl.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-adsl.x86_64 1:1.10.2-13.el7 will be an update
+---> Package NetworkManager-config-server.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-config-server.noarch 1:1.10.2-13.el7 will be an update
+---> Package NetworkManager-glib.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-glib.x86_64 1:1.10.2-13.el7 will be an update
+---> Package NetworkManager-libnm.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-libnm.x86_64 1:1.10.2-13.el7 will be an update
+---> Package NetworkManager-libreswan.x86_64 0:0.9.8.0-5.el7 will be updated
+---> Package NetworkManager-libreswan.x86_64 0:1.2.4-2.el7 will be an update
+---> Package NetworkManager-ppp.x86_64 1:1.10.2-13.el7 will be obsoleting
+---> Package NetworkManager-team.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-team.x86_64 1:1.10.2-13.el7 will be an update
+---> Package NetworkManager-tui.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-tui.x86_64 1:1.10.2-13.el7 will be an update
+---> Package NetworkManager-wifi.x86_64 1:1.0.0-14.git20150121.b4ea599c.el7 will be updated
+---> Package NetworkManager-wifi.x86_64 1:1.10.2-13.el7 will be an update
+---> Package PackageKit.x86_64 0:0.8.9-11.el7 will be updated
+---> Package PackageKit.x86_64 0:1.1.5-1.el7.centos will be obsoleting
+---> Package PackageKit-command-not-found.x86_64 0:0.8.9-11.el7 will be updated
+---> Package PackageKit-command-not-found.x86_64 0:1.1.5-1.el7.centos will be an update
+---> Package PackageKit-device-rebind.x86_64 0:0.8.9-11.el7 will be obsoleted
+---> Package PackageKit-glib.x86_64 0:0.8.9-11.el7 will be updated
+---> Package PackageKit-glib.x86_64 0:1.1.5-1.el7.centos will be an update
+---> Package PackageKit-gstreamer-plugin.x86_64 0:0.8.9-11.el7 will be updated
+---> Package PackageKit-gstreamer-plugin.x86_64 0:1.1.5-1.el7.centos will be an update
+---> Package PackageKit-gtk3-module.x86_64 0:0.8.9-11.el7 will be updated
+---> Package PackageKit-gtk3-module.x86_64 0:1.1.5-1.el7.centos will be an update
+---> Package PackageKit-yum.x86_64 0:0.8.9-11.el7 will be updated
+---> Package PackageKit-yum.x86_64 0:1.1.5-1.el7.centos will be an update
+---> Package SDL.x86_64 0:1.2.15-11.el7 will be updated
+---> Package SDL.x86_64 0:1.2.15-14.el7 will be an update
+---> Package abattis-cantarell-fonts.noarch 0:0.0.12-3.el7 will be updated
+---> Package abattis-cantarell-fonts.noarch 0:0.0.25-1.el7 will be an update
+---> Package abrt.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-addon-ccpp.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-addon-ccpp.x86_64 0:2.1.11-50.el7.centos will be an update
+--> Processing Dependency: abrt-retrace-client for package: abrt-addon-ccpp-2.1.11-50.el7.centos.x86_64
+---> Package abrt-addon-kerneloops.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-addon-kerneloops.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-addon-pstoreoops.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-addon-pstoreoops.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-addon-python.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-addon-python.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-addon-vmcore.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-addon-vmcore.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-addon-xorg.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-addon-xorg.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-cli.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-cli.x86_64 0:2.1.11-50.el7.centos will be an update
+--> Processing Dependency: libreport-plugin-mantisbt >= 2.1.11-40 for package: abrt-cli-2.1.11-50.el7.centos.x86_64
+--> Processing Dependency: libreport-centos >= 2.1.11-40 for package: abrt-cli-2.1.11-50.el7.centos.x86_64
+---> Package abrt-console-notification.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-console-notification.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-dbus.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-dbus.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-desktop.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-desktop.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-gui.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-gui.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-gui-libs.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-gui-libs.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-libs.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-libs.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-python.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-python.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package abrt-tui.x86_64 0:2.1.11-19.el7 will be updated
+---> Package abrt-tui.x86_64 0:2.1.11-50.el7.centos will be an update
+---> Package accountsservice.x86_64 0:0.6.35-7.el7 will be updated
+---> Package accountsservice.x86_64 0:0.6.45-7.el7 will be an update
+---> Package accountsservice-libs.x86_64 0:0.6.35-7.el7 will be updated
+---> Package accountsservice-libs.x86_64 0:0.6.45-7.el7 will be an update
+---> Package acl.x86_64 0:2.2.51-12.el7 will be updated
+---> Package acl.x86_64 0:2.2.51-14.el7 will be an update
+---> Package adwaita-cursor-theme.noarch 0:3.8.4-3.el7 will be updated
+---> Package adwaita-cursor-theme.noarch 0:3.26.0-1.el7 will be an update
+---> Package adwaita-gtk2-theme.x86_64 0:3.8.4-3.el7 will be updated
+---> Package adwaita-gtk2-theme.x86_64 0:3.22.2-1.el7 will be an update
+---> Package adwaita-gtk3-theme.x86_64 0:3.8.4-3.el7 will be obsoleted
+---> Package alsa-lib.x86_64 0:1.0.28-2.el7 will be updated
+---> Package alsa-lib.x86_64 0:1.1.4.1-2.el7 will be an update
+---> Package alsa-plugins-pulseaudio.x86_64 0:1.0.27-3.el7 will be updated
+---> Package alsa-plugins-pulseaudio.x86_64 0:1.1.1-1.el7 will be an update
+---> Package alsa-tools-firmware.x86_64 0:1.0.27-4.el7 will be updated
+---> Package alsa-tools-firmware.x86_64 0:1.1.0-1.el7 will be an update
+---> Package alsa-utils.x86_64 0:1.0.28-4.el7 will be updated
+---> Package alsa-utils.x86_64 0:1.1.3-2.el7 will be an update
+---> Package anaconda-core.x86_64 0:19.31.123-1.el7 will be updated
+---> Package anaconda-core.x86_64 0:21.48.22.134-1.el7.centos will be an update
+--> Processing Dependency: python-ntplib for package: anaconda-core-21.48.22.134-1.el7.centos.x86_64
+---> Package anaconda-gui.x86_64 0:19.31.123-1.el7 will be updated
+---> Package anaconda-gui.x86_64 0:21.48.22.134-1.el7.centos will be an update
+--> Processing Dependency: libtimezonemap >= 0.4.1-2 for package: anaconda-gui-21.48.22.134-1.el7.centos.x86_64
+--> Processing Dependency: adwaita-icon-theme for package: anaconda-gui-21.48.22.134-1.el7.centos.x86_64
+---> Package anaconda-tui.x86_64 0:19.31.123-1.el7 will be updated
+---> Package anaconda-tui.x86_64 0:21.48.22.134-1.el7.centos will be an update
+---> Package anaconda-user-help.x86_64 0:19.31.123-1.el7 will be updated
+---> Package anaconda-user-help.noarch 1:7.5.3-1.el7 will be an update
+---> Package anaconda-widgets.x86_64 0:19.31.123-1.el7 will be updated
+---> Package anaconda-widgets.x86_64 0:21.48.22.134-1.el7.centos will be an update
+---> Package apr.x86_64 0:1.4.8-3.el7 will be updated
+---> Package apr.x86_64 0:1.4.8-3.el7_4.1 will be an update
+---> Package at.x86_64 0:3.1.13-17.el7_0.1 will be updated
+---> Package at.x86_64 0:3.1.13-23.el7 will be an update
+---> Package at-spi2-atk.x86_64 0:2.8.1-4.el7 will be updated
+---> Package at-spi2-atk.x86_64 0:2.22.0-2.el7 will be an update
+---> Package at-spi2-core.x86_64 0:2.8.0-6.el7 will be updated
+---> Package at-spi2-core.x86_64 0:2.22.0-1.el7 will be an update
+---> Package atk.x86_64 0:2.8.0-4.el7 will be updated
+---> Package atk.x86_64 0:2.22.0-3.el7 will be an update
+---> Package atkmm.x86_64 0:2.22.7-3.el7 will be updated
+---> Package atkmm.x86_64 0:2.24.2-1.el7 will be an update
+---> Package attr.x86_64 0:2.4.46-12.el7 will be updated
+---> Package attr.x86_64 0:2.4.46-13.el7 will be an update
+---> Package audit.x86_64 0:2.4.1-5.el7 will be updated
+---> Package audit.x86_64 0:2.8.1-3.el7 will be an update
+---> Package audit-libs.x86_64 0:2.4.1-5.el7 will be updated
+---> Package audit-libs.x86_64 0:2.8.1-3.el7 will be an update
+---> Package audit-libs-python.x86_64 0:2.4.1-5.el7 will be updated
+---> Package audit-libs-python.x86_64 0:2.8.1-3.el7 will be an update
+---> Package augeas-libs.x86_64 0:1.1.0-17.el7 will be updated
+---> Package augeas-libs.x86_64 0:1.4.0-5.el7 will be an update
+---> Package authconfig.x86_64 0:6.2.8-9.el7 will be updated
+---> Package authconfig.x86_64 0:6.2.8-30.el7 will be an update
+---> Package autofs.x86_64 1:5.0.7-48.el7 will be updated
+---> Package autofs.x86_64 1:5.0.7-83.el7 will be an update
+---> Package avahi.x86_64 0:0.6.31-14.el7 will be updated
+---> Package avahi.x86_64 0:0.6.31-19.el7 will be an update
+---> Package avahi-autoipd.x86_64 0:0.6.31-14.el7 will be updated
+---> Package avahi-autoipd.x86_64 0:0.6.31-19.el7 will be an update
+---> Package avahi-glib.x86_64 0:0.6.31-14.el7 will be updated
+---> Package avahi-glib.x86_64 0:0.6.31-19.el7 will be an update
+---> Package avahi-gobject.x86_64 0:0.6.31-14.el7 will be updated
+---> Package avahi-gobject.x86_64 0:0.6.31-19.el7 will be an update
+---> Package avahi-libs.x86_64 0:0.6.31-14.el7 will be updated
+---> Package avahi-libs.x86_64 0:0.6.31-19.el7 will be an update
+---> Package avahi-ui-gtk3.x86_64 0:0.6.31-14.el7 will be updated
+---> Package avahi-ui-gtk3.x86_64 0:0.6.31-19.el7 will be an update
+---> Package baobab.x86_64 0:3.8.2-4.el7 will be updated
+---> Package baobab.x86_64 0:3.22.1-1.el7 will be an update
+---> Package basesystem.noarch 0:10.0-7.el7 will be updated
+---> Package basesystem.noarch 0:10.0-7.el7.centos will be an update
+---> Package bash.x86_64 0:4.2.46-12.el7 will be updated
+---> Package bash.x86_64 0:4.2.46-30.el7 will be an update
+---> Package bind.x86_64 32:9.9.4-18.el7 will be updated
+---> Package bind.x86_64 32:9.9.4-61.el7 will be an update
+--> Processing Dependency: libGeoIP.so.1()(64bit) for package: 32:bind-9.9.4-61.el7.x86_64
+---> Package bind-chroot.x86_64 32:9.9.4-18.el7 will be updated
+---> Package bind-chroot.x86_64 32:9.9.4-61.el7 will be an update
+---> Package bind-libs.x86_64 32:9.9.4-18.el7 will be updated
+---> Package bind-libs.x86_64 32:9.9.4-61.el7 will be an update
+---> Package bind-libs-lite.x86_64 32:9.9.4-18.el7 will be updated
+---> Package bind-libs-lite.x86_64 32:9.9.4-61.el7 will be an update
+---> Package bind-license.noarch 32:9.9.4-18.el7 will be updated
+---> Package bind-license.noarch 32:9.9.4-61.el7 will be an update
+---> Package bind-utils.x86_64 32:9.9.4-18.el7 will be updated
+---> Package bind-utils.x86_64 32:9.9.4-61.el7 will be an update
+---> Package binutils.x86_64 0:2.23.52.0.1-30.el7 will be updated
+---> Package binutils.x86_64 0:2.27-27.base.el7 will be an update
+---> Package biosdevname.x86_64 0:0.6.1-2.el7 will be updated
+---> Package biosdevname.x86_64 0:0.7.3-1.el7 will be an update
+---> Package bison.x86_64 0:2.7-4.el7 will be updated
+---> Package bison.x86_64 0:3.0.4-1.el7 will be an update
+---> Package blktrace.x86_64 0:1.0.5-6.el7 will be updated
+---> Package blktrace.x86_64 0:1.0.5-8.el7 will be an update
+---> Package bluez.x86_64 0:4.101-13.el7 will be updated
+---> Package bluez.x86_64 0:5.44-4.el7_4 will be an update
+---> Package bluez-libs.x86_64 0:4.101-13.el7 will be updated
+---> Package bluez-libs.x86_64 0:5.44-4.el7_4 will be an update
+---> Package boost-system.x86_64 0:1.53.0-23.el7 will be updated
+---> Package boost-system.x86_64 0:1.53.0-27.el7 will be an update
+---> Package boost-thread.x86_64 0:1.53.0-23.el7 will be updated
+---> Package boost-thread.x86_64 0:1.53.0-27.el7 will be an update
+---> Package brlapi.x86_64 0:0.6.0-9.el7 will be updated
+---> Package brlapi.x86_64 0:0.6.0-16.el7 will be an update
+---> Package brltty.x86_64 0:4.5-9.el7 will be updated
+---> Package brltty.x86_64 0:4.5-16.el7 will be an update
+---> Package btrfs-progs.x86_64 0:3.16.2-1.el7 will be updated
+---> Package btrfs-progs.x86_64 0:4.9.1-1.el7 will be an update
+---> Package bzip2.x86_64 0:1.0.6-12.el7 will be updated
+---> Package bzip2.x86_64 0:1.0.6-13.el7 will be an update
+---> Package bzip2-libs.x86_64 0:1.0.6-12.el7 will be updated
+---> Package bzip2-libs.x86_64 0:1.0.6-13.el7 will be an update
+---> Package ca-certificates.noarch 0:2014.1.98-72.el7 will be updated
+---> Package ca-certificates.noarch 0:2017.2.20-71.el7 will be an update
+---> Package cairo.x86_64 0:1.12.14-6.el7 will be updated
+---> Package cairo.x86_64 0:1.14.8-2.el7 will be an update
+---> Package cairo-gobject.x86_64 0:1.12.14-6.el7 will be updated
+---> Package cairo-gobject.x86_64 0:1.14.8-2.el7 will be an update
+---> Package cairomm.x86_64 0:1.10.0-8.el7 will be updated
+---> Package cairomm.x86_64 0:1.12.0-1.el7 will be an update
+---> Package caribou.x86_64 0:0.4.11-3.el7 will be updated
+---> Package caribou.x86_64 0:0.4.21-1.el7 will be an update
+---> Package caribou-gtk2-module.x86_64 0:0.4.11-3.el7 will be updated
+---> Package caribou-gtk2-module.x86_64 0:0.4.21-1.el7 will be an update
+---> Package caribou-gtk3-module.x86_64 0:0.4.11-3.el7 will be updated
+---> Package caribou-gtk3-module.x86_64 0:0.4.21-1.el7 will be an update
+---> Package centos-bookmarks.noarch 0:7-1.el7 will be obsoleting
+---> Package centos-indexhtml.noarch 0:7-9.el7.centos will be obsoleting
+---> Package centos-logos.noarch 0:70.0.6-3.el7.centos will be obsoleting
+---> Package cgdcbxd.x86_64 0:1.0.2-5.el7 will be updated
+---> Package cgdcbxd.x86_64 0:1.0.2-7.el7 will be an update
+---> Package checkpolicy.x86_64 0:2.1.12-6.el7 will be updated
+---> Package checkpolicy.x86_64 0:2.5-6.el7 will be an update
+---> Package cheese.x86_64 2:3.8.2-7.el7 will be updated
+---> Package cheese.x86_64 2:3.22.1-2.el7 will be an update
+--> Processing Dependency: libclutter-gst-3.0.so.0()(64bit) for package: 2:cheese-3.22.1-2.el7.x86_64
+---> Package cheese-libs.x86_64 2:3.8.2-7.el7 will be updated
+--> Processing Dependency: libcheese-gtk.so.23()(64bit) for package: empathy-3.12.12-4.el7.x86_64
+---> Package cheese-libs.x86_64 2:3.22.1-2.el7 will be an update
+---> Package chkconfig.x86_64 0:1.3.61-4.el7 will be updated
+---> Package chkconfig.x86_64 0:1.7.4-1.el7 will be an update
+---> Package chrony.x86_64 0:1.29.1-1.el7 will be updated
+---> Package chrony.x86_64 0:3.2-2.el7 will be an update
+---> Package cifs-utils.x86_64 0:6.2-7.el7 will be updated
+---> Package cifs-utils.x86_64 0:6.2-10.el7 will be an update
+---> Package clutter.x86_64 0:1.14.4-12.el7 will be updated
+---> Package clutter.x86_64 0:1.26.2-2.el7 will be an update
+--> Processing Dependency: libinput(x86-64) >= 0.19.0 for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libxkbcommon.so.0(V_0.5.0)(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libinput.so.10(LIBINPUT_0.21.0)(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libinput.so.10(LIBINPUT_0.20.0)(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libinput.so.10(LIBINPUT_0.12.0)(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libxkbcommon.so.0()(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libwayland-server.so.0()(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libwayland-egl.so.1()(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libwayland-cursor.so.0()(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libwayland-client.so.0()(64bit) for package: clutter-1.26.2-2.el7.x86_64
+--> Processing Dependency: libinput.so.10()(64bit) for package: clutter-1.26.2-2.el7.x86_64
+---> Package clutter-gst2.x86_64 0:2.0.4-3.el7 will be updated
+---> Package clutter-gst2.x86_64 0:2.0.18-1.el7 will be an update
+---> Package clutter-gtk.x86_64 0:1.4.4-5.el7 will be updated
+---> Package clutter-gtk.x86_64 0:1.8.4-1.el7 will be an update
+---> Package cogl.x86_64 0:1.14.0-6.el7 will be updated
+---> Package cogl.x86_64 0:1.22.2-2.el7 will be an update
+---> Package colord.x86_64 0:1.0.4-3.el7 will be updated
+---> Package colord.x86_64 0:1.3.4-1.el7 will be an update
+---> Package colord-gtk.x86_64 0:0.1.25-3.el7 will be updated
+---> Package colord-gtk.x86_64 0:0.1.25-4.el7 will be an update
+--> Processing Dependency: libcolordprivate.so.1()(64bit) for package: colord-gtk-0.1.25-4.el7.x86_64
+--> Processing Dependency: libcolord.so.1()(64bit) for package: colord-gtk-0.1.25-4.el7.x86_64
+---> Package colord-libs.x86_64 0:1.0.4-3.el7 will be updated
+---> Package colord-libs.x86_64 0:1.3.4-1.el7 will be an update
+---> Package compat-glibc.x86_64 1:2.12-4.el7 will be updated
+---> Package compat-glibc.x86_64 1:2.12-4.el7.centos will be an update
+---> Package compat-glibc-headers.x86_64 1:2.12-4.el7 will be updated
+---> Package compat-glibc-headers.x86_64 1:2.12-4.el7.centos will be an update
+---> Package control-center.x86_64 1:3.8.6-18.el7 will be updated
+---> Package control-center.x86_64 1:3.26.2-8.el7 will be an update
+--> Processing Dependency: libnma.so.0(libnma_1_2_0)(64bit) for package: 1:control-center-3.26.2-8.el7.x86_64
+--> Processing Dependency: libnma.so.0()(64bit) for package: 1:control-center-3.26.2-8.el7.x86_64
+---> Package control-center-filesystem.x86_64 1:3.8.6-18.el7 will be updated
+---> Package control-center-filesystem.x86_64 1:3.26.2-8.el7 will be an update
+---> Package coreutils.x86_64 0:8.22-11.el7 will be updated
+---> Package coreutils.x86_64 0:8.22-21.el7 will be an update
+---> Package cpio.x86_64 0:2.11-22.el7 will be updated
+---> Package cpio.x86_64 0:2.11-27.el7 will be an update
+---> Package cpp.x86_64 0:4.8.3-9.el7 will be updated
+---> Package cpp.x86_64 0:4.8.5-28.el7 will be an update
+---> Package crash.x86_64 0:7.0.9-4.el7 will be updated
+---> Package crash.x86_64 0:7.2.0-6.el7 will be an update
+---> Package crda.x86_64 0:1.1.3_2014.06.13-1.el7 will be updated
+---> Package crda.x86_64 0:3.13_2016.02.08-1.el7 will be an update
+---> Package createrepo.noarch 0:0.9.9-23.el7 will be updated
+---> Package createrepo.noarch 0:0.9.9-28.el7 will be an update
+---> Package cronie.x86_64 0:1.4.11-13.el7 will be updated
+---> Package cronie.x86_64 0:1.4.11-19.el7 will be an update
+---> Package cronie-anacron.x86_64 0:1.4.11-13.el7 will be updated
+---> Package cronie-anacron.x86_64 0:1.4.11-19.el7 will be an update
+---> Package cryptsetup.x86_64 0:1.6.6-3.el7 will be updated
+---> Package cryptsetup.x86_64 0:1.7.4-4.el7 will be an update
+---> Package cryptsetup-libs.x86_64 0:1.6.6-3.el7 will be updated
+---> Package cryptsetup-libs.x86_64 0:1.7.4-4.el7 will be an update
+---> Package cryptsetup-python.x86_64 0:1.6.6-3.el7 will be updated
+---> Package cryptsetup-python.x86_64 0:1.7.4-4.el7 will be an update
+---> Package cscope.x86_64 0:15.8-7.el7 will be updated
+---> Package cscope.x86_64 0:15.8-10.el7 will be an update
+---> Package cups.x86_64 1:1.6.3-17.el7 will be updated
+---> Package cups.x86_64 1:1.6.3-35.el7 will be an update
+---> Package cups-client.x86_64 1:1.6.3-17.el7 will be updated
+---> Package cups-client.x86_64 1:1.6.3-35.el7 will be an update
+---> Package cups-filesystem.noarch 1:1.6.3-17.el7 will be updated
+---> Package cups-filesystem.noarch 1:1.6.3-35.el7 will be an update
+---> Package cups-filters.x86_64 0:1.0.35-15.el7_0.1 will be updated
+---> Package cups-filters.x86_64 0:1.0.35-22.el7 will be an update
+---> Package cups-filters-libs.x86_64 0:1.0.35-15.el7_0.1 will be updated
+---> Package cups-filters-libs.x86_64 0:1.0.35-22.el7 will be an update
+---> Package cups-libs.x86_64 1:1.6.3-17.el7 will be updated
+---> Package cups-libs.x86_64 1:1.6.3-35.el7 will be an update
+---> Package cups-pk-helper.x86_64 0:0.2.4-5.el7 will be updated
+---> Package cups-pk-helper.x86_64 0:0.2.6-2.el7 will be an update
+---> Package cyrus-sasl.x86_64 0:2.1.26-17.el7 will be updated
+---> Package cyrus-sasl.x86_64 0:2.1.26-23.el7 will be an update
+---> Package cyrus-sasl-lib.x86_64 0:2.1.26-17.el7 will be updated
+---> Package cyrus-sasl-lib.x86_64 0:2.1.26-23.el7 will be an update
+---> Package cyrus-sasl-md5.x86_64 0:2.1.26-17.el7 will be updated
+---> Package cyrus-sasl-md5.x86_64 0:2.1.26-23.el7 will be an update
+---> Package cyrus-sasl-plain.x86_64 0:2.1.26-17.el7 will be updated
+---> Package cyrus-sasl-plain.x86_64 0:2.1.26-23.el7 will be an update
+---> Package cyrus-sasl-scram.x86_64 0:2.1.26-17.el7 will be updated
+---> Package cyrus-sasl-scram.x86_64 0:2.1.26-23.el7 will be an update
+---> Package dbus.x86_64 1:1.6.12-11.el7 will be updated
+---> Package dbus.x86_64 1:1.10.24-7.el7 will be an update
+---> Package dbus-libs.x86_64 1:1.6.12-11.el7 will be updated
+---> Package dbus-libs.x86_64 1:1.10.24-7.el7 will be an update
+---> Package dbus-x11.x86_64 1:1.6.12-11.el7 will be updated
+---> Package dbus-x11.x86_64 1:1.10.24-7.el7 will be an update
+---> Package dconf.x86_64 0:0.16.0-6.el7 will be updated
+---> Package dconf.x86_64 0:0.26.0-2.el7 will be an update
+---> Package desktop-file-utils.x86_64 0:0.21-4.el7 will be updated
+---> Package desktop-file-utils.x86_64 0:0.23-1.el7 will be an update
+---> Package device-mapper.x86_64 7:1.02.93-3.el7 will be updated
+---> Package device-mapper.x86_64 7:1.02.146-4.el7 will be an update
+---> Package device-mapper-event.x86_64 7:1.02.93-3.el7 will be updated
+---> Package device-mapper-event.x86_64 7:1.02.146-4.el7 will be an update
+---> Package device-mapper-event-libs.x86_64 7:1.02.93-3.el7 will be updated
+---> Package device-mapper-event-libs.x86_64 7:1.02.146-4.el7 will be an update
+---> Package device-mapper-libs.x86_64 7:1.02.93-3.el7 will be updated
+---> Package device-mapper-libs.x86_64 7:1.02.146-4.el7 will be an update
+---> Package device-mapper-multipath.x86_64 0:0.4.9-77.el7 will be updated
+---> Package device-mapper-multipath.x86_64 0:0.4.9-119.el7 will be an update
+---> Package device-mapper-multipath-libs.x86_64 0:0.4.9-77.el7 will be updated
+---> Package device-mapper-multipath-libs.x86_64 0:0.4.9-119.el7 will be an update
+---> Package device-mapper-persistent-data.x86_64 0:0.4.1-2.el7 will be updated
+---> Package device-mapper-persistent-data.x86_64 0:0.7.3-3.el7 will be an update
+---> Package dhclient.x86_64 12:4.2.5-36.el7 will be updated
+---> Package dhclient.x86_64 12:4.2.5-68.el7.centos will be an update
+---> Package dhcp-common.x86_64 12:4.2.5-36.el7 will be updated
+---> Package dhcp-common.x86_64 12:4.2.5-68.el7.centos will be an update
+---> Package dhcp-libs.x86_64 12:4.2.5-36.el7 will be updated
+---> Package dhcp-libs.x86_64 12:4.2.5-68.el7.centos will be an update
+---> Package dmidecode.x86_64 1:2.12-5.el7 will be updated
+---> Package dmidecode.x86_64 1:3.0-5.el7 will be an update
+---> Package dmraid.x86_64 0:1.0.0.rc16-25.el7 will be updated
+---> Package dmraid.x86_64 0:1.0.0.rc16-28.el7 will be an update
+---> Package dmraid-events.x86_64 0:1.0.0.rc16-25.el7 will be updated
+---> Package dmraid-events.x86_64 0:1.0.0.rc16-28.el7 will be an update
+---> Package dnsmasq.x86_64 0:2.66-12.el7 will be updated
+---> Package dnsmasq.x86_64 0:2.76-5.el7 will be an update
+---> Package dracut.x86_64 0:033-240.el7 will be updated
+---> Package dracut.x86_64 0:033-535.el7 will be an update
+---> Package dracut-config-rescue.x86_64 0:033-240.el7 will be updated
+---> Package dracut-config-rescue.x86_64 0:033-535.el7 will be an update
+---> Package dracut-network.x86_64 0:033-240.el7 will be updated
+---> Package dracut-network.x86_64 0:033-535.el7 will be an update
+---> Package dyninst.x86_64 0:8.2.0-2.el7 will be updated
+---> Package dyninst.x86_64 0:9.3.1-1.el7 will be an update
+--> Processing Dependency: libboost_date_time-mt.so.1.53.0()(64bit) for package: dyninst-9.3.1-1.el7.x86_64
+---> Package e2fsprogs.x86_64 0:1.42.9-7.el7 will be updated
+---> Package e2fsprogs.x86_64 0:1.42.9-11.el7 will be an update
+---> Package e2fsprogs-libs.x86_64 0:1.42.9-7.el7 will be updated
+---> Package e2fsprogs-libs.x86_64 0:1.42.9-11.el7 will be an update
+---> Package ebtables.x86_64 0:2.0.10-13.el7 will be updated
+---> Package ebtables.x86_64 0:2.0.10-16.el7 will be an update
+---> Package elfutils.x86_64 0:0.160-1.el7 will be updated
+---> Package elfutils.x86_64 0:0.170-4.el7 will be an update
+---> Package elfutils-libelf.x86_64 0:0.160-1.el7 will be updated
+---> Package elfutils-libelf.x86_64 0:0.170-4.el7 will be an update
+---> Package elfutils-libs.x86_64 0:0.160-1.el7 will be updated
+---> Package elfutils-libs.x86_64 0:0.170-4.el7 will be an update
+--> Processing Dependency: default-yama-scope for package: elfutils-libs-0.170-4.el7.x86_64
+---> Package emacs-filesystem.noarch 1:24.3-11.el7 will be updated
+---> Package emacs-filesystem.noarch 1:24.3-20.el7_4 will be an update
+---> Package empathy.x86_64 0:3.8.4-6.el7 will be updated
+---> Package empathy.x86_64 0:3.12.12-4.el7 will be an update
+--> Processing Dependency: libgeocode-glib.so.0()(64bit) for package: empathy-3.12.12-4.el7.x86_64
+---> Package eog.x86_64 0:3.8.2-5.el7 will be updated
+---> Package eog.x86_64 0:3.20.5-2.el7 will be an update
+--> Processing Dependency: libpeas-gtk-1.0.so.0()(64bit) for package: eog-3.20.5-2.el7.x86_64
+--> Processing Dependency: libgnome-desktop-3.so.10()(64bit) for package: eog-3.20.5-2.el7.x86_64
+---> Package ethtool.x86_64 2:3.15-2.el7 will be updated
+---> Package ethtool.x86_64 2:4.8-7.el7 will be an update
+---> Package evince.x86_64 0:3.8.3-8.el7 will be updated
+---> Package evince.x86_64 0:3.22.1-7.el7 will be an update
+---> Package evince-libs.x86_64 0:3.8.3-8.el7 will be updated
+---> Package evince-libs.x86_64 0:3.22.1-7.el7 will be an update
+---> Package evince-nautilus.x86_64 0:3.8.3-8.el7 will be updated
+---> Package evince-nautilus.x86_64 0:3.22.1-7.el7 will be an update
+---> Package evolution-data-server.x86_64 0:3.8.5-34.el7 will be updated
+---> Package evolution-data-server.x86_64 0:3.22.7-8.el7 will be an update
+--> Processing Dependency: libwebkit2gtk-4.0.so.37()(64bit) for package: evolution-data-server-3.22.7-8.el7.x86_64
+--> Processing Dependency: libjavascriptcoregtk-4.0.so.18()(64bit) for package: evolution-data-server-3.22.7-8.el7.x86_64
+---> Package exiv2-libs.x86_64 0:0.23-6.el7 will be updated
+---> Package exiv2-libs.x86_64 0:0.26-3.el7 will be an update
+---> Package expat.x86_64 0:2.1.0-8.el7 will be updated
+---> Package expat.x86_64 0:2.1.0-10.el7_3 will be an update
+---> Package fcoe-utils.x86_64 0:1.0.29-9.el7 will be updated
+---> Package fcoe-utils.x86_64 0:1.0.32-1.el7 will be an update
+---> Package file.x86_64 0:5.11-21.el7 will be updated
+---> Package file.x86_64 0:5.11-33.el7 will be an update
+---> Package file-libs.x86_64 0:5.11-21.el7 will be updated
+---> Package file-libs.x86_64 0:5.11-33.el7 will be an update
+---> Package file-roller.x86_64 0:3.8.3-3.el7 will be updated
+---> Package file-roller.x86_64 0:3.22.3-1.el7 will be an update
+--> Processing Dependency: /usr/bin/compress for package: file-roller-3.22.3-1.el7.x86_64
+---> Package file-roller-nautilus.x86_64 0:3.8.3-3.el7 will be updated
+---> Package file-roller-nautilus.x86_64 0:3.22.3-1.el7 will be an update
+---> Package filesystem.x86_64 0:3.2-18.el7 will be updated
+---> Package filesystem.x86_64 0:3.2-25.el7 will be an update
+---> Package findutils.x86_64 1:4.5.11-3.el7 will be updated
+---> Package findutils.x86_64 1:4.5.11-5.el7 will be an update
+---> Package fipscheck.x86_64 0:1.4.1-5.el7 will be updated
+---> Package fipscheck.x86_64 0:1.4.1-6.el7 will be an update
+---> Package fipscheck-lib.x86_64 0:1.4.1-5.el7 will be updated
+---> Package fipscheck-lib.x86_64 0:1.4.1-6.el7 will be an update
+---> Package firefox.x86_64 0:31.4.0-1.el7_0 will be obsoleted
+---> Package firefox.x86_64 0:52.7.0-1.el7.centos will be obsoleting
+---> Package firewall-config.noarch 0:0.3.9-11.el7 will be updated
+---> Package firewall-config.noarch 0:0.4.4.4-14.el7 will be an update
+---> Package firewalld.noarch 0:0.3.9-11.el7 will be updated
+---> Package firewalld.noarch 0:0.4.4.4-14.el7 will be an update
+--> Processing Dependency: python-firewall = 0.4.4.4-14.el7 for package: firewalld-0.4.4.4-14.el7.noarch
+--> Processing Dependency: firewalld-filesystem = 0.4.4.4-14.el7 for package: firewalld-0.4.4.4-14.el7.noarch
+--> Processing Dependency: ipset for package: firewalld-0.4.4.4-14.el7.noarch
+---> Package firstboot.x86_64 0:19.9-8.el7 will be updated
+---> Package firstboot.x86_64 0:19.12-1.el7 will be an update
+---> Package flac-libs.x86_64 0:1.3.0-4.el7 will be updated
+---> Package flac-libs.x86_64 0:1.3.0-5.el7_1 will be an update
+---> Package folks.x86_64 1:0.9.2-7.el7 will be updated
+---> Package folks.x86_64 1:0.11.3-1.el7 will be an update
+---> Package fontconfig.x86_64 0:2.10.95-7.el7 will be updated
+---> Package fontconfig.x86_64 0:2.10.95-11.el7 will be an update
+---> Package freerdp-libs.x86_64 0:1.0.2-5.el7 will be updated
+---> Package freerdp-libs.x86_64 0:1.0.2-15.el7 will be an update
+---> Package freetype.x86_64 0:2.4.11-9.el7 will be updated
+---> Package freetype.x86_64 0:2.4.11-15.el7 will be an update
+---> Package fuse.x86_64 0:2.9.2-5.el7 will be updated
+---> Package fuse.x86_64 0:2.9.2-10.el7 will be an update
+---> Package fuse-libs.x86_64 0:2.9.2-5.el7 will be updated
+---> Package fuse-libs.x86_64 0:2.9.2-10.el7 will be an update
+---> Package gawk.x86_64 0:4.0.2-4.el7 will be updated
+---> Package gawk.x86_64 0:4.0.2-4.el7_3.1 will be an update
+---> Package gcc.x86_64 0:4.8.3-9.el7 will be updated
+---> Package gcc.x86_64 0:4.8.5-28.el7 will be an update
+---> Package gcc-c++.x86_64 0:4.8.3-9.el7 will be updated
+---> Package gcc-c++.x86_64 0:4.8.5-28.el7 will be an update
+---> Package gcc-gfortran.x86_64 0:4.8.3-9.el7 will be updated
+---> Package gcc-gfortran.x86_64 0:4.8.5-28.el7 will be an update
+---> Package gcr.x86_64 0:3.8.2-4.el7 will be updated
+---> Package gcr.x86_64 0:3.20.0-1.el7 will be an update
+---> Package gdb.x86_64 0:7.6.1-64.el7 will be updated
+---> Package gdb.x86_64 0:7.6.1-110.el7 will be an update
+---> Package gdk-pixbuf2.x86_64 0:2.28.2-4.el7 will be updated
+---> Package gdk-pixbuf2.x86_64 0:2.36.5-1.el7 will be an update
+---> Package gdm.x86_64 1:3.8.4-32.el7 will be updated
+---> Package gdm.x86_64 1:3.26.2.1-5.el7 will be obsoleting
+---> Package gdm-libs.x86_64 1:3.8.4-32.el7 will be obsoleted
+---> Package gedit.x86_64 2:3.8.3-6.el7 will be updated
+---> Package gedit.x86_64 2:3.22.0-3.el7 will be an update
+--> Processing Dependency: gspell(x86-64) >= 0.2.5 for package: 2:gedit-3.22.0-3.el7.x86_64
+--> Processing Dependency: libpeas-loader-python(x86-64) for package: 2:gedit-3.22.0-3.el7.x86_64
+--> Processing Dependency: libgspell-1.so.1()(64bit) for package: 2:gedit-3.22.0-3.el7.x86_64
+---> Package genisoimage.x86_64 0:1.1.11-22.el7 will be updated
+---> Package genisoimage.x86_64 0:1.1.11-23.el7 will be an update
+---> Package gettext.x86_64 0:0.18.2.1-4.el7 will be updated
+---> Package gettext.x86_64 0:0.19.8.1-2.el7 will be an update
+---> Package gettext-common-devel.noarch 0:0.18.2.1-4.el7 will be updated
+---> Package gettext-common-devel.noarch 0:0.19.8.1-2.el7 will be an update
+---> Package gettext-devel.x86_64 0:0.18.2.1-4.el7 will be updated
+---> Package gettext-devel.x86_64 0:0.19.8.1-2.el7 will be an update
+---> Package gettext-libs.x86_64 0:0.18.2.1-4.el7 will be updated
+---> Package gettext-libs.x86_64 0:0.19.8.1-2.el7 will be an update
+---> Package ghostscript.x86_64 0:9.07-18.el7 will be updated
+---> Package ghostscript.x86_64 0:9.07-28.el7_4.2 will be an update
+---> Package ghostscript-cups.x86_64 0:9.07-18.el7 will be updated
+---> Package ghostscript-cups.x86_64 0:9.07-28.el7_4.2 will be an update
+---> Package git.x86_64 0:1.8.3.1-4.el7 will be updated
+---> Package git.x86_64 0:1.8.3.1-13.el7 will be an update
+---> Package gjs.x86_64 0:1.36.1-2.el7 will be updated
+---> Package gjs.x86_64 0:1.50.4-4.el7 will be an update
+---> Package glade-libs.x86_64 0:3.15.0-5.el7 will be updated
+---> Package glade-libs.x86_64 0:3.20.0-1.el7 will be an update
+---> Package glib-networking.x86_64 0:2.40.0-1.el7 will be updated
+---> Package glib-networking.x86_64 0:2.50.0-1.el7 will be an update
+---> Package glib2.x86_64 0:2.40.0-4.el7 will be updated
+---> Package glib2.x86_64 0:2.54.2-2.el7 will be an update
+---> Package glibc.x86_64 0:2.17-78.el7 will be updated
+---> Package glibc.x86_64 0:2.17-222.el7 will be an update
+---> Package glibc-common.x86_64 0:2.17-78.el7 will be updated
+---> Package glibc-common.x86_64 0:2.17-222.el7 will be an update
+---> Package glibc-devel.x86_64 0:2.17-78.el7 will be updated
+---> Package glibc-devel.x86_64 0:2.17-222.el7 will be an update
+---> Package glibc-headers.x86_64 0:2.17-78.el7 will be updated
+---> Package glibc-headers.x86_64 0:2.17-222.el7 will be an update
+---> Package glibmm24.x86_64 0:2.36.2-4.el7 will be updated
+---> Package glibmm24.x86_64 0:2.50.0-1.el7 will be an update
+---> Package glusterfs.x86_64 0:3.6.0.29-2.el7 will be updated
+---> Package glusterfs.x86_64 0:3.8.4-53.el7.centos will be an update
+---> Package glusterfs-api.x86_64 0:3.6.0.29-2.el7 will be updated
+---> Package glusterfs-api.x86_64 0:3.8.4-53.el7.centos will be an update
+--> Processing Dependency: glusterfs-client-xlators(x86-64) = 3.8.4-53.el7.centos for package: glusterfs-api-3.8.4-53.el7.centos.x86_64
+---> Package glusterfs-fuse.x86_64 0:3.6.0.29-2.el7 will be updated
+---> Package glusterfs-fuse.x86_64 0:3.8.4-53.el7.centos will be an update
+---> Package glusterfs-libs.x86_64 0:3.6.0.29-2.el7 will be updated
+---> Package glusterfs-libs.x86_64 0:3.8.4-53.el7.centos will be an update
+---> Package glx-utils.x86_64 0:8.1.0-5.el7 will be updated
+---> Package glx-utils.x86_64 0:8.2.0-3.el7 will be an update
+---> Package gmp.x86_64 1:6.0.0-11.el7 will be updated
+---> Package gmp.x86_64 1:6.0.0-15.el7 will be an update
+---> Package gnome-abrt.x86_64 0:0.3.4-6.el7 will be updated
+---> Package gnome-abrt.x86_64 0:0.3.4-8.el7 will be an update
+---> Package gnome-backgrounds.noarch 0:3.8.1-3.el7 will be updated
+---> Package gnome-backgrounds.noarch 0:3.22.1-1.el7 will be an update
+---> Package gnome-bluetooth.x86_64 1:3.8.2.1-3.el7 will be updated
+---> Package gnome-bluetooth.x86_64 1:3.20.1-1.el7 will be an update
+---> Package gnome-bluetooth-libs.x86_64 1:3.8.2.1-3.el7 will be updated
+---> Package gnome-bluetooth-libs.x86_64 1:3.20.1-1.el7 will be an update
+---> Package gnome-boxes.x86_64 0:3.8.3-11.el7 will be updated
+---> Package gnome-boxes.x86_64 0:3.22.4-4.el7 will be an update
+--> Processing Dependency: libvirt-daemon-config-network for package: gnome-boxes-3.22.4-4.el7.x86_64
+--> Processing Dependency: libvirt.so.0()(64bit) for package: gnome-boxes-3.22.4-4.el7.x86_64
+---> Package gnome-calculator.x86_64 0:3.8.2-4.el7 will be updated
+---> Package gnome-calculator.x86_64 0:3.22.3-1.el7 will be an update
+---> Package gnome-classic-session.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-classic-session.noarch 0:3.26.2-3.el7 will be an update
+--> Processing Dependency: gnome-shell-extension-top-icons = 3.26.2-3.el7 for package: gnome-classic-session-3.26.2-3.el7.noarch
+---> Package gnome-clocks.x86_64 0:3.8.2-8.el7 will be updated
+---> Package gnome-clocks.x86_64 0:3.22.1-1.el7 will be an update
+--> Processing Dependency: libgsound.so.0()(64bit) for package: gnome-clocks-3.22.1-1.el7.x86_64
+--> Processing Dependency: libgeoclue-2.so.0()(64bit) for package: gnome-clocks-3.22.1-1.el7.x86_64
+---> Package gnome-color-manager.x86_64 0:3.8.2-6.el7 will be updated
+---> Package gnome-color-manager.x86_64 0:3.22.2-2.el7 will be an update
+--> Processing Dependency: libvte-2.91.so.0()(64bit) for package: gnome-color-manager-3.22.2-2.el7.x86_64
+--> Processing Dependency: libpcre2-8.so.0()(64bit) for package: gnome-color-manager-3.22.2-2.el7.x86_64
+---> Package gnome-contacts.x86_64 0:3.8.2-6.el7 will be updated
+---> Package gnome-contacts.x86_64 0:3.22.1-1.el7 will be an update
+---> Package gnome-desktop3.x86_64 0:3.8.4-4.el7 will be updated
+---> Package gnome-desktop3.x86_64 0:3.22.2-2.el7 will be an update
+---> Package gnome-dictionary.x86_64 0:3.8.0-4.el7 will be updated
+---> Package gnome-dictionary.x86_64 0:3.20.0-1.el7 will be an update
+--> Processing Dependency: gnome-dictionary-libs(x86-64) = 3.20.0-1.el7 for package: gnome-dictionary-3.20.0-1.el7.x86_64
+--> Processing Dependency: libgdict-1.0.so.10()(64bit) for package: gnome-dictionary-3.20.0-1.el7.x86_64
+---> Package gnome-disk-utility.x86_64 0:3.8.2-5.el7 will be updated
+---> Package gnome-disk-utility.x86_64 0:3.22.1-1.el7 will be an update
+---> Package gnome-documents.x86_64 0:3.8.5-10.el7 will be updated
+---> Package gnome-documents.x86_64 0:3.22.2-8.el7 will be an update
+--> Processing Dependency: gnome-documents-libs(x86-64) = 3.22.2-8.el7 for package: gnome-documents-3.22.2-8.el7.x86_64
+--> Processing Dependency: gnome-online-miners >= 3.22.0-2 for package: gnome-documents-3.22.2-8.el7.x86_64
+--> Processing Dependency: libreofficekit for package: gnome-documents-3.22.2-8.el7.x86_64
+--> Processing Dependency: libgepub(x86-64) for package: gnome-documents-3.22.2-8.el7.x86_64
+---> Package gnome-font-viewer.x86_64 0:3.8.0-3.el7 will be updated
+---> Package gnome-font-viewer.x86_64 0:3.22.0-1.el7 will be an update
+---> Package gnome-getting-started-docs.noarch 0:3.8.3.0.2-3.el7 will be updated
+---> Package gnome-getting-started-docs.noarch 0:3.22.0-1.el7 will be an update
+---> Package gnome-icon-theme.noarch 0:3.8.2-3.el7 will be updated
+---> Package gnome-icon-theme.noarch 0:3.12.0-1.el7 will be an update
+---> Package gnome-icon-theme-extras.noarch 0:3.6.2-3.el7 will be updated
+---> Package gnome-icon-theme-extras.noarch 0:3.12.0-1.el7 will be an update
+---> Package gnome-icon-theme-legacy.noarch 0:3.8.2-3.el7 will be updated
+---> Package gnome-icon-theme-legacy.noarch 0:3.12.0-1.el7 will be an update
+---> Package gnome-icon-theme-symbolic.noarch 0:3.8.2.2-2.el7 will be updated
+---> Package gnome-icon-theme-symbolic.noarch 0:3.12.0-2.el7 will be an update
+---> Package gnome-initial-setup.x86_64 0:0.13.1-4.el7 will be updated
+---> Package gnome-initial-setup.x86_64 0:3.22.1-5.el7 will be an update
+---> Package gnome-keyring.x86_64 0:3.8.2-10.el7 will be updated
+---> Package gnome-keyring.x86_64 0:3.20.0-3.el7 will be an update
+---> Package gnome-keyring-pam.x86_64 0:3.8.2-10.el7 will be updated
+---> Package gnome-keyring-pam.x86_64 0:3.20.0-3.el7 will be an update
+---> Package gnome-menus.x86_64 0:3.8.1-4.el7 will be updated
+---> Package gnome-menus.x86_64 0:3.13.3-3.el7 will be an update
+---> Package gnome-online-accounts.x86_64 0:3.8.5-14.el7 will be updated
+---> Package gnome-online-accounts.x86_64 0:3.26.2-1.el7 will be an update
+---> Package gnome-packagekit.x86_64 0:3.8.2-10.el7 will be updated
+---> Package gnome-packagekit.x86_64 0:3.22.1-2.el7 will be an update
+--> Processing Dependency: gnome-packagekit-updater for package: gnome-packagekit-3.22.1-2.el7.x86_64
+--> Processing Dependency: gnome-packagekit-installer for package: gnome-packagekit-3.22.1-2.el7.x86_64
+---> Package gnome-screenshot.x86_64 0:3.8.3-3.el7 will be updated
+---> Package gnome-screenshot.x86_64 0:3.22.0-1.el7 will be an update
+---> Package gnome-session.x86_64 0:3.8.4-11.el7 will be updated
+---> Package gnome-session.x86_64 0:3.26.1-11.el7 will be an update
+--> Processing Dependency: libepoxy.so.0()(64bit) for package: gnome-session-3.26.1-11.el7.x86_64
+--> Processing Dependency: libGLESv2.so.2()(64bit) for package: gnome-session-3.26.1-11.el7.x86_64
+---> Package gnome-session-xsession.x86_64 0:3.8.4-11.el7 will be updated
+---> Package gnome-session-xsession.x86_64 0:3.26.1-11.el7 will be an update
+---> Package gnome-settings-daemon.x86_64 0:3.8.6.1-12.el7 will be updated
+---> Package gnome-settings-daemon.x86_64 0:3.26.2-9.el7 will be obsoleting
+--> Processing Dependency: geoclue2 >= 2.3.1 for package: gnome-settings-daemon-3.26.2-9.el7.x86_64
+---> Package gnome-settings-daemon-updates.x86_64 0:3.8.6.1-12.el7 will be obsoleted
+---> Package gnome-shell.x86_64 0:3.8.4-45.el7 will be updated
+---> Package gnome-shell.x86_64 0:3.26.2-5.el7 will be an update
+---> Package gnome-shell-extension-alternate-tab.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-shell-extension-alternate-tab.noarch 0:3.26.2-3.el7 will be an update
+---> Package gnome-shell-extension-apps-menu.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-shell-extension-apps-menu.noarch 0:3.26.2-3.el7 will be an update
+---> Package gnome-shell-extension-common.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-shell-extension-common.noarch 0:3.26.2-3.el7 will be an update
+---> Package gnome-shell-extension-launch-new-instance.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-shell-extension-launch-new-instance.noarch 0:3.26.2-3.el7 will be an update
+---> Package gnome-shell-extension-places-menu.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-shell-extension-places-menu.noarch 0:3.26.2-3.el7 will be an update
+---> Package gnome-shell-extension-window-list.noarch 0:3.8.4-12.el7 will be updated
+---> Package gnome-shell-extension-window-list.noarch 0:3.26.2-3.el7 will be an update
+---> Package gnome-system-log.x86_64 1:3.8.1-5.el7 will be updated
+---> Package gnome-system-log.x86_64 1:3.9.90-3.el7 will be an update
+---> Package gnome-system-monitor.x86_64 0:3.8.2.1-6.el7 will be updated
+---> Package gnome-system-monitor.x86_64 0:3.22.2-3.el7 will be an update
+---> Package gnome-terminal.x86_64 0:3.8.4-8.el7 will be updated
+---> Package gnome-terminal.x86_64 0:3.22.1-2.el7 will be an update
+---> Package gnome-terminal-nautilus.x86_64 0:3.22.1-2.el7 will be obsoleting
+---> Package gnome-themes-standard.x86_64 0:3.8.4-3.el7 will be updated
+---> Package gnome-themes-standard.x86_64 0:3.22.2-1.el7 will be an update
+---> Package gnome-tweak-tool.noarch 0:3.8.1-7.el7 will be updated
+---> Package gnome-tweak-tool.noarch 0:3.22.0-1.el7 will be an update
+--> Processing Dependency: gnome-shell-extension-user-theme for package: gnome-tweak-tool-3.22.0-1.el7.noarch
+---> Package gnome-user-docs.noarch 0:3.8.2-4.el7 will be updated
+---> Package gnome-user-docs.noarch 0:3.22.0-1.el7 will be an update
+---> Package gnome-video-effects.noarch 0:0.4.0-6.el7 will be updated
+---> Package gnome-video-effects.noarch 0:0.4.3-1.el7 will be an update
+---> Package gnome-weather.x86_64 0:3.8.2-4.el7 will be updated
+---> Package gnome-weather.noarch 0:3.26.0-1.el7 will be an update
+---> Package gnupg2.x86_64 0:2.0.22-3.el7 will be updated
+---> Package gnupg2.x86_64 0:2.0.22-4.el7 will be an update
+---> Package gnutls.x86_64 0:3.3.8-12.el7 will be updated
+---> Package gnutls.x86_64 0:3.3.26-9.el7 will be an update
+---> Package gnutls-dane.x86_64 0:3.3.8-12.el7 will be updated
+---> Package gnutls-dane.x86_64 0:3.3.26-9.el7 will be an update
+---> Package gnutls-utils.x86_64 0:3.3.8-12.el7 will be updated
+---> Package gnutls-utils.x86_64 0:3.3.26-9.el7 will be an update
+---> Package gobject-introspection.x86_64 0:1.36.0-4.el7 will be updated
+---> Package gobject-introspection.x86_64 0:1.50.0-1.el7 will be an update
+---> Package graphite2.x86_64 0:1.2.2-5.el7 will be updated
+---> Package graphite2.x86_64 0:1.3.10-1.el7_3 will be an update
+---> Package grep.x86_64 0:2.20-1.el7 will be updated
+---> Package grep.x86_64 0:2.20-3.el7 will be an update
+---> Package grilo.x86_64 0:0.2.6-5.el7 will be updated
+---> Package grilo.x86_64 0:0.3.3-1.el7 will be an update
+---> Package grilo-plugins.x86_64 0:0.2.6-4.el7 will be updated
+---> Package grilo-plugins.x86_64 0:0.3.4-3.el7 will be an update
+--> Processing Dependency: dleyna-server for package: grilo-plugins-0.3.4-3.el7.x86_64
+--> Processing Dependency: libmediaart-2.0.so.0()(64bit) for package: grilo-plugins-0.3.4-3.el7.x86_64
+--> Processing Dependency: libgom-1.0.so.0()(64bit) for package: grilo-plugins-0.3.4-3.el7.x86_64
+---> Package grub2.x86_64 1:2.02-0.16.el7 will be obsoleted
+---> Package grub2.x86_64 1:2.02-0.65.el7.centos.2 will be obsoleting
+--> Processing Dependency: grub2-pc = 1:2.02-0.65.el7.centos.2 for package: 1:grub2-2.02-0.65.el7.centos.2.x86_64
+---> Package grub2-tools.x86_64 1:2.02-0.16.el7 will be obsoleted
+---> Package grub2-tools.x86_64 1:2.02-0.65.el7.centos.2 will be obsoleting
+--> Processing Dependency: grub2-common = 1:2.02-0.65.el7.centos.2 for package: 1:grub2-tools-2.02-0.65.el7.centos.2.x86_64
+---> Package grub2-tools-extra.x86_64 1:2.02-0.65.el7.centos.2 will be obsoleting
+---> Package grub2-tools-minimal.x86_64 1:2.02-0.65.el7.centos.2 will be obsoleting
+---> Package grubby.x86_64 0:8.28-11.el7 will be updated
+---> Package grubby.x86_64 0:8.28-23.el7 will be an update
+---> Package gsettings-desktop-schemas.x86_64 0:3.8.2-3.el7 will be updated
+---> Package gsettings-desktop-schemas.x86_64 0:3.24.1-1.el7 will be an update
+---> Package gssdp.x86_64 0:0.14.3-3.el7 will be updated
+---> Package gssdp.x86_64 0:1.0.1-1.el7 will be an update
+---> Package gssproxy.x86_64 0:0.3.0-10.el7 will be updated
+---> Package gssproxy.x86_64 0:0.7.0-17.el7 will be an update
+---> Package gstreamer-plugins-bad-free.x86_64 0:0.10.23-20.el7 will be updated
+---> Package gstreamer-plugins-bad-free.x86_64 0:0.10.23-23.el7 will be an update
+---> Package gstreamer-plugins-good.x86_64 0:0.10.31-11.el7 will be updated
+---> Package gstreamer-plugins-good.x86_64 0:0.10.31-13.el7 will be an update
+---> Package gstreamer1.x86_64 0:1.0.7-4.el7 will be updated
+---> Package gstreamer1.x86_64 0:1.10.4-2.el7 will be an update
+---> Package gstreamer1-plugins-bad-free.x86_64 0:1.0.7-4.el7 will be updated
+---> Package gstreamer1-plugins-bad-free.x86_64 0:1.10.4-3.el7 will be an update
+--> Processing Dependency: libsrtp.so.0()(64bit) for package: gstreamer1-plugins-bad-free-1.10.4-3.el7.x86_64
+---> Package gstreamer1-plugins-base.x86_64 0:1.0.7-5.el7 will be updated
+---> Package gstreamer1-plugins-base.x86_64 0:1.10.4-1.el7 will be an update
+---> Package gstreamer1-plugins-good.x86_64 0:1.0.7-5.el7 will be updated
+---> Package gstreamer1-plugins-good.x86_64 0:1.10.4-2.el7 will be an update
+---> Package gtk-vnc2.x86_64 0:0.5.2-7.el7 will be updated
+---> Package gtk-vnc2.x86_64 0:0.7.0-3.el7 will be an update
+---> Package gtk2.x86_64 0:2.24.22-5.el7_0.1 will be updated
+---> Package gtk2.x86_64 0:2.24.31-1.el7 will be an update
+--> Processing Dependency: gtk-update-icon-cache for package: gtk2-2.24.31-1.el7.x86_64
+---> Package gtk2-immodule-xim.x86_64 0:2.24.22-5.el7_0.1 will be updated
+---> Package gtk2-immodule-xim.x86_64 0:2.24.31-1.el7 will be an update
+---> Package gtk3.x86_64 0:3.8.8-10.el7 will be updated
+---> Package gtk3.x86_64 0:3.22.26-3.el7 will be obsoleting
+---> Package gtk3-immodule-xim.x86_64 0:3.8.8-10.el7 will be updated
+---> Package gtk3-immodule-xim.x86_64 0:3.22.26-3.el7 will be an update
+---> Package gtkmm24.x86_64 0:2.24.2-8.el7 will be updated
+---> Package gtkmm24.x86_64 0:2.24.5-1.el7 will be an update
+---> Package gtkmm30.x86_64 0:3.8.1-3.el7 will be updated
+---> Package gtkmm30.x86_64 0:3.22.2-1.el7 will be an update
+---> Package gtksourceview3.x86_64 0:3.8.1-4.el7 will be updated
+---> Package gtksourceview3.x86_64 0:3.22.2-1.el7 will be an update
+---> Package gucharmap.x86_64 0:3.8.2-3.el7 will be updated
+--> Processing Dependency: libgucharmap_2_90.so.7()(64bit) for package: gucharmap-3.18.2-1.el7.x86_64
+---> Package gucharmap.x86_64 0:3.18.2-1.el7 will be an update
+---> Package gupnp.x86_64 0:0.20.3-3.el7 will be updated
+---> Package gupnp.x86_64 0:1.0.1-1.el7 will be an update
+---> Package gupnp-av.x86_64 0:0.12.2-3.el7 will be updated
+---> Package gupnp-av.x86_64 0:0.12.10-1.el7 will be an update
+---> Package gupnp-igd.x86_64 0:0.2.2-3.el7 will be updated
+---> Package gupnp-igd.x86_64 0:0.2.4-1.el7 will be an update
+---> Package gvfs.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs.x86_64 0:1.30.4-5.el7 will be an update
+--> Processing Dependency: gvfs-client(x86-64) = 1.30.4-5.el7 for package: gvfs-1.30.4-5.el7.x86_64
+--> Processing Dependency: libgvfscommon.so()(64bit) for package: gvfs-1.30.4-5.el7.x86_64
+---> Package gvfs-afc.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-afc.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-afp.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-afp.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-archive.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-archive.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-fuse.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-fuse.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-goa.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-goa.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-gphoto2.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-gphoto2.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-mtp.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-mtp.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvfs-smb.x86_64 0:1.16.4-8.el7 will be updated
+---> Package gvfs-smb.x86_64 0:1.30.4-5.el7 will be an update
+---> Package gvnc.x86_64 0:0.5.2-7.el7 will be updated
+---> Package gvnc.x86_64 0:0.7.0-3.el7 will be an update
+---> Package gzip.x86_64 0:1.5-7.el7 will be updated
+---> Package gzip.x86_64 0:1.5-10.el7 will be an update
+---> Package harfbuzz.x86_64 0:0.9.20-4.el7 will be updated
+---> Package harfbuzz.x86_64 0:1.3.2-1.el7 will be an update
+---> Package harfbuzz-icu.x86_64 0:0.9.20-4.el7 will be updated
+---> Package harfbuzz-icu.x86_64 0:1.3.2-1.el7 will be an update
+---> Package hpijs.x86_64 1:3.13.7-6.el7 will be updated
+---> Package hpijs.x86_64 1:3.15.9-3.el7 will be an update
+---> Package hplip-common.x86_64 0:3.13.7-6.el7 will be updated
+---> Package hplip-common.x86_64 0:3.15.9-3.el7 will be an update
+---> Package hplip-libs.x86_64 0:3.13.7-6.el7 will be updated
+---> Package hplip-libs.x86_64 0:3.15.9-3.el7 will be an update
+---> Package hunspell.x86_64 0:1.3.2-13.el7 will be updated
+---> Package hunspell.x86_64 0:1.3.2-15.el7 will be an update
+---> Package hunspell-en.noarch 0:0.20121024-5.el7 will be updated
+---> Package hunspell-en.noarch 0:0.20121024-6.el7 will be an update
+---> Package hunspell-en-GB.noarch 0:0.20121024-5.el7 will be updated
+---> Package hunspell-en-GB.noarch 0:0.20121024-6.el7 will be an update
+---> Package hunspell-en-US.noarch 0:0.20121024-5.el7 will be updated
+---> Package hunspell-en-US.noarch 0:0.20121024-6.el7 will be an update
+---> Package hwdata.noarch 0:0.252-7.5.el7 will be updated
+---> Package hwdata.x86_64 0:0.252-8.8.el7 will be an update
+---> Package hyperv-daemons.x86_64 0:0-0.25.20141008git.el7 will be updated
+---> Package hyperv-daemons.x86_64 0:0-0.32.20161211git.el7 will be an update
+---> Package hyperv-daemons-license.noarch 0:0-0.25.20141008git.el7 will be updated
+---> Package hyperv-daemons-license.noarch 0:0-0.32.20161211git.el7 will be an update
+---> Package hypervfcopyd.x86_64 0:0-0.25.20141008git.el7 will be updated
+---> Package hypervfcopyd.x86_64 0:0-0.32.20161211git.el7 will be an update
+---> Package hypervkvpd.x86_64 0:0-0.25.20141008git.el7 will be updated
+---> Package hypervkvpd.x86_64 0:0-0.32.20161211git.el7 will be an update
+---> Package hypervvssd.x86_64 0:0-0.25.20141008git.el7 will be updated
+---> Package hypervvssd.x86_64 0:0-0.32.20161211git.el7 will be an update
+---> Package ibus.x86_64 0:1.5.3-11.el7 will be updated
+---> Package ibus.x86_64 0:1.5.17-2.el7 will be an update
+---> Package ibus-gtk2.x86_64 0:1.5.3-11.el7 will be updated
+---> Package ibus-gtk2.x86_64 0:1.5.17-2.el7 will be an update
+---> Package ibus-gtk3.x86_64 0:1.5.3-11.el7 will be updated
+---> Package ibus-gtk3.x86_64 0:1.5.17-2.el7 will be an update
+---> Package ibus-kkc.x86_64 0:1.5.18-5.el7 will be updated
+---> Package ibus-kkc.x86_64 0:1.5.18-7.el7 will be an update
+---> Package ibus-libs.x86_64 0:1.5.3-11.el7 will be updated
+---> Package ibus-libs.x86_64 0:1.5.17-2.el7 will be an update
+---> Package ibus-setup.noarch 0:1.5.3-11.el7 will be updated
+---> Package ibus-setup.noarch 0:1.5.17-2.el7 will be an update
+---> Package icedtea-web.x86_64 0:1.5.2-0.el7 will be updated
+---> Package icedtea-web.x86_64 0:1.7.1-1.el7 will be an update
+--> Processing Dependency: java-1.8.0-openjdk for package: icedtea-web-1.7.1-1.el7.x86_64
+---> Package info.x86_64 0:5.1-4.el7 will be updated
+---> Package info.x86_64 0:5.1-5.el7 will be an update
+---> Package initial-setup.x86_64 0:0.3.9.23-1.el7 will be updated
+---> Package initial-setup.x86_64 0:0.3.9.43-1.el7.centos will be an update
+---> Package initial-setup-gui.x86_64 0:0.3.9.23-1.el7 will be updated
+---> Package initial-setup-gui.x86_64 0:0.3.9.43-1.el7.centos will be an update
+---> Package initscripts.x86_64 0:9.49.24-1.el7 will be updated
+---> Package initscripts.x86_64 0:9.49.41-1.el7 will be an update
+---> Package intltool.noarch 0:0.50.2-6.el7 will be updated
+---> Package intltool.noarch 0:0.50.2-7.el7 will be an update
+---> Package iproute.x86_64 0:3.10.0-21.el7 will be updated
+---> Package iproute.x86_64 0:4.11.0-14.el7 will be an update
+---> Package iprutils.x86_64 0:2.4.3-3.el7 will be updated
+---> Package iprutils.x86_64 0:2.4.15.1-1.el7 will be an update
+--> Processing Dependency: lsscsi for package: iprutils-2.4.15.1-1.el7.x86_64
+---> Package iptables.x86_64 0:1.4.21-13.el7 will be updated
+---> Package iptables.x86_64 0:1.4.21-24.el7 will be an update
+---> Package iputils.x86_64 0:20121221-6.el7 will be updated
+---> Package iputils.x86_64 0:20160308-10.el7 will be an update
+---> Package ipxe-roms-qemu.noarch 0:20130517-6.gitc4bce43.el7 will be updated
+---> Package ipxe-roms-qemu.noarch 0:20170123-1.git4e85b27.el7_4.1 will be an update
+---> Package irqbalance.x86_64 2:1.0.7-1.el7 will be updated
+---> Package irqbalance.x86_64 3:1.0.7-11.el7 will be an update
+---> Package iscsi-initiator-utils.x86_64 0:6.2.0.873-29.el7 will be updated
+---> Package iscsi-initiator-utils.x86_64 0:6.2.0.874-7.el7 will be an update
+---> Package iscsi-initiator-utils-iscsiuio.x86_64 0:6.2.0.873-29.el7 will be updated
+---> Package iscsi-initiator-utils-iscsiuio.x86_64 0:6.2.0.874-7.el7 will be an update
+---> Package isomd5sum.x86_64 1:1.0.10-4.el7 will be updated
+---> Package isomd5sum.x86_64 1:1.0.10-5.el7 will be an update
+---> Package iw.x86_64 0:3.10-6.el7 will be updated
+---> Package iw.x86_64 0:4.3-1.el7 will be an update
+---> Package iwl100-firmware.noarch 0:39.31.5.1-36.el7 will be updated
+---> Package iwl100-firmware.noarch 0:39.31.5.1-62.el7 will be an update
+---> Package iwl1000-firmware.noarch 1:39.31.5.1-36.el7 will be updated
+---> Package iwl1000-firmware.noarch 1:39.31.5.1-62.el7 will be an update
+---> Package iwl105-firmware.noarch 0:18.168.6.1-36.el7 will be updated
+---> Package iwl105-firmware.noarch 0:18.168.6.1-62.el7 will be an update
+---> Package iwl135-firmware.noarch 0:18.168.6.1-36.el7 will be updated
+---> Package iwl135-firmware.noarch 0:18.168.6.1-62.el7 will be an update
+---> Package iwl2000-firmware.noarch 0:18.168.6.1-36.el7 will be updated
+---> Package iwl2000-firmware.noarch 0:18.168.6.1-62.el7 will be an update
+---> Package iwl2030-firmware.noarch 0:18.168.6.1-36.el7 will be updated
+---> Package iwl2030-firmware.noarch 0:18.168.6.1-62.el7 will be an update
+---> Package iwl3160-firmware.noarch 0:22.0.7.0-36.el7 will be updated
+---> Package iwl3160-firmware.noarch 0:22.0.7.0-62.el7 will be an update
+---> Package iwl3945-firmware.noarch 0:15.32.2.9-36.el7 will be updated
+---> Package iwl3945-firmware.noarch 0:15.32.2.9-62.el7 will be an update
+---> Package iwl4965-firmware.noarch 0:228.61.2.24-36.el7 will be updated
+---> Package iwl4965-firmware.noarch 0:228.61.2.24-62.el7 will be an update
+---> Package iwl5000-firmware.noarch 0:8.83.5.1_1-36.el7 will be updated
+---> Package iwl5000-firmware.noarch 0:8.83.5.1_1-62.el7 will be an update
+---> Package iwl5150-firmware.noarch 0:8.24.2.2-36.el7 will be updated
+---> Package iwl5150-firmware.noarch 0:8.24.2.2-62.el7 will be an update
+---> Package iwl6000-firmware.noarch 0:9.221.4.1-36.el7 will be updated
+---> Package iwl6000-firmware.noarch 0:9.221.4.1-62.el7 will be an update
+---> Package iwl6000g2a-firmware.noarch 0:17.168.5.3-36.el7 will be updated
+---> Package iwl6000g2a-firmware.noarch 0:17.168.5.3-62.el7 will be an update
+---> Package iwl6000g2b-firmware.noarch 0:17.168.5.2-36.el7 will be updated
+---> Package iwl6000g2b-firmware.noarch 0:17.168.5.2-62.el7 will be an update
+---> Package iwl6050-firmware.noarch 0:41.28.5.1-36.el7 will be updated
+---> Package iwl6050-firmware.noarch 0:41.28.5.1-62.el7 will be an update
+---> Package iwl7260-firmware.noarch 0:22.0.7.0-36.el7 will be updated
+---> Package iwl7260-firmware.noarch 0:22.0.7.0-62.el7 will be an update
+---> Package jansson.x86_64 0:2.4-6.el7 will be updated
+---> Package jansson.x86_64 0:2.10-1.el7 will be an update
+---> Package jasper-libs.x86_64 0:1.900.1-26.el7_0.3 will be updated
+---> Package jasper-libs.x86_64 0:1.900.1-31.el7 will be an update
+---> Package java-1.7.0-openjdk.x86_64 1:1.7.0.75-2.5.4.2.el7_0 will be updated
+---> Package java-1.7.0-openjdk.x86_64 1:1.7.0.171-2.6.13.2.el7 will be an update
+---> Package java-1.7.0-openjdk-headless.x86_64 1:1.7.0.75-2.5.4.2.el7_0 will be updated
+---> Package java-1.7.0-openjdk-headless.x86_64 1:1.7.0.171-2.6.13.2.el7 will be an update
+--> Processing Dependency: copy-jdk-configs >= 2.2 for package: 1:java-1.7.0-openjdk-headless-1.7.0.171-2.6.13.2.el7.x86_64
+--> Processing Dependency: libsctp.so.1(VERS_1)(64bit) for package: 1:java-1.7.0-openjdk-headless-1.7.0.171-2.6.13.2.el7.x86_64
+--> Processing Dependency: libsctp.so.1()(64bit) for package: 1:java-1.7.0-openjdk-headless-1.7.0.171-2.6.13.2.el7.x86_64
+--> Processing Dependency: libpcsclite.so.1()(64bit) for package: 1:java-1.7.0-openjdk-headless-1.7.0.171-2.6.13.2.el7.x86_64
+---> Package javapackages-tools.noarch 0:3.4.1-6.el7_0 will be updated
+---> Package javapackages-tools.noarch 0:3.4.1-11.el7 will be an update
+---> Package js.x86_64 1:1.8.5-17.el7 will be updated
+---> Package js.x86_64 1:1.8.5-20.el7 will be an update
+---> Package json-glib.x86_64 0:0.16.0-3.el7 will be updated
+---> Package json-glib.x86_64 0:1.2.6-1.el7 will be an update
+---> Package kbd.x86_64 0:1.15.5-11.el7 will be updated
+---> Package kbd.x86_64 0:1.15.5-13.el7 will be an update
+---> Package kbd-legacy.noarch 0:1.15.5-11.el7 will be updated
+---> Package kbd-legacy.noarch 0:1.15.5-13.el7 will be an update
+---> Package kbd-misc.noarch 0:1.15.5-11.el7 will be updated
+---> Package kbd-misc.noarch 0:1.15.5-13.el7 will be an update
+---> Package kernel.x86_64 0:3.10.0-862.el7 will be installed
+---> Package kernel-devel.x86_64 0:3.10.0-862.el7 will be installed
+---> Package kernel-headers.x86_64 0:3.10.0-229.el7 will be updated
+---> Package kernel-headers.x86_64 0:3.10.0-862.el7 will be an update
+---> Package kernel-tools.x86_64 0:3.10.0-229.el7 will be updated
+---> Package kernel-tools.x86_64 0:3.10.0-862.el7 will be an update
+---> Package kernel-tools-libs.x86_64 0:3.10.0-229.el7 will be updated
+---> Package kernel-tools-libs.x86_64 0:3.10.0-862.el7 will be an update
+---> Package kexec-tools.x86_64 0:2.0.7-19.el7 will be updated
+---> Package kexec-tools.x86_64 0:2.0.15-13.el7 will be an update
+---> Package kmod.x86_64 0:14-10.el7 will be updated
+---> Package kmod.x86_64 0:20-21.el7 will be an update
+---> Package kmod-libs.x86_64 0:14-10.el7 will be updated
+---> Package kmod-libs.x86_64 0:20-21.el7 will be an update
+---> Package kpartx.x86_64 0:0.4.9-77.el7 will be updated
+---> Package kpartx.x86_64 0:0.4.9-119.el7 will be an update
+---> Package kpatch.noarch 0:0.1.10-4.el7 will be updated
+---> Package kpatch.noarch 0:0.4.0-3.el7 will be an update
+---> Package krb5-libs.x86_64 0:1.12.2-14.el7 will be updated
+---> Package krb5-libs.x86_64 0:1.15.1-18.el7 will be an update
+---> Package ksh.x86_64 0:20100202-1.el5_5.1 will be updated
+---> Package ksh.x86_64 0:20120801-137.el7 will be an update
+---> Package langtable.noarch 0:0.0.13-4.el7 will be updated
+---> Package langtable.noarch 0:0.0.31-3.el7 will be an update
+---> Package langtable-data.noarch 0:0.0.13-4.el7 will be updated
+---> Package langtable-data.noarch 0:0.0.31-3.el7 will be an update
+---> Package langtable-python.noarch 0:0.0.13-4.el7 will be updated
+---> Package langtable-python.noarch 0:0.0.31-3.el7 will be an update
+---> Package lcms2.x86_64 0:2.5-4.el7 will be updated
+---> Package lcms2.x86_64 0:2.6-3.el7 will be an update
+---> Package ldns.x86_64 0:1.6.16-7.el7 will be updated
+---> Package ldns.x86_64 0:1.6.16-10.el7 will be an update
+---> Package ledmon.x86_64 0:0.79-3.el7 will be updated
+---> Package ledmon.x86_64 0:0.80-2.el7 will be an update
+---> Package less.x86_64 0:458-8.el7 will be updated
+---> Package less.x86_64 0:458-9.el7 will be an update
+---> Package libICE.x86_64 0:1.0.8-7.el7 will be updated
+---> Package libICE.x86_64 0:1.0.9-9.el7 will be an update
+---> Package libSM.x86_64 0:1.2.1-7.el7 will be updated
+---> Package libSM.x86_64 0:1.2.2-2.el7 will be an update
+---> Package libX11.x86_64 0:1.6.0-2.1.el7 will be updated
+---> Package libX11.x86_64 0:1.6.5-1.el7 will be an update
+---> Package libX11-common.noarch 0:1.6.0-2.1.el7 will be updated
+---> Package libX11-common.noarch 0:1.6.5-1.el7 will be an update
+---> Package libXcursor.x86_64 0:1.1.14-2.1.el7 will be updated
+---> Package libXcursor.x86_64 0:1.1.14-8.el7 will be an update
+---> Package libXdmcp.x86_64 0:1.1.1-6.1.el7 will be updated
+---> Package libXdmcp.x86_64 0:1.1.2-6.el7 will be an update
+---> Package libXext.x86_64 0:1.3.2-2.1.el7 will be updated
+---> Package libXext.x86_64 0:1.3.3-3.el7 will be an update
+---> Package libXfixes.x86_64 0:5.0.1-2.1.el7 will be updated
+---> Package libXfixes.x86_64 0:5.0.3-1.el7 will be an update
+---> Package libXfont.x86_64 0:1.4.7-2.el7_0 will be updated
+---> Package libXfont.x86_64 0:1.5.2-1.el7 will be an update
+---> Package libXft.x86_64 0:2.3.1-5.1.el7 will be updated
+---> Package libXft.x86_64 0:2.3.2-2.el7 will be an update
+---> Package libXi.x86_64 0:1.7.2-2.1.el7 will be updated
+---> Package libXi.x86_64 0:1.7.9-1.el7 will be an update
+---> Package libXmu.x86_64 0:1.1.1-5.1.el7 will be updated
+---> Package libXmu.x86_64 0:1.1.2-2.el7 will be an update
+---> Package libXpm.x86_64 0:3.5.10-5.1.el7 will be updated
+---> Package libXpm.x86_64 0:3.5.12-1.el7 will be an update
+---> Package libXrandr.x86_64 0:1.4.1-2.1.el7 will be updated
+---> Package libXrandr.x86_64 0:1.5.1-2.el7 will be an update
+---> Package libXrender.x86_64 0:0.9.8-2.1.el7 will be updated
+---> Package libXrender.x86_64 0:0.9.10-1.el7 will be an update
+---> Package libXt.x86_64 0:1.1.4-6.1.el7 will be updated
+---> Package libXt.x86_64 0:1.1.5-3.el7 will be an update
+---> Package libXtst.x86_64 0:1.2.2-2.1.el7 will be updated
+---> Package libXtst.x86_64 0:1.2.3-1.el7 will be an update
+---> Package libXv.x86_64 0:1.0.9-2.1.el7 will be updated
+---> Package libXv.x86_64 0:1.0.11-1.el7 will be an update
+---> Package libXvMC.x86_64 0:1.0.8-2.1.el7 will be updated
+---> Package libXvMC.x86_64 0:1.0.10-1.el7 will be an update
+---> Package libXxf86vm.x86_64 0:1.1.3-2.1.el7 will be updated
+---> Package libXxf86vm.x86_64 0:1.1.4-1.el7 will be an update
+---> Package libacl.x86_64 0:2.2.51-12.el7 will be updated
+---> Package libacl.x86_64 0:2.2.51-14.el7 will be an update
+---> Package libaio.x86_64 0:0.3.109-12.el7 will be updated
+---> Package libaio.x86_64 0:0.3.109-13.el7 will be an update
+---> Package libarchive.x86_64 0:3.1.2-7.el7 will be updated
+---> Package libarchive.x86_64 0:3.1.2-10.el7_2 will be an update
+---> Package libart_lgpl.x86_64 0:2.3.21-9.el7 will be updated
+---> Package libart_lgpl.x86_64 0:2.3.21-10.el7 will be an update
+---> Package libattr.x86_64 0:2.4.46-12.el7 will be updated
+---> Package libattr.x86_64 0:2.4.46-13.el7 will be an update
+---> Package libbasicobjects.x86_64 0:0.1.1-24.el7 will be updated
+---> Package libbasicobjects.x86_64 0:0.1.1-29.el7 will be an update
+---> Package libblkid.x86_64 0:2.23.2-21.el7 will be updated
+---> Package libblkid.x86_64 0:2.23.2-52.el7 will be an update
+---> Package libcacard.x86_64 10:1.5.3-86.el7 will be updated
+---> Package libcacard.x86_64 40:2.5.2-2.el7 will be an update
+---> Package libcap.x86_64 0:2.22-8.el7 will be updated
+---> Package libcap.x86_64 0:2.22-9.el7 will be an update
+---> Package libcap-ng.x86_64 0:0.7.3-5.el7 will be updated
+---> Package libcap-ng.x86_64 0:0.7.5-4.el7 will be an update
+---> Package libcgroup.x86_64 0:0.41-8.el7 will be updated
+---> Package libcgroup.x86_64 0:0.41-15.el7 will be an update
+---> Package libcgroup-tools.x86_64 0:0.41-8.el7 will be updated
+---> Package libcgroup-tools.x86_64 0:0.41-15.el7 will be an update
+---> Package libchamplain.x86_64 0:0.12.4-4.el7 will be updated
+---> Package libchamplain.x86_64 0:0.12.15-1.el7 will be an update
+---> Package libchamplain-gtk.x86_64 0:0.12.4-4.el7 will be updated
+---> Package libchamplain-gtk.x86_64 0:0.12.15-1.el7 will be an update
+---> Package libcollection.x86_64 0:0.6.2-24.el7 will be updated
+---> Package libcollection.x86_64 0:0.7.0-29.el7 will be an update
+---> Package libcom_err.x86_64 0:1.42.9-7.el7 will be updated
+---> Package libcom_err.x86_64 0:1.42.9-11.el7 will be an update
+---> Package libcroco.x86_64 0:0.6.8-5.el7 will be updated
+---> Package libcroco.x86_64 0:0.6.11-1.el7 will be an update
+---> Package libdb.x86_64 0:5.3.21-17.el7_0.1 will be updated
+---> Package libdb.x86_64 0:5.3.21-24.el7 will be an update
+---> Package libdb-utils.x86_64 0:5.3.21-17.el7_0.1 will be updated
+---> Package libdb-utils.x86_64 0:5.3.21-24.el7 will be an update
+---> Package libdmapsharing.x86_64 0:2.9.16-4.el7 will be updated
+---> Package libdmapsharing.x86_64 0:2.9.37-1.el7 will be an update
+---> Package libdrm.x86_64 0:2.4.56-2.el7 will be updated
+---> Package libdrm.x86_64 0:2.4.83-2.el7 will be an update
+---> Package libdvdnav.x86_64 0:4.2.0-8.el7 will be updated
+---> Package libdvdnav.x86_64 0:5.0.3-1.el7 will be an update
+---> Package libdvdread.x86_64 0:4.2.0-6.el7 will be updated
+---> Package libdvdread.x86_64 0:5.0.3-3.el7 will be an update
+---> Package liberation-fonts-common.noarch 1:1.07.2-14.el7 will be updated
+---> Package liberation-fonts-common.noarch 1:1.07.2-16.el7 will be an update
+---> Package liberation-mono-fonts.noarch 1:1.07.2-14.el7 will be updated
+---> Package liberation-mono-fonts.noarch 1:1.07.2-16.el7 will be an update
+---> Package liberation-sans-fonts.noarch 1:1.07.2-14.el7 will be updated
+---> Package liberation-sans-fonts.noarch 1:1.07.2-16.el7 will be an update
+---> Package liberation-serif-fonts.noarch 1:1.07.2-14.el7 will be updated
+---> Package liberation-serif-fonts.noarch 1:1.07.2-16.el7 will be an update
+---> Package libffi.x86_64 0:3.0.13-11.el7 will be updated
+---> Package libffi.x86_64 0:3.0.13-18.el7 will be an update
+---> Package libfontenc.x86_64 0:1.1.1-5.el7 will be updated
+---> Package libfontenc.x86_64 0:1.1.3-3.el7 will be an update
+---> Package libfprint.x86_64 0:0.5.0-3.el7 will be updated
+---> Package libfprint.x86_64 0:0.5.0-4.el7 will be an update
+---> Package libgcc.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libgcc.x86_64 0:4.8.5-28.el7 will be an update
+---> Package libgcrypt.x86_64 0:1.5.3-12.el7 will be updated
+---> Package libgcrypt.x86_64 0:1.5.3-14.el7 will be an update
+---> Package libgdata.x86_64 0:0.13.3-4.el7 will be updated
+---> Package libgdata.x86_64 0:0.17.8-1.el7 will be an update
+---> Package libgee.x86_64 0:0.10.1-3.el7 will be updated
+---> Package libgee.x86_64 0:0.18.1-1.el7 will be an update
+---> Package libgfortran.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libgfortran.x86_64 0:4.8.5-28.el7 will be an update
+---> Package libgnome-keyring.x86_64 0:3.8.0-3.el7 will be updated
+---> Package libgnome-keyring.x86_64 0:3.12.0-1.el7 will be an update
+---> Package libgnomekbd.x86_64 0:3.6.0-4.el7 will be updated
+---> Package libgnomekbd.x86_64 0:3.22.0.1-1.el7 will be an update
+---> Package libgomp.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libgomp.x86_64 0:4.8.5-28.el7 will be an update
+---> Package libgovirt.x86_64 0:0.3.1-3.el7 will be updated
+---> Package libgovirt.x86_64 0:0.3.3-6.el7 will be an update
+---> Package libgphoto2.x86_64 0:2.5.2-3.el7 will be updated
+---> Package libgphoto2.x86_64 0:2.5.15-1.el7 will be an update
+---> Package libgsf.x86_64 0:1.14.26-6.el7 will be updated
+---> Package libgsf.x86_64 0:1.14.26-7.el7 will be an update
+---> Package libgtop2.x86_64 0:2.28.4-7.el7 will be updated
+---> Package libgtop2.x86_64 0:2.34.2-2.el7 will be an update
+---> Package libgudev1.x86_64 0:208-20.el7 will be updated
+---> Package libgudev1.x86_64 0:219-57.el7 will be an update
+---> Package libgusb.x86_64 0:0.1.6-3.el7 will be updated
+---> Package libgusb.x86_64 0:0.2.9-1.el7 will be an update
+---> Package libgweather.x86_64 0:3.8.2-5.el7 will be updated
+---> Package libgweather.x86_64 0:3.26.0-1.el7 will be an update
+---> Package libgxps.x86_64 0:0.2.2-9.el7 will be updated
+---> Package libgxps.x86_64 0:0.2.5-1.el7 will be an update
+---> Package libhbalinux.x86_64 0:1.0.16-4.el7 will be updated
+---> Package libhbalinux.x86_64 0:1.0.17-2.el7 will be an update
+---> Package libibverbs.x86_64 0:1.1.8-5.el7 will be updated
+---> Package libibverbs.x86_64 0:15-6.el7 will be an update
+---> Package libical.x86_64 0:0.48-6.el7 will be updated
+---> Package libical.x86_64 0:1.0.1-1.el7 will be an update
+---> Package libicu.x86_64 0:50.1.2-11.el7 will be updated
+---> Package libicu.x86_64 0:50.1.2-15.el7 will be an update
+---> Package libidn.x86_64 0:1.28-3.el7 will be updated
+---> Package libidn.x86_64 0:1.28-4.el7 will be an update
+---> Package libimobiledevice.x86_64 0:1.1.5-6.el7 will be updated
+---> Package libimobiledevice.x86_64 0:1.2.0-1.el7 will be an update
+--> Processing Dependency: libusbmuxd.so.4()(64bit) for package: libimobiledevice-1.2.0-1.el7.x86_64
+---> Package libini_config.x86_64 0:1.1.0-24.el7 will be updated
+---> Package libini_config.x86_64 0:1.3.1-29.el7 will be an update
+---> Package libiscsi.x86_64 0:1.9.0-6.el7 will be updated
+---> Package libiscsi.x86_64 0:1.9.0-7.el7 will be an update
+---> Package libkkc.x86_64 0:0.3.1-5.el7 will be updated
+---> Package libkkc.x86_64 0:0.3.1-9.el7 will be an update
+---> Package libkkc-common.noarch 0:0.3.1-5.el7 will be updated
+---> Package libkkc-common.noarch 0:0.3.1-9.el7 will be an update
+---> Package libkkc-data.x86_64 0:0.3.1-5.el7 will be updated
+---> Package libkkc-data.x86_64 0:0.3.1-9.el7 will be an update
+---> Package libldb.x86_64 0:1.1.17-2.el7 will be updated
+---> Package libldb.x86_64 0:1.2.2-1.el7 will be an update
+---> Package liblouis.x86_64 0:2.5.2-10.el7 will be updated
+---> Package liblouis.x86_64 0:2.5.2-12.el7_4 will be an update
+---> Package liblouis-python.noarch 0:2.5.2-10.el7 will be updated
+---> Package liblouis-python.noarch 0:2.5.2-12.el7_4 will be an update
+---> Package libmbim.x86_64 0:1.5.0-3.20130815git.el7 will be updated
+---> Package libmbim.x86_64 0:1.14.2-1.el7 will be an update
+---> Package libmount.x86_64 0:2.23.2-21.el7 will be updated
+---> Package libmount.x86_64 0:2.23.2-52.el7 will be an update
+---> Package libmtp.x86_64 0:1.1.6-3.el7 will be updated
+---> Package libmtp.x86_64 0:1.1.14-1.el7 will be an update
+---> Package libndp.x86_64 0:1.2-4.el7 will be updated
+---> Package libndp.x86_64 0:1.2-7.el7 will be an update
+---> Package libnetfilter_conntrack.x86_64 0:1.0.4-2.el7 will be updated
+---> Package libnetfilter_conntrack.x86_64 0:1.0.6-1.el7_3 will be an update
+---> Package libnfsidmap.x86_64 0:0.25-11.el7 will be updated
+---> Package libnfsidmap.x86_64 0:0.25-19.el7 will be an update
+---> Package libnl3.x86_64 0:3.2.21-8.el7 will be updated
+---> Package libnl3.x86_64 0:3.2.28-4.el7 will be an update
+---> Package libnl3-cli.x86_64 0:3.2.21-8.el7 will be updated
+---> Package libnl3-cli.x86_64 0:3.2.28-4.el7 will be an update
+---> Package libnm-gtk.x86_64 0:1.0.0-2.git20150122.76569a46.el7 will be updated
+---> Package libnm-gtk.x86_64 0:1.8.6-2.el7 will be an update
+---> Package libnotify.x86_64 0:0.7.5-7.el7 will be updated
+---> Package libnotify.x86_64 0:0.7.7-1.el7 will be an update
+---> Package libosinfo.x86_64 0:0.2.11-4.el7 will be updated
+---> Package libosinfo.x86_64 0:1.0.0-1.el7 will be an update
+--> Processing Dependency: osinfo-db-tools for package: libosinfo-1.0.0-1.el7.x86_64
+--> Processing Dependency: osinfo-db for package: libosinfo-1.0.0-1.el7.x86_64
+---> Package libpath_utils.x86_64 0:0.2.1-24.el7 will be updated
+---> Package libpath_utils.x86_64 0:0.2.1-29.el7 will be an update
+---> Package libpcap.x86_64 14:1.5.3-3.el7_0.1 will be updated
+---> Package libpcap.x86_64 14:1.5.3-11.el7 will be an update
+---> Package libpciaccess.x86_64 0:0.13.1-4.1.el7 will be updated
+---> Package libpciaccess.x86_64 0:0.14-1.el7 will be an update
+---> Package libpeas.x86_64 0:1.8.0-5.el7 will be updated
+---> Package libpeas.x86_64 0:1.20.0-1.el7 will be an update
+---> Package libplist.x86_64 0:1.10-4.el7 will be updated
+---> Package libplist.x86_64 0:1.12-3.el7 will be an update
+---> Package libpng.x86_64 2:1.5.13-5.el7 will be updated
+---> Package libpng.x86_64 2:1.5.13-7.el7_2 will be an update
+---> Package libpng12.x86_64 0:1.2.50-6.el7 will be updated
+---> Package libpng12.x86_64 0:1.2.50-10.el7 will be an update
+---> Package libproxy.x86_64 0:0.4.11-6.el7 will be updated
+---> Package libproxy.x86_64 0:0.4.11-11.el7 will be an update
+---> Package libproxy-mozjs.x86_64 0:0.4.11-6.el7 will be updated
+---> Package libproxy-mozjs.x86_64 0:0.4.11-11.el7 will be an update
+---> Package libpurple.x86_64 0:2.10.7-22.el7 will be updated
+---> Package libpurple.x86_64 0:2.10.11-7.el7 will be an update
+---> Package libpwquality.x86_64 0:1.2.3-4.el7 will be updated
+---> Package libpwquality.x86_64 0:1.2.3-5.el7 will be an update
+---> Package libqmi.x86_64 0:1.6.0-4.el7 will be updated
+---> Package libqmi.x86_64 0:1.18.0-2.el7 will be an update
+---> Package libquadmath.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libquadmath.x86_64 0:4.8.5-28.el7 will be an update
+---> Package libquadmath-devel.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libquadmath-devel.x86_64 0:4.8.5-28.el7 will be an update
+---> Package librados2.x86_64 1:0.80.7-2.el7 will be updated
+---> Package librados2.x86_64 1:0.94.5-2.el7 will be an update
+---> Package librbd1.x86_64 1:0.80.7-2.el7 will be updated
+---> Package librbd1.x86_64 1:0.94.5-2.el7 will be an update
+---> Package librdmacm.x86_64 0:1.0.19.1-1.el7 will be updated
+---> Package librdmacm.x86_64 0:15-6.el7 will be an update
+---> Package libref_array.x86_64 0:0.1.4-24.el7 will be updated
+---> Package libref_array.x86_64 0:0.1.5-29.el7 will be an update
+---> Package libreport.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-anaconda.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-anaconda.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-cli.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-cli.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-filesystem.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-filesystem.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-gtk.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-gtk.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-plugin-bugzilla.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-plugin-bugzilla.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-plugin-mailx.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-plugin-mailx.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-plugin-reportuploader.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-plugin-reportuploader.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-plugin-rhtsupport.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-plugin-rhtsupport.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-plugin-ureport.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-plugin-ureport.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-python.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-python.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-rhel.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-rhel.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-rhel-anaconda-bugzilla.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-rhel-anaconda-bugzilla.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreport-web.x86_64 0:2.1.11-21.el7 will be updated
+---> Package libreport-web.x86_64 0:2.1.11-40.el7.centos will be an update
+---> Package libreswan.x86_64 0:3.12-5.el7 will be updated
+---> Package libreswan.x86_64 0:3.23-3.el7 will be an update
+---> Package librsvg2.x86_64 0:2.39.0-1.el7 will be updated
+---> Package librsvg2.x86_64 0:2.40.16-1.el7 will be an update
+---> Package libsane-hpaio.x86_64 0:3.13.7-6.el7 will be updated
+---> Package libsane-hpaio.x86_64 0:3.15.9-3.el7 will be an update
+---> Package libseccomp.x86_64 0:2.1.1-2.el7 will be updated
+---> Package libseccomp.x86_64 0:2.3.1-3.el7 will be an update
+---> Package libsecret.x86_64 0:0.15-3.el7 will be updated
+---> Package libsecret.x86_64 0:0.18.5-2.el7 will be an update
+---> Package libselinux.x86_64 0:2.2.2-6.el7 will be updated
+---> Package libselinux.x86_64 0:2.5-12.el7 will be an update
+---> Package libselinux-python.x86_64 0:2.2.2-6.el7 will be updated
+---> Package libselinux-python.x86_64 0:2.5-12.el7 will be an update
+---> Package libselinux-utils.x86_64 0:2.2.2-6.el7 will be updated
+---> Package libselinux-utils.x86_64 0:2.5-12.el7 will be an update
+---> Package libsemanage.x86_64 0:2.1.10-16.el7 will be updated
+---> Package libsemanage.x86_64 0:2.5-11.el7 will be an update
+---> Package libsemanage-python.x86_64 0:2.1.10-16.el7 will be updated
+---> Package libsemanage-python.x86_64 0:2.5-11.el7 will be an update
+---> Package libsepol.x86_64 0:2.1.9-3.el7 will be updated
+---> Package libsepol.x86_64 0:2.5-8.1.el7 will be an update
+---> Package libsigc++20.x86_64 0:2.3.1-4.el7 will be updated
+---> Package libsigc++20.x86_64 0:2.10.0-1.el7 will be an update
+---> Package libsmbclient.x86_64 0:4.1.12-21.el7_1 will be updated
+---> Package libsmbclient.x86_64 0:4.7.1-6.el7 will be an update
+--> Processing Dependency: samba-client-libs = 4.7.1-6.el7 for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libutil-cmdline-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libtevent-util.so.0(TEVENT_UTIL_0.0.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsmbconf.so.0(SMBCONF_0)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsecrets3-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba3-util-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-util.so.0(SAMBA_UTIL_0.0.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-security-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-errors.so.1(SAMBA_ERRORS_1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-debug-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libreplace-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libndr.so.0(NDR_0.0.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libndr-standard.so.0(NDR_STANDARD_0.0.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libmsrpc3-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: liblibsmb-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: liblibcli-lsa3-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libgse-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libdcerpc-samba-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libcli-smb-common-samba4.so(SAMBA_4.7.1)(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libutil-cmdline-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libtevent-util.so.0()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsmbconf.so.0()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsecrets3-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba3-util-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-util.so.0()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-security-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-errors.so.1()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libsamba-debug-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libreplace-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libndr.so.0()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libndr-standard.so.0()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libmsrpc3-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: liblibsmb-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: liblibcli-lsa3-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libgse-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libdcerpc-samba-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+--> Processing Dependency: libcli-smb-common-samba4.so()(64bit) for package: libsmbclient-4.7.1-6.el7.x86_64
+---> Package libsndfile.x86_64 0:1.0.25-9.el7 will be updated
+---> Package libsndfile.x86_64 0:1.0.25-10.el7 will be an update
+---> Package libsoup.x86_64 0:2.46.0-3.el7 will be updated
+---> Package libsoup.x86_64 0:2.56.0-6.el7 will be an update
+---> Package libspectre.x86_64 0:0.2.7-4.el7 will be updated
+---> Package libspectre.x86_64 0:0.2.8-1.el7 will be an update
+---> Package libss.x86_64 0:1.42.9-7.el7 will be updated
+---> Package libss.x86_64 0:1.42.9-11.el7 will be an update
+---> Package libssh2.x86_64 0:1.4.3-8.el7 will be updated
+---> Package libssh2.x86_64 0:1.4.3-10.el7_2.1 will be an update
+---> Package libsss_idmap.x86_64 0:1.12.2-58.el7 will be updated
+---> Package libsss_idmap.x86_64 0:1.16.0-19.el7 will be an update
+---> Package libsss_nss_idmap.x86_64 0:1.12.2-58.el7 will be updated
+---> Package libsss_nss_idmap.x86_64 0:1.16.0-19.el7 will be an update
+---> Package libstdc++.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libstdc++.x86_64 0:4.8.5-28.el7 will be an update
+---> Package libstdc++-devel.x86_64 0:4.8.3-9.el7 will be updated
+---> Package libstdc++-devel.x86_64 0:4.8.5-28.el7 will be an update
+---> Package libstoragemgmt.x86_64 0:1.1.0-2.el7 will be updated
+---> Package libstoragemgmt.x86_64 0:1.6.1-2.el7 will be an update
+---> Package libstoragemgmt-python.noarch 0:1.1.0-2.el7 will be updated
+---> Package libstoragemgmt-python.noarch 0:1.6.1-2.el7 will be an update
+--> Processing Dependency: libstoragemgmt-python-clibs for package: libstoragemgmt-python-1.6.1-2.el7.noarch
+---> Package libtalloc.x86_64 0:2.1.1-1.el7 will be updated
+---> Package libtalloc.x86_64 0:2.1.10-1.el7 will be an update
+---> Package libtar.x86_64 0:1.2.11-28.el7 will be updated
+---> Package libtar.x86_64 0:1.2.11-29.el7 will be an update
+---> Package libtasn1.x86_64 0:3.8-2.el7 will be updated
+---> Package libtasn1.x86_64 0:4.10-1.el7 will be an update
+---> Package libtdb.x86_64 0:1.3.0-1.el7 will be updated
+---> Package libtdb.x86_64 0:1.3.15-1.el7 will be an update
+---> Package libteam.x86_64 0:1.15-1.el7 will be updated
+---> Package libteam.x86_64 0:1.27-4.el7 will be an update
+---> Package libtevent.x86_64 0:0.9.21-3.el7 will be updated
+---> Package libtevent.x86_64 0:0.9.33-2.el7 will be an update
+---> Package libtiff.x86_64 0:4.0.3-14.el7 will be updated
+---> Package libtiff.x86_64 0:4.0.3-27.el7_3 will be an update
+---> Package libtirpc.x86_64 0:0.2.4-0.5.el7 will be updated
+---> Package libtirpc.x86_64 0:0.2.4-0.10.el7 will be an update
+---> Package libtool.x86_64 0:2.4.2-20.el7 will be updated
+---> Package libtool.x86_64 0:2.4.2-22.el7_3 will be an update
+---> Package libtool-ltdl.x86_64 0:2.4.2-20.el7 will be updated
+---> Package libtool-ltdl.x86_64 0:2.4.2-22.el7_3 will be an update
+---> Package libudisks2.x86_64 0:2.1.2-5.el7 will be updated
+---> Package libudisks2.x86_64 0:2.7.3-6.el7 will be an update
+---> Package libusal.x86_64 0:1.1.11-22.el7 will be updated
+---> Package libusal.x86_64 0:1.1.11-23.el7 will be an update
+---> Package libusbx.x86_64 0:1.0.15-4.el7 will be updated
+---> Package libusbx.x86_64 0:1.0.21-1.el7 will be an update
+---> Package libuser.x86_64 0:0.60-5.el7 will be updated
+---> Package libuser.x86_64 0:0.60-9.el7 will be an update
+---> Package libuser-python.x86_64 0:0.60-5.el7 will be updated
+---> Package libuser-python.x86_64 0:0.60-9.el7 will be an update
+---> Package libuuid.x86_64 0:2.23.2-21.el7 will be updated
+---> Package libuuid.x86_64 0:2.23.2-52.el7 will be an update
+---> Package libvirt-client.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-client.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon-driver-interface.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-interface.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon-driver-network.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-network.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon-driver-nodedev.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-nodedev.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon-driver-nwfilter.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-nwfilter.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon-driver-qemu.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-qemu.x86_64 0:3.9.0-14.el7 will be an update
+--> Processing Dependency: libvirt-daemon-driver-storage-core = 3.9.0-14.el7 for package: libvirt-daemon-driver-qemu-3.9.0-14.el7.x86_64
+---> Package libvirt-daemon-driver-secret.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-secret.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-daemon-driver-storage.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-driver-storage.x86_64 0:3.9.0-14.el7 will be an update
+--> Processing Dependency: libvirt-daemon-driver-storage-scsi = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+--> Processing Dependency: libvirt-daemon-driver-storage-rbd = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+--> Processing Dependency: libvirt-daemon-driver-storage-mpath = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+--> Processing Dependency: libvirt-daemon-driver-storage-logical = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+--> Processing Dependency: libvirt-daemon-driver-storage-iscsi = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+--> Processing Dependency: libvirt-daemon-driver-storage-gluster = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+--> Processing Dependency: libvirt-daemon-driver-storage-disk = 3.9.0-14.el7 for package: libvirt-daemon-driver-storage-3.9.0-14.el7.x86_64
+---> Package libvirt-daemon-kvm.x86_64 0:1.2.8-16.el7 will be updated
+---> Package libvirt-daemon-kvm.x86_64 0:3.9.0-14.el7 will be an update
+---> Package libvirt-gconfig.x86_64 0:0.1.7-3.el7 will be updated
+---> Package libvirt-gconfig.x86_64 0:1.0.0-1.el7 will be an update
+---> Package libvirt-glib.x86_64 0:0.1.7-3.el7 will be updated
+---> Package libvirt-glib.x86_64 0:1.0.0-1.el7 will be an update
+---> Package libvirt-gobject.x86_64 0:0.1.7-3.el7 will be updated
+---> Package libvirt-gobject.x86_64 0:1.0.0-1.el7 will be an update
+---> Package libwacom.x86_64 0:0.8-3.el7 will be updated
+---> Package libwacom.x86_64 0:0.24-3.el7 will be an update
+---> Package libwacom-data.noarch 0:0.8-3.el7 will be updated
+---> Package libwacom-data.noarch 0:0.24-3.el7 will be an update
+---> Package libwbclient.x86_64 0:4.1.12-21.el7_1 will be updated
+---> Package libwbclient.x86_64 0:4.7.1-6.el7 will be an update
+---> Package libwebp.x86_64 0:0.3.0-3.el7 will be updated
+---> Package libwebp.x86_64 0:0.3.0-7.el7 will be an update
+---> Package libwnck3.x86_64 0:3.4.5-3.el7 will be updated
+---> Package libwnck3.x86_64 0:3.20.1-1.el7 will be an update
+---> Package libxcb.x86_64 0:1.9-5.el7 will be updated
+---> Package libxcb.x86_64 0:1.12-1.el7 will be an update
+---> Package libxkbfile.x86_64 0:1.0.8-5.el7 will be updated
+---> Package libxkbfile.x86_64 0:1.0.9-3.el7 will be an update
+---> Package libxklavier.x86_64 0:5.3-4.el7 will be updated
+---> Package libxklavier.x86_64 0:5.4-7.el7 will be an update
+---> Package libxml2.x86_64 0:2.9.1-5.el7_0.1 will be updated
+---> Package libxml2.x86_64 0:2.9.1-6.el7_2.3 will be an update
+---> Package libxml2-python.x86_64 0:2.9.1-5.el7_0.1 will be updated
+---> Package libxml2-python.x86_64 0:2.9.1-6.el7_2.3 will be an update
+---> Package linux-firmware.noarch 0:20140911-0.1.git365e80c.el7 will be updated
+---> Package linux-firmware.noarch 0:20180220-62.git6d51311.el7 will be an update
+---> Package lldpad.x86_64 0:0.9.46-10.el7 will be updated
+---> Package lldpad.x86_64 0:1.0.1-3.git036e314.el7 will be an update
+---> Package lm_sensors-libs.x86_64 0:3.3.4-11.el7 will be updated
+---> Package lm_sensors-libs.x86_64 0:3.4.0-4.20160601gitf9185e5.el7 will be an update
+---> Package logrotate.x86_64 0:3.8.6-4.el7 will be updated
+---> Package logrotate.x86_64 0:3.8.6-15.el7 will be an update
+---> Package lsof.x86_64 0:4.87-4.el7 will be updated
+---> Package lsof.x86_64 0:4.87-5.el7 will be an update
+---> Package lua.x86_64 0:5.1.4-14.el7 will be updated
+---> Package lua.x86_64 0:5.1.4-15.el7 will be an update
+---> Package lvm2.x86_64 7:2.02.115-3.el7 will be updated
+---> Package lvm2.x86_64 7:2.02.177-4.el7 will be an update
+---> Package lvm2-libs.x86_64 7:2.02.115-3.el7 will be updated
+---> Package lvm2-libs.x86_64 7:2.02.177-4.el7 will be an update
+---> Package lzo.x86_64 0:2.06-6.el7_0.2 will be updated
+---> Package lzo.x86_64 0:2.06-8.el7 will be an update
+---> Package m17n-db.noarch 0:1.6.4-3.el7 will be updated
+---> Package m17n-db.noarch 0:1.6.4-4.el7 will be an update
+---> Package m17n-lib.x86_64 0:1.6.4-10.el7 will be updated
+---> Package m17n-lib.x86_64 0:1.6.4-14.el7 will be an update
+---> Package m2crypto.x86_64 0:0.21.1-15.el7 will be updated
+---> Package m2crypto.x86_64 0:0.21.1-17.el7 will be an update
+---> Package m4.x86_64 0:1.4.16-9.el7 will be updated
+---> Package m4.x86_64 0:1.4.16-10.el7 will be an update
+---> Package mailx.x86_64 0:12.5-12.el7_0 will be updated
+---> Package mailx.x86_64 0:12.5-19.el7 will be an update
+---> Package make.x86_64 1:3.82-21.el7 will be updated
+---> Package make.x86_64 1:3.82-23.el7 will be an update
+---> Package man-pages-overrides.x86_64 0:7.1.3-1.el7 will be updated
+---> Package man-pages-overrides.x86_64 0:7.5.2-1.el7 will be an update
+---> Package mariadb-libs.x86_64 1:5.5.41-2.el7_0 will be updated
+---> Package mariadb-libs.x86_64 1:5.5.56-2.el7 will be an update
+---> Package marisa.x86_64 0:0.2.4-3.el7 will be updated
+---> Package marisa.x86_64 0:0.2.4-4.el7 will be an update
+---> Package mdadm.x86_64 0:3.3.2-2.el7 will be updated
+---> Package mdadm.x86_64 0:4.0-13.el7 will be an update
+---> Package mesa-dri-drivers.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-dri-drivers.x86_64 0:17.2.3-8.20171019.el7 will be an update
+--> Processing Dependency: libLLVM-5.0-rhel.so(LLVM_5.0)(64bit) for package: mesa-dri-drivers-17.2.3-8.20171019.el7.x86_64
+--> Processing Dependency: libLLVM-5.0-rhel.so()(64bit) for package: mesa-dri-drivers-17.2.3-8.20171019.el7.x86_64
+---> Package mesa-filesystem.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-filesystem.x86_64 0:17.2.3-8.20171019.el7 will be an update
+---> Package mesa-libEGL.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-libEGL.x86_64 0:17.2.3-8.20171019.el7 will be an update
+--> Processing Dependency: libxshmfence.so.1()(64bit) for package: mesa-libEGL-17.2.3-8.20171019.el7.x86_64
+---> Package mesa-libGL.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-libGL.x86_64 0:17.2.3-8.20171019.el7 will be an update
+---> Package mesa-libgbm.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-libgbm.x86_64 0:17.2.3-8.20171019.el7 will be an update
+---> Package mesa-libglapi.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-libglapi.x86_64 0:17.2.3-8.20171019.el7 will be an update
+---> Package mesa-libxatracker.x86_64 0:10.2.7-5.20140910.el7 will be updated
+---> Package mesa-libxatracker.x86_64 0:17.2.3-8.20171019.el7 will be an update
+---> Package mesa-private-llvm.x86_64 0:3.5.0-1.el7 will be updated
+---> Package mesa-private-llvm.x86_64 0:3.9.1-3.el7 will be an update
+---> Package microcode_ctl.x86_64 2:2.1-10.el7 will be updated
+---> Package microcode_ctl.x86_64 2:2.1-29.el7 will be an update
+---> Package mlocate.x86_64 0:0.26-5.el7 will be updated
+---> Package mlocate.x86_64 0:0.26-8.el7 will be an update
+---> Package mobile-broadband-provider-info.noarch 0:1.20120614-4.el7 will be updated
+---> Package mobile-broadband-provider-info.noarch 0:1.20170310-1.el7 will be an update
+---> Package mokutil.x86_64 0:0.7-8.el7_0 will be updated
+---> Package mokutil.x86_64 0:12-1.el7.centos will be an update
+--> Processing Dependency: libefivar.so.1(libefivar.so.0)(64bit) for package: mokutil-12-1.el7.centos.x86_64
+--> Processing Dependency: libefivar.so.1(LIBEFIVAR_0.24)(64bit) for package: mokutil-12-1.el7.centos.x86_64
+--> Processing Dependency: libefivar.so.1()(64bit) for package: mokutil-12-1.el7.centos.x86_64
+---> Package mousetweaks.x86_64 0:3.8.0-3.el7 will be updated
+---> Package mousetweaks.x86_64 0:3.12.0-1.el7 will be an update
+---> Package mozjs17.x86_64 0:17.0.0-10.el7 will be updated
+---> Package mozjs17.x86_64 0:17.0.0-20.el7 will be an update
+---> Package mtdev.x86_64 0:1.1.3-4.el7 will be updated
+---> Package mtdev.x86_64 0:1.1.5-5.el7 will be an update
+---> Package mutter.x86_64 0:3.8.4-16.el7 will be updated
+---> Package mutter.x86_64 0:3.26.2-13.el7 will be an update
+--> Processing Dependency: libxkbcommon-x11.so.0(V_0.5.0)(64bit) for package: mutter-3.26.2-13.el7.x86_64
+--> Processing Dependency: libxkbcommon-x11.so.0()(64bit) for package: mutter-3.26.2-13.el7.x86_64
+---> Package nautilus.x86_64 0:3.8.2-10.el7 will be updated
+---> Package nautilus.x86_64 0:3.22.3-5.el7 will be an update
+---> Package nautilus-extensions.x86_64 0:3.8.2-10.el7 will be updated
+---> Package nautilus-extensions.x86_64 0:3.22.3-5.el7 will be an update
+---> Package nautilus-open-terminal.x86_64 0:0.20-3.el7 will be obsoleted
+---> Package nautilus-sendto.x86_64 1:3.8.0-5.el7 will be updated
+---> Package nautilus-sendto.x86_64 1:3.8.4-1.el7 will be an update
+---> Package ncurses.x86_64 0:5.9-13.20130511.el7 will be updated
+---> Package ncurses.x86_64 0:5.9-14.20130511.el7_4 will be an update
+---> Package ncurses-base.noarch 0:5.9-13.20130511.el7 will be updated
+---> Package ncurses-base.noarch 0:5.9-14.20130511.el7_4 will be an update
+---> Package ncurses-libs.x86_64 0:5.9-13.20130511.el7 will be updated
+---> Package ncurses-libs.x86_64 0:5.9-14.20130511.el7_4 will be an update
+---> Package net-snmp-libs.x86_64 1:5.7.2-20.el7 will be updated
+---> Package net-snmp-libs.x86_64 1:5.7.2-32.el7 will be an update
+---> Package net-tools.x86_64 0:2.0-0.17.20131004git.el7 will be updated
+---> Package net-tools.x86_64 0:2.0-0.22.20131004git.el7 will be an update
+---> Package netcf-libs.x86_64 0:0.2.6-3.el7 will be updated
+---> Package netcf-libs.x86_64 0:0.2.8-4.el7 will be an update
+---> Package nettle.x86_64 0:2.7.1-4.el7 will be updated
+---> Package nettle.x86_64 0:2.7.1-8.el7 will be an update
+---> Package nfs-utils.x86_64 1:1.3.0-0.8.el7 will be updated
+---> Package nfs-utils.x86_64 1:1.3.0-0.54.el7 will be an update
+---> Package nfs4-acl-tools.x86_64 0:0.3.3-13.el7 will be updated
+---> Package nfs4-acl-tools.x86_64 0:0.3.3-17.el7 will be an update
+---> Package nm-connection-editor.x86_64 0:1.0.0-2.git20150122.76569a46.el7 will be updated
+---> Package nm-connection-editor.x86_64 0:1.8.6-2.el7 will be an update
+---> Package nmap-ncat.x86_64 2:6.40-4.el7 will be updated
+---> Package nmap-ncat.x86_64 2:6.40-13.el7 will be an update
+---> Package ntpdate.x86_64 0:4.2.6p5-19.el7_0 will be updated
+---> Package ntpdate.x86_64 0:4.2.6p5-28.el7.centos will be an update
+---> Package ntsysv.x86_64 0:1.3.61-4.el7 will be updated
+---> Package ntsysv.x86_64 0:1.7.4-1.el7 will be an update
+---> Package numactl-libs.x86_64 0:2.0.9-4.el7 will be updated
+---> Package numactl-libs.x86_64 0:2.0.9-7.el7 will be an update
+---> Package numad.x86_64 0:0.5-14.20140620git.el7 will be updated
+---> Package numad.x86_64 0:0.5-18.20150602git.el7 will be an update
+---> Package open-vm-tools.x86_64 0:9.4.0-6.el7 will be updated
+---> Package open-vm-tools.x86_64 0:10.1.10-3.el7 will be an update
+--> Processing Dependency: xmlsec1-openssl for package: open-vm-tools-10.1.10-3.el7.x86_64
+--> Processing Dependency: libxmlsec1.so.1()(64bit) for package: open-vm-tools-10.1.10-3.el7.x86_64
+--> Processing Dependency: libmspack.so.0()(64bit) for package: open-vm-tools-10.1.10-3.el7.x86_64
+---> Package open-vm-tools-desktop.x86_64 0:9.4.0-6.el7 will be updated
+---> Package open-vm-tools-desktop.x86_64 0:10.1.10-3.el7 will be an update
+---> Package openjpeg-libs.x86_64 0:1.5.1-10.el7 will be updated
+---> Package openjpeg-libs.x86_64 0:1.5.1-17.el7 will be an update
+---> Package openldap.x86_64 0:2.4.39-6.el7 will be updated
+---> Package openldap.x86_64 0:2.4.44-13.el7 will be an update
+---> Package openssh.x86_64 0:6.6.1p1-11.el7 will be updated
+---> Package openssh.x86_64 0:7.4p1-16.el7 will be an update
+---> Package openssh-clients.x86_64 0:6.6.1p1-11.el7 will be updated
+---> Package openssh-clients.x86_64 0:7.4p1-16.el7 will be an update
+---> Package openssh-server.x86_64 0:6.6.1p1-11.el7 will be updated
+---> Package openssh-server.x86_64 0:7.4p1-16.el7 will be an update
+---> Package openssl.x86_64 1:1.0.1e-42.el7 will be updated
+---> Package openssl.x86_64 1:1.0.2k-12.el7 will be an update
+---> Package openssl-libs.x86_64 1:1.0.1e-42.el7 will be updated
+---> Package openssl-libs.x86_64 1:1.0.2k-12.el7 will be an update
+---> Package orc.x86_64 0:0.4.17-5.el7 will be updated
+---> Package orc.x86_64 0:0.4.26-1.el7 will be an update
+---> Package os-prober.x86_64 0:1.58-5.el7 will be updated
+---> Package os-prober.x86_64 0:1.58-9.el7 will be an update
+---> Package overpass-fonts.noarch 0:1.01-5.el7 will be updated
+---> Package overpass-fonts.noarch 0:2.1-1.el7 will be an update
+---> Package p11-kit.x86_64 0:0.20.7-3.el7 will be updated
+---> Package p11-kit.x86_64 0:0.23.5-3.el7 will be an update
+---> Package p11-kit-trust.x86_64 0:0.20.7-3.el7 will be updated
+---> Package p11-kit-trust.x86_64 0:0.23.5-3.el7 will be an update
+---> Package pam.x86_64 0:1.1.8-12.el7 will be updated
+---> Package pam.x86_64 0:1.1.8-22.el7 will be an update
+---> Package pango.x86_64 0:1.34.1-5.el7 will be updated
+---> Package pango.x86_64 0:1.40.4-1.el7 will be an update
+---> Package pangomm.x86_64 0:2.34.0-3.el7 will be updated
+---> Package pangomm.x86_64 0:2.40.1-1.el7 will be an update
+---> Package paps.x86_64 0:0.6.8-28.el7 will be updated
+---> Package paps.x86_64 0:0.6.8-28.el7.1 will be an update
+---> Package paps-libs.x86_64 0:0.6.8-28.el7 will be updated
+---> Package paps-libs.x86_64 0:0.6.8-28.el7.1 will be an update
+---> Package parted.x86_64 0:3.1-20.el7 will be updated
+---> Package parted.x86_64 0:3.1-29.el7 will be an update
+---> Package pciutils.x86_64 0:3.2.1-4.el7 will be updated
+---> Package pciutils.x86_64 0:3.5.1-3.el7 will be an update
+---> Package pciutils-libs.x86_64 0:3.2.1-4.el7 will be updated
+---> Package pciutils-libs.x86_64 0:3.5.1-3.el7 will be an update
+---> Package pcre.x86_64 0:8.32-14.el7 will be updated
+---> Package pcre.x86_64 0:8.32-17.el7 will be an update
+---> Package perl.x86_64 4:5.16.3-285.el7 will be updated
+---> Package perl.x86_64 4:5.16.3-292.el7 will be an update
+---> Package perl-Getopt-Long.noarch 0:2.40-2.el7 will be updated
+---> Package perl-Getopt-Long.noarch 0:2.40-3.el7 will be an update
+---> Package perl-Git.noarch 0:1.8.3.1-4.el7 will be updated
+---> Package perl-Git.noarch 0:1.8.3.1-13.el7 will be an update
+---> Package perl-Pod-Escapes.noarch 1:1.04-285.el7 will be updated
+---> Package perl-Pod-Escapes.noarch 1:1.04-292.el7 will be an update
+---> Package perl-Socket.x86_64 0:2.010-3.el7 will be updated
+---> Package perl-Socket.x86_64 0:2.010-4.el7 will be an update
+---> Package perl-Test-Harness.noarch 0:3.28-2.el7 will be updated
+---> Package perl-Test-Harness.noarch 0:3.28-3.el7 will be an update
+---> Package perl-libs.x86_64 4:5.16.3-285.el7 will be updated
+---> Package perl-libs.x86_64 4:5.16.3-292.el7 will be an update
+---> Package perl-macros.x86_64 4:5.16.3-285.el7 will be updated
+---> Package perl-macros.x86_64 4:5.16.3-292.el7 will be an update
+---> Package pinentry.x86_64 0:0.8.1-14.el7 will be updated
+---> Package pinentry.x86_64 0:0.8.1-17.el7 will be an update
+---> Package pinentry-gtk.x86_64 0:0.8.1-14.el7 will be updated
+---> Package pinentry-gtk.x86_64 0:0.8.1-17.el7 will be an update
+---> Package pixman.x86_64 0:0.32.4-3.el7 will be updated
+---> Package pixman.x86_64 0:0.34.0-1.el7 will be an update
+---> Package plymouth.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-core-libs.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-core-libs.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-graphics-libs.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-graphics-libs.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-plugin-label.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-plugin-label.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-plugin-two-step.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-plugin-two-step.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-scripts.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-scripts.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-system-theme.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-system-theme.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package plymouth-theme-charge.x86_64 0:0.8.9-0.13.20140113.el7 will be updated
+---> Package plymouth-theme-charge.x86_64 0:0.8.9-0.31.20140113.el7.centos will be an update
+---> Package policycoreutils.x86_64 0:2.2.5-15.el7 will be updated
+---> Package policycoreutils.x86_64 0:2.5-22.el7 will be an update
+---> Package policycoreutils-python.x86_64 0:2.2.5-15.el7 will be updated
+---> Package policycoreutils-python.x86_64 0:2.5-22.el7 will be an update
+---> Package polkit.x86_64 0:0.112-5.el7 will be updated
+---> Package polkit.x86_64 0:0.112-14.el7 will be an update
+---> Package poppler.x86_64 0:0.22.5-6.el7 will be updated
+---> Package poppler.x86_64 0:0.26.5-17.el7_4 will be an update
+---> Package poppler-glib.x86_64 0:0.22.5-6.el7 will be updated
+---> Package poppler-glib.x86_64 0:0.26.5-17.el7_4 will be an update
+---> Package poppler-utils.x86_64 0:0.22.5-6.el7 will be updated
+---> Package poppler-utils.x86_64 0:0.26.5-17.el7_4 will be an update
+---> Package procps-ng.x86_64 0:3.3.10-3.el7 will be updated
+---> Package procps-ng.x86_64 0:3.3.10-17.el7 will be an update
+---> Package psacct.x86_64 0:6.6.1-9.el7 will be updated
+---> Package psacct.x86_64 0:6.6.1-13.el7 will be an update
+---> Package psmisc.x86_64 0:22.20-8.el7 will be updated
+---> Package psmisc.x86_64 0:22.20-15.el7 will be an update
+---> Package pth.x86_64 0:2.0.7-22.el7 will be updated
+---> Package pth.x86_64 0:2.0.7-23.el7 will be an update
+---> Package pulseaudio.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio.x86_64 0:10.0-5.el7 will be an update
+---> Package pulseaudio-gdm-hooks.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio-gdm-hooks.x86_64 0:10.0-5.el7 will be an update
+---> Package pulseaudio-libs.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio-libs.x86_64 0:10.0-5.el7 will be an update
+---> Package pulseaudio-libs-glib2.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio-libs-glib2.x86_64 0:10.0-5.el7 will be an update
+---> Package pulseaudio-module-bluetooth.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio-module-bluetooth.x86_64 0:10.0-5.el7 will be an update
+---> Package pulseaudio-module-x11.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio-module-x11.x86_64 0:10.0-5.el7 will be an update
+---> Package pulseaudio-utils.x86_64 0:3.0-30.el7 will be updated
+---> Package pulseaudio-utils.x86_64 0:10.0-5.el7 will be an update
+---> Package pyatspi.noarch 0:2.8.0-3.el7 will be updated
+---> Package pyatspi.noarch 0:2.20.3-1.el7 will be an update
+---> Package pygobject3.x86_64 0:3.8.2-6.el7 will be obsoleted
+---> Package pygobject3-base.x86_64 0:3.8.2-6.el7 will be obsoleted
+---> Package pykickstart.noarch 0:1.99.43.17-1.el7 will be updated
+---> Package pykickstart.noarch 0:1.99.66.18-1.el7 will be an update
+---> Package pyparted.x86_64 1:3.9-11.el7 will be updated
+---> Package pyparted.x86_64 1:3.9-15.el7 will be an update
+---> Package pytalloc.x86_64 0:2.1.1-1.el7 will be updated
+---> Package pytalloc.x86_64 0:2.1.10-1.el7 will be an update
+---> Package python.x86_64 0:2.7.5-16.el7 will be updated
+---> Package python.x86_64 0:2.7.5-68.el7 will be an update
+---> Package python-augeas.noarch 0:0.4.1-5.el7 will be updated
+---> Package python-augeas.noarch 0:0.5.0-2.el7 will be an update
+---> Package python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el7 will be updated
+---> Package python-backports-ssl_match_hostname.noarch 0:3.5.0.1-1.el7 will be an update
+--> Processing Dependency: python-ipaddress for package: python-backports-ssl_match_hostname-3.5.0.1-1.el7.noarch
+---> Package python-blivet.noarch 0:0.61.0.26-1.el7 will be updated
+---> Package python-blivet.noarch 1:0.61.15.69-1.el7 will be an update
+---> Package python-brlapi.x86_64 0:0.6.0-9.el7 will be updated
+---> Package python-brlapi.x86_64 0:0.6.0-16.el7 will be an update
+---> Package python-caribou.noarch 0:0.4.11-3.el7 will be obsoleted
+---> Package python-chardet.noarch 0:2.0.1-7.el7 will be updated
+---> Package python-chardet.noarch 0:2.2.1-1.el7_1 will be an update
+---> Package python-configshell.noarch 1:1.1.fb14-1.el7 will be updated
+---> Package python-configshell.noarch 1:1.1.fb23-3.el7 will be an update
+---> Package python-dmidecode.x86_64 0:3.10.13-11.el7 will be updated
+---> Package python-dmidecode.x86_64 0:3.12.2-2.el7 will be an update
+---> Package python-gobject.x86_64 0:3.22.0-1.el7_4.1 will be obsoleting
+---> Package python-gobject-base.x86_64 0:3.22.0-1.el7_4.1 will be obsoleting
+---> Package python-javapackages.noarch 0:3.4.1-6.el7_0 will be updated
+---> Package python-javapackages.noarch 0:3.4.1-11.el7 will be an update
+---> Package python-libs.x86_64 0:2.7.5-16.el7 will be updated
+---> Package python-libs.x86_64 0:2.7.5-68.el7 will be an update
+---> Package python-nss.x86_64 0:0.16.0-2.el7 will be updated
+---> Package python-nss.x86_64 0:0.16.0-3.el7 will be an update
+---> Package python-pwquality.x86_64 0:1.2.3-4.el7 will be updated
+---> Package python-pwquality.x86_64 0:1.2.3-5.el7 will be an update
+---> Package python-pycurl.x86_64 0:7.19.0-17.el7 will be updated
+---> Package python-pycurl.x86_64 0:7.19.0-19.el7 will be an update
+---> Package python-pyudev.noarch 0:0.15-6.el7 will be updated
+---> Package python-pyudev.noarch 0:0.15-9.el7 will be an update
+---> Package python-rhsm.x86_64 0:1.13.10-1.el7 will be obsoleted
+---> Package python-rtslib.noarch 0:2.1.fb50-1.el7 will be updated
+---> Package python-rtslib.noarch 0:2.1.fb63-5.el7 will be an update
+---> Package python-setuptools.noarch 0:0.9.8-3.el7 will be updated
+---> Package python-setuptools.noarch 0:0.9.8-7.el7 will be an update
+---> Package python-six.noarch 0:1.3.0-4.el7 will be updated
+---> Package python-six.noarch 0:1.9.0-2.el7 will be an update
+---> Package python-slip.noarch 0:0.4.0-2.el7 will be updated
+---> Package python-slip.noarch 0:0.4.0-4.el7 will be an update
+---> Package python-slip-dbus.noarch 0:0.4.0-2.el7 will be updated
+---> Package python-slip-dbus.noarch 0:0.4.0-4.el7 will be an update
+---> Package python-urlgrabber.noarch 0:3.10-6.el7 will be updated
+---> Package python-urlgrabber.noarch 0:3.10-8.el7 will be an update
+---> Package python2-caribou.noarch 0:0.4.21-1.el7 will be obsoleting
+---> Package pytz.noarch 0:2012d-5.el7 will be updated
+---> Package pytz.noarch 0:2016.10-2.el7 will be an update
+---> Package qemu-guest-agent.x86_64 10:2.1.0-4.el7 will be updated
+---> Package qemu-guest-agent.x86_64 10:2.8.0-2.el7 will be an update
+---> Package qemu-img.x86_64 10:1.5.3-86.el7 will be updated
+---> Package qemu-img.x86_64 10:1.5.3-156.el7 will be an update
+--> Processing Dependency: libtcmalloc.so.4()(64bit) for package: 10:qemu-img-1.5.3-156.el7.x86_64
+---> Package qemu-kvm.x86_64 10:1.5.3-86.el7 will be updated
+---> Package qemu-kvm.x86_64 10:1.5.3-156.el7 will be an update
+---> Package qemu-kvm-common.x86_64 10:1.5.3-86.el7 will be updated
+---> Package qemu-kvm-common.x86_64 10:1.5.3-156.el7 will be an update
+---> Package quota.x86_64 1:4.01-11.el7 will be updated
+---> Package quota.x86_64 1:4.01-17.el7 will be an update
+---> Package quota-nls.noarch 1:4.01-11.el7 will be updated
+---> Package quota-nls.noarch 1:4.01-17.el7 will be an update
+---> Package radvd.x86_64 0:1.9.2-7.el7 will be updated
+---> Package radvd.x86_64 0:1.9.2-9.el7 will be an update
+---> Package rdma.noarch 0:7.1_3.17-5.el7 will be obsoleted
+---> Package rdma-core.i686 0:15-6.el7 will be obsoleting
+--> Processing Dependency: libudev.so.1(LIBUDEV_183) for package: rdma-core-15-6.el7.i686
+--> Processing Dependency: libudev.so.1 for package: rdma-core-15-6.el7.i686
+--> Processing Dependency: libsystemd.so.0(LIBSYSTEMD_209) for package: rdma-core-15-6.el7.i686
+--> Processing Dependency: libsystemd.so.0 for package: rdma-core-15-6.el7.i686
+--> Processing Dependency: libc.so.6(GLIBC_2.16) for package: rdma-core-15-6.el7.i686
+---> Package rdma-core.x86_64 0:15-6.el7 will be obsoleting
+---> Package readline.x86_64 0:6.2-9.el7 will be updated
+---> Package readline.x86_64 0:6.2-10.el7 will be an update
+---> Package realmd.x86_64 0:0.14.6-6.el7 will be updated
+---> Package realmd.x86_64 0:0.16.1-9.el7 will be an update
+---> Package redhat-bookmarks.noarch 0:7-2.el7 will be obsoleted
+---> Package redhat-indexhtml.noarch 0:7-11.el7_0 will be obsoleted
+---> Package redhat-logos.noarch 0:70.0.3-4.el7 will be obsoleted
+---> Package redhat-menus.noarch 0:12.0.2-7.el7 will be updated
+---> Package redhat-menus.noarch 0:12.0.2-8.el7 will be an update
+---> Package redhat-rpm-config.noarch 0:9.1.0-68.el7 will be updated
+---> Package redhat-rpm-config.noarch 0:9.1.0-80.el7.centos will be an update
+---> Package redhat-support-lib-python.noarch 0:0.9.7-0.el7 will be updated
+---> Package redhat-support-lib-python.noarch 0:0.9.7-6.el7 will be an update
+---> Package redhat-support-tool.noarch 0:0.9.7-1.el7 will be updated
+---> Package redhat-support-tool.noarch 0:0.9.10-1.el7 will be an update
+--> Processing Dependency: python-magic for package: redhat-support-tool-0.9.10-1.el7.noarch
+---> Package rest.x86_64 0:0.7.92-1.el7 will be updated
+---> Package rest.x86_64 0:0.8.0-2.el7 will be an update
+---> Package rhino.noarch 0:1.7R4-5.el7 will be updated
+---> Package rhino.noarch 0:1.7R5-1.el7 will be an update
+---> Package rhn-check.noarch 0:2.0.2-6.el7 will be updated
+---> Package rhn-check.noarch 0:2.0.2-21.el7 will be an update
+---> Package rhn-client-tools.noarch 0:2.0.2-6.el7 will be updated
+---> Package rhn-client-tools.noarch 0:2.0.2-21.el7 will be an update
+---> Package rhn-setup.noarch 0:2.0.2-6.el7 will be updated
+---> Package rhn-setup.noarch 0:2.0.2-21.el7 will be an update
+---> Package rhn-setup-gnome.noarch 0:2.0.2-6.el7 will be updated
+---> Package rhn-setup-gnome.noarch 0:2.0.2-21.el7 will be an update
+---> Package rhnlib.noarch 0:2.5.65-2.el7 will be updated
+---> Package rhnlib.noarch 0:2.5.65-7.el7 will be an update
+---> Package rhnsd.x86_64 0:5.0.13-3.el7 will be updated
+---> Package rhnsd.x86_64 0:5.0.13-10.el7 will be an update
+---> Package rng-tools.x86_64 0:5-2.el7 will be updated
+---> Package rng-tools.x86_64 0:5-13.el7 will be an update
+---> Package rpcbind.x86_64 0:0.2.0-26.el7 will be updated
+---> Package rpcbind.x86_64 0:0.2.0-44.el7 will be an update
+---> Package rpm.x86_64 0:4.11.1-25.el7 will be updated
+---> Package rpm.x86_64 0:4.11.3-32.el7 will be an update
+---> Package rpm-build.x86_64 0:4.11.1-25.el7 will be updated
+---> Package rpm-build.x86_64 0:4.11.3-32.el7 will be an update
+---> Package rpm-build-libs.x86_64 0:4.11.1-25.el7 will be updated
+---> Package rpm-build-libs.x86_64 0:4.11.3-32.el7 will be an update
+---> Package rpm-libs.x86_64 0:4.11.1-25.el7 will be updated
+---> Package rpm-libs.x86_64 0:4.11.3-32.el7 will be an update
+---> Package rpm-python.x86_64 0:4.11.1-25.el7 will be updated
+---> Package rpm-python.x86_64 0:4.11.3-32.el7 will be an update
+---> Package rpm-sign.x86_64 0:4.11.1-25.el7 will be updated
+---> Package rpm-sign.x86_64 0:4.11.3-32.el7 will be an update
+---> Package rsync.x86_64 0:3.0.9-15.el7 will be updated
+---> Package rsync.x86_64 0:3.1.2-4.el7 will be an update
+---> Package rsyslog.x86_64 0:7.4.7-7.el7_0 will be updated
+---> Package rsyslog.x86_64 0:8.24.0-16.el7 will be an update
+--> Processing Dependency: libfastjson.so.4()(64bit) for package: rsyslog-8.24.0-16.el7.x86_64
+---> Package rsyslog-mmjsonparse.x86_64 0:7.4.7-7.el7_0 will be updated
+---> Package rsyslog-mmjsonparse.x86_64 0:8.24.0-16.el7 will be an update
+---> Package samba-client.x86_64 0:4.1.12-21.el7_1 will be updated
+---> Package samba-client.x86_64 0:4.7.1-6.el7 will be an update
+--> Processing Dependency: samba-common-libs = 4.7.1-6.el7 for package: samba-client-4.7.1-6.el7.x86_64
+--> Processing Dependency: libpopt-samba3-samba4.so(SAMBA_4.7.1)(64bit) for package: samba-client-4.7.1-6.el7.x86_64
+--> Processing Dependency: libpopt-samba3-samba4.so()(64bit) for package: samba-client-4.7.1-6.el7.x86_64
+---> Package samba-common.x86_64 0:4.1.12-21.el7_1 will be updated
+---> Package samba-common.noarch 0:4.7.1-6.el7 will be an update
+---> Package samba-libs.x86_64 0:4.1.12-21.el7_1 will be updated
+---> Package samba-libs.x86_64 0:4.7.1-6.el7 will be an update
+---> Package sane-backends.x86_64 0:1.0.24-9.el7 will be updated
+---> Package sane-backends.x86_64 0:1.0.24-11.el7 will be an update
+---> Package sane-backends-drivers-scanners.x86_64 0:1.0.24-9.el7 will be updated
+---> Package sane-backends-drivers-scanners.x86_64 0:1.0.24-11.el7 will be an update
+---> Package sane-backends-libs.x86_64 0:1.0.24-9.el7 will be updated
+---> Package sane-backends-libs.x86_64 0:1.0.24-11.el7 will be an update
+---> Package satyr.x86_64 0:0.13-8.el7 will be updated
+---> Package satyr.x86_64 0:0.13-14.el7 will be an update
+---> Package scl-utils.x86_64 0:20130529-9.el7_0 will be updated
+---> Package scl-utils.x86_64 0:20130529-18.el7_4 will be an update
+---> Package seabios-bin.noarch 0:1.7.5-8.el7 will be updated
+---> Package seabios-bin.noarch 0:1.11.0-2.el7 will be an update
+---> Package seahorse.x86_64 0:3.8.2-3.el7 will be updated
+---> Package seahorse.x86_64 0:3.20.0-1.el7 will be an update
+---> Package seavgabios-bin.noarch 0:1.7.5-8.el7 will be updated
+---> Package seavgabios-bin.noarch 0:1.11.0-2.el7 will be an update
+---> Package selinux-policy.noarch 0:3.13.1-23.el7 will be updated
+---> Package selinux-policy.noarch 0:3.13.1-192.el7 will be an update
+---> Package selinux-policy-targeted.noarch 0:3.13.1-23.el7 will be updated
+---> Package selinux-policy-targeted.noarch 0:3.13.1-192.el7 will be an update
+---> Package setools-libs.x86_64 0:3.3.7-46.el7 will be updated
+---> Package setools-libs.x86_64 0:3.3.8-2.el7 will be an update
+---> Package setroubleshoot.x86_64 0:3.2.17-3.el7 will be updated
+---> Package setroubleshoot.x86_64 0:3.2.29-3.el7 will be an update
+---> Package setroubleshoot-plugins.noarch 0:3.0.59-1.el7 will be updated
+---> Package setroubleshoot-plugins.noarch 0:3.0.66-2.1.el7 will be an update
+---> Package setroubleshoot-server.x86_64 0:3.2.17-3.el7 will be updated
+---> Package setroubleshoot-server.x86_64 0:3.2.29-3.el7 will be an update
+---> Package setup.noarch 0:2.8.71-5.el7 will be updated
+---> Package setup.noarch 0:2.8.71-9.el7 will be an update
+---> Package sg3_utils-libs.x86_64 0:1.37-5.el7 will be updated
+---> Package sg3_utils-libs.x86_64 0:1.37-12.el7 will be an update
+---> Package shadow-utils.x86_64 2:4.1.5.1-18.el7 will be updated
+---> Package shadow-utils.x86_64 2:4.1.5.1-24.el7 will be an update
+---> Package shared-mime-info.x86_64 0:1.1-7.el7 will be updated
+---> Package shared-mime-info.x86_64 0:1.8-4.el7 will be an update
+---> Package smartmontools.x86_64 1:6.2-4.el7 will be updated
+---> Package smartmontools.x86_64 1:6.5-1.el7 will be an update
+---> Package sos.noarch 0:3.2-15.el7 will be updated
+---> Package sos.noarch 0:3.5-6.el7.centos will be an update
+---> Package spice-glib.x86_64 0:0.22-2.el7 will be updated
+---> Package spice-glib.x86_64 0:0.34-3.el7 will be an update
+--> Processing Dependency: liblz4.so.1()(64bit) for package: spice-glib-0.34-3.el7.x86_64
+---> Package spice-gtk3.x86_64 0:0.22-2.el7 will be updated
+---> Package spice-gtk3.x86_64 0:0.34-3.el7 will be an update
+---> Package spice-server.x86_64 0:0.12.4-9.el7 will be updated
+---> Package spice-server.x86_64 0:0.14.0-2.el7 will be an update
+---> Package spice-vdagent.x86_64 0:0.14.0-9.el7 will be updated
+---> Package spice-vdagent.x86_64 0:0.14.0-15.el7 will be an update
+---> Package sqlite.x86_64 0:3.7.17-4.el7 will be updated
+---> Package sqlite.x86_64 0:3.7.17-8.el7 will be an update
+---> Package sssd-client.x86_64 0:1.12.2-58.el7 will be updated
+---> Package sssd-client.x86_64 0:1.16.0-19.el7 will be an update
+---> Package strace.x86_64 0:4.8-7.el7 will be updated
+---> Package strace.x86_64 0:4.12-6.el7 will be an update
+---> Package subscription-manager.x86_64 0:1.13.22-1.el7 will be updated
+---> Package subscription-manager.x86_64 0:1.20.11-1.el7.centos will be an update
+---> Package subscription-manager-firstboot.x86_64 0:1.13.22-1.el7 will be obsoleted
+---> Package subscription-manager-gui.x86_64 0:1.13.22-1.el7 will be updated
+---> Package subscription-manager-gui.x86_64 0:1.20.11-1.el7.centos will be an update
+---> Package subscription-manager-initial-setup-addon.x86_64 0:1.20.11-1.el7.centos will be obsoleting
+---> Package subscription-manager-rhsm.x86_64 0:1.20.11-1.el7.centos will be obsoleting
+--> Processing Dependency: subscription-manager-rhsm-certificates = 1.20.11-1.el7.centos for package: subscription-manager-rhsm-1.20.11-1.el7.centos.x86_64
+---> Package subversion.x86_64 0:1.7.14-6.el7 will be updated
+---> Package subversion.x86_64 0:1.7.14-14.el7 will be an update
+---> Package subversion-libs.x86_64 0:1.7.14-6.el7 will be updated
+---> Package subversion-libs.x86_64 0:1.7.14-14.el7 will be an update
+---> Package sudo.x86_64 0:1.8.6p7-13.el7 will be updated
+---> Package sudo.x86_64 0:1.8.19p2-13.el7 will be an update
+---> Package sushi.x86_64 0:3.8.1-3.el7 will be updated
+---> Package sushi.x86_64 0:3.21.91-1.el7 will be an update
+---> Package swig.x86_64 0:2.0.10-4.el7 will be updated
+---> Package swig.x86_64 0:2.0.10-5.el7 will be an update
+---> Package sysstat.x86_64 0:10.1.5-7.el7 will be updated
+---> Package sysstat.x86_64 0:10.1.5-13.el7 will be an update
+---> Package system-config-printer.x86_64 0:1.4.1-19.el7 will be updated
+---> Package system-config-printer.x86_64 0:1.4.1-21.el7 will be an update
+---> Package system-config-printer-libs.noarch 0:1.4.1-19.el7 will be updated
+---> Package system-config-printer-libs.noarch 0:1.4.1-21.el7 will be an update
+---> Package system-config-printer-udev.x86_64 0:1.4.1-19.el7 will be updated
+---> Package system-config-printer-udev.x86_64 0:1.4.1-21.el7 will be an update
+---> Package systemd.x86_64 0:208-20.el7 will be updated
+---> Package systemd.x86_64 0:219-57.el7 will be an update
+---> Package systemd-libs.x86_64 0:208-20.el7 will be updated
+---> Package systemd-libs.x86_64 0:219-57.el7 will be an update
+---> Package systemd-python.x86_64 0:208-20.el7 will be updated
+---> Package systemd-python.x86_64 0:219-57.el7 will be an update
+---> Package systemd-sysv.x86_64 0:208-20.el7 will be updated
+---> Package systemd-sysv.x86_64 0:219-57.el7 will be an update
+---> Package systemtap.x86_64 0:2.6-8.el7 will be updated
+---> Package systemtap.x86_64 0:3.2-4.el7 will be an update
+---> Package systemtap-client.x86_64 0:2.6-8.el7 will be updated
+---> Package systemtap-client.x86_64 0:3.2-4.el7 will be an update
+---> Package systemtap-devel.x86_64 0:2.6-8.el7 will be updated
+---> Package systemtap-devel.x86_64 0:3.2-4.el7 will be an update
+---> Package systemtap-runtime.x86_64 0:2.6-8.el7 will be updated
+---> Package systemtap-runtime.x86_64 0:3.2-4.el7 will be an update
+---> Package tar.x86_64 2:1.26-29.el7 will be updated
+---> Package tar.x86_64 2:1.26-34.el7 will be an update
+---> Package targetcli.noarch 0:2.1.fb37-3.el7 will be updated
+---> Package targetcli.noarch 0:2.1.fb46-1.el7 will be an update
+---> Package tcpdump.x86_64 14:4.5.1-2.el7 will be updated
+---> Package tcpdump.x86_64 14:4.9.2-3.el7 will be an update
+---> Package tcsh.x86_64 0:6.18.01-7.el7 will be updated
+---> Package tcsh.x86_64 0:6.18.01-15.el7 will be an update
+---> Package teamd.x86_64 0:1.15-1.el7 will be updated
+---> Package teamd.x86_64 0:1.27-4.el7 will be an update
+---> Package telepathy-glib.x86_64 0:0.20.4-5.el7 will be updated
+---> Package telepathy-glib.x86_64 0:0.24.1-1.el7 will be an update
+---> Package telepathy-haze.x86_64 0:0.7.0-7.el7 will be updated
+---> Package telepathy-haze.x86_64 0:0.8.0-1.el7 will be an update
+---> Package telepathy-mission-control.x86_64 1:5.14.1-8.el7 will be updated
+---> Package telepathy-mission-control.x86_64 1:5.16.3-3.el7 will be an update
+---> Package tigervnc-license.noarch 0:1.2.80-0.30.20130314svn5065.el7 will be updated
+---> Package tigervnc-license.noarch 0:1.8.0-5.el7 will be an update
+---> Package tigervnc-server-minimal.x86_64 0:1.2.80-0.30.20130314svn5065.el7 will be updated
+---> Package tigervnc-server-minimal.x86_64 0:1.8.0-5.el7 will be an update
+--> Processing Dependency: libXfont2.so.2()(64bit) for package: tigervnc-server-minimal-1.8.0-5.el7.x86_64
+---> Package totem.x86_64 1:3.8.2-5.el7 will be updated
+---> Package totem.x86_64 1:3.22.1-1.el7 will be obsoleting
+---> Package totem-mozplugin.x86_64 1:3.8.2-5.el7 will be obsoleted
+---> Package totem-nautilus.x86_64 1:3.8.2-5.el7 will be updated
+---> Package totem-nautilus.x86_64 1:3.22.1-1.el7 will be an update
+---> Package totem-pl-parser.x86_64 0:3.4.5-3.el7 will be updated
+---> Package totem-pl-parser.x86_64 0:3.10.7-1.el7 will be an update
+---> Package traceroute.x86_64 3:2.0.19-5.el7 will be updated
+---> Package traceroute.x86_64 3:2.0.22-2.el7 will be an update
+---> Package tracker.x86_64 0:0.16.2-11.el7 will be updated
+---> Package tracker.x86_64 0:1.10.5-6.el7 will be an update
+---> Package trousers.x86_64 0:0.3.11.2-3.el7 will be updated
+---> Package trousers.x86_64 0:0.3.14-2.el7 will be an update
+---> Package ttmkfdir.x86_64 0:3.0.9-41.el7 will be updated
+---> Package ttmkfdir.x86_64 0:3.0.9-42.el7 will be an update
+---> Package tuned.noarch 0:2.4.1-1.el7 will be updated
+---> Package tuned.noarch 0:2.9.0-1.el7 will be an update
+--> Processing Dependency: python-schedutils for package: tuned-2.9.0-1.el7.noarch
+--> Processing Dependency: python-perf for package: tuned-2.9.0-1.el7.noarch
+--> Processing Dependency: python-linux-procfs for package: tuned-2.9.0-1.el7.noarch
+---> Package tzdata.noarch 0:2015a-1.el7 will be updated
+---> Package tzdata.noarch 0:2018c-1.el7 will be an update
+---> Package tzdata-java.noarch 0:2015a-1.el7 will be updated
+---> Package tzdata-java.noarch 0:2018c-1.el7 will be an update
+---> Package udisks2.x86_64 0:2.1.2-5.el7 will be updated
+---> Package udisks2.x86_64 0:2.7.3-6.el7 will be an update
+--> Processing Dependency: libblockdev-swap >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev-part >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev-mdraid >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev-loop >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev-fs >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev-crypto >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev >= 2.10 for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libblockdev.so.2()(64bit) for package: udisks2-2.7.3-6.el7.x86_64
+--> Processing Dependency: libbd_utils.so.2()(64bit) for package: udisks2-2.7.3-6.el7.x86_64
+---> Package unbound-libs.x86_64 0:1.4.20-19.el7 will be updated
+---> Package unbound-libs.x86_64 0:1.6.6-1.el7 will be an update
+---> Package unzip.x86_64 0:6.0-13.el7 will be updated
+---> Package unzip.x86_64 0:6.0-19.el7 will be an update
+---> Package upower.x86_64 0:0.9.20-7.el7 will be updated
+---> Package upower.x86_64 0:0.99.4-2.el7 will be an update
+---> Package usb_modeswitch.x86_64 0:1.2.7-5.el7 will be updated
+---> Package usb_modeswitch.x86_64 0:2.5.1-1.el7 will be an update
+---> Package usb_modeswitch-data.noarch 0:20130807-2.el7 will be updated
+---> Package usb_modeswitch-data.noarch 0:20170806-1.el7 will be an update
+---> Package usbmuxd.x86_64 0:1.0.8-11.el7 will be obsoleted
+---> Package usbmuxd.x86_64 0:1.1.0-1.el7 will be obsoleting
+---> Package usbredir.x86_64 0:0.6-7.el7 will be updated
+---> Package usbredir.x86_64 0:0.7.1-3.el7 will be an update
+---> Package usbutils.x86_64 0:007-4.el7 will be updated
+---> Package usbutils.x86_64 0:007-5.el7 will be an update
+---> Package util-linux.x86_64 0:2.23.2-21.el7 will be updated
+---> Package util-linux.x86_64 0:2.23.2-52.el7 will be an update
+---> Package vim-common.x86_64 2:7.4.160-1.el7 will be updated
+---> Package vim-common.x86_64 2:7.4.160-4.el7 will be an update
+---> Package vim-enhanced.x86_64 2:7.4.160-1.el7 will be updated
+---> Package vim-enhanced.x86_64 2:7.4.160-4.el7 will be an update
+---> Package vim-filesystem.x86_64 2:7.4.160-1.el7 will be updated
+---> Package vim-filesystem.x86_64 2:7.4.160-4.el7 will be an update
+---> Package vim-minimal.x86_64 2:7.4.160-1.el7 will be updated
+---> Package vim-minimal.x86_64 2:7.4.160-4.el7 will be an update
+---> Package vinagre.x86_64 0:3.8.2-12.el7 will be updated
+---> Package vinagre.x86_64 0:3.22.0-9.el7 will be an update
+---> Package vino.x86_64 0:3.8.1-10.el7 will be updated
+---> Package vino.x86_64 0:3.22.0-3.el7 will be an update
+---> Package virt-what.x86_64 0:1.13-5.el7 will be updated
+---> Package virt-what.x86_64 0:1.18-4.el7 will be an update
+---> Package vte3.x86_64 0:0.34.6-3.el7 will be updated
+---> Package vte3.x86_64 0:0.36.5-1.el7 will be an update
+--> Processing Dependency: vte-profile for package: vte3-0.36.5-1.el7.x86_64
+---> Package webkitgtk3.x86_64 0:2.0.4-6.el7_0.1 will be updated
+---> Package webkitgtk3.x86_64 0:2.4.11-2.el7 will be an update
+---> Package webrtc-audio-processing.x86_64 0:0.1-5.el7 will be updated
+---> Package webrtc-audio-processing.x86_64 0:0.3-1.el7 will be an update
+---> Package wget.x86_64 0:1.14-10.el7_0.1 will be updated
+---> Package wget.x86_64 0:1.14-15.el7_4.1 will be an update
+---> Package wodim.x86_64 0:1.1.11-22.el7 will be updated
+---> Package wodim.x86_64 0:1.1.11-23.el7 will be an update
+---> Package wpa_supplicant.x86_64 1:2.0-13.el7_0 will be updated
+---> Package wpa_supplicant.x86_64 1:2.6-9.el7 will be an update
+---> Package xcb-util.x86_64 0:0.3.9-4.el7 will be updated
+---> Package xcb-util.x86_64 0:0.4.0-2.el7 will be an update
+---> Package xdg-user-dirs.x86_64 0:0.15-4.el7 will be updated
+---> Package xdg-user-dirs.x86_64 0:0.15-5.el7 will be an update
+---> Package xdg-utils.noarch 0:1.1.0-0.16.20120809git.el7 will be updated
+---> Package xdg-utils.noarch 0:1.1.0-0.17.20120809git.el7 will be an update
+---> Package xfsdump.x86_64 0:3.1.4-1.el7 will be updated
+---> Package xfsdump.x86_64 0:3.1.7-1.el7 will be an update
+---> Package xfsprogs.x86_64 0:3.2.1-6.el7 will be updated
+---> Package xfsprogs.x86_64 0:4.5.0-15.el7 will be an update
+---> Package xkeyboard-config.noarch 0:2.9-4.el7 will be updated
+---> Package xkeyboard-config.noarch 0:2.20-1.el7 will be an update
+---> Package xorg-x11-drv-ati.x86_64 0:7.4.0-1.20140918git56c7fb8.el7 will be updated
+---> Package xorg-x11-drv-ati.x86_64 0:7.10.0-1.el7 will be an update
+---> Package xorg-x11-drv-dummy.x86_64 0:0.3.6-15.el7 will be updated
+---> Package xorg-x11-drv-dummy.x86_64 0:0.3.7-1.el7 will be an update
+---> Package xorg-x11-drv-evdev.x86_64 0:2.8.2-5.el7 will be updated
+---> Package xorg-x11-drv-evdev.x86_64 0:2.10.5-2.1.el7 will be an update
+--> Processing Dependency: libevdev.so.2(LIBEVDEV_1)(64bit) for package: xorg-x11-drv-evdev-2.10.5-2.1.el7.x86_64
+--> Processing Dependency: libevdev.so.2()(64bit) for package: xorg-x11-drv-evdev-2.10.5-2.1.el7.x86_64
+---> Package xorg-x11-drv-fbdev.x86_64 0:0.4.3-15.el7 will be updated
+---> Package xorg-x11-drv-fbdev.x86_64 0:0.4.3-25.el7 will be an update
+---> Package xorg-x11-drv-intel.x86_64 0:2.99.916-5.el7 will be updated
+---> Package xorg-x11-drv-intel.x86_64 0:2.99.917-27.20160929.el7 will be an update
+---> Package xorg-x11-drv-modesetting.x86_64 0:0.8.0-13.el7 will be obsoleted
+---> Package xorg-x11-drv-nouveau.x86_64 1:1.0.10-5.el7 will be updated
+---> Package xorg-x11-drv-nouveau.x86_64 1:1.0.13-3.el7 will be an update
+---> Package xorg-x11-drv-qxl.x86_64 0:0.1.1-12.el7 will be updated
+---> Package xorg-x11-drv-qxl.x86_64 0:0.1.5-3.el7 will be an update
+---> Package xorg-x11-drv-synaptics.x86_64 0:1.7.1-13.el7 will be updated
+---> Package xorg-x11-drv-synaptics.x86_64 0:1.9.0-1.el7 will be an update
+---> Package xorg-x11-drv-v4l.x86_64 0:0.2.0-35.el7 will be updated
+---> Package xorg-x11-drv-v4l.x86_64 0:0.2.0-47.el7 will be an update
+---> Package xorg-x11-drv-vesa.x86_64 0:2.3.2-14.el7 will be updated
+---> Package xorg-x11-drv-vesa.x86_64 0:2.3.2-25.1.el7 will be an update
+---> Package xorg-x11-drv-vmmouse.x86_64 0:13.0.0-10.el7 will be updated
+---> Package xorg-x11-drv-vmmouse.x86_64 0:13.1.0-1.el7 will be an update
+---> Package xorg-x11-drv-vmware.x86_64 0:13.0.2-1.el7 will be updated
+---> Package xorg-x11-drv-vmware.x86_64 0:13.2.1-1.el7 will be an update
+---> Package xorg-x11-drv-void.x86_64 0:1.4.0-23.el7 will be updated
+---> Package xorg-x11-drv-void.x86_64 0:1.4.1-2.el7 will be an update
+---> Package xorg-x11-drv-wacom.x86_64 0:0.23.0-6.el7 will be updated
+---> Package xorg-x11-drv-wacom.x86_64 0:0.34.2-4.el7 will be an update
+---> Package xorg-x11-font-utils.x86_64 1:7.5-18.1.el7 will be updated
+---> Package xorg-x11-font-utils.x86_64 1:7.5-20.el7 will be an update
+---> Package xorg-x11-glamor.x86_64 0:0.6.0-2.20140918git347ef4f.el7 will be obsoleted
+---> Package xorg-x11-server-Xorg.x86_64 0:1.15.0-32.el7 will be updated
+---> Package xorg-x11-server-Xorg.x86_64 0:1.19.5-5.el7 will be obsoleting
+---> Package xorg-x11-server-common.x86_64 0:1.15.0-32.el7 will be updated
+---> Package xorg-x11-server-common.x86_64 0:1.19.5-5.el7 will be an update
+---> Package xorg-x11-server-utils.x86_64 0:7.7-4.el7 will be updated
+---> Package xorg-x11-server-utils.x86_64 0:7.7-20.el7 will be an update
+---> Package xorg-x11-utils.x86_64 0:7.5-13.1.el7 will be updated
+---> Package xorg-x11-utils.x86_64 0:7.5-22.el7 will be an update
+---> Package xorg-x11-xauth.x86_64 1:1.0.7-6.1.el7 will be updated
+---> Package xorg-x11-xauth.x86_64 1:1.0.9-1.el7 will be an update
+---> Package xorg-x11-xinit.x86_64 0:1.3.2-14.el7 will be updated
+---> Package xorg-x11-xinit.x86_64 0:1.3.4-2.el7 will be an update
+---> Package xorg-x11-xkb-utils.x86_64 0:7.7-9.1.el7 will be updated
+---> Package xorg-x11-xkb-utils.x86_64 0:7.7-12.el7 will be an update
+---> Package xz.x86_64 0:5.1.2-9alpha.el7 will be updated
+---> Package xz.x86_64 0:5.2.2-1.el7 will be an update
+---> Package xz-libs.x86_64 0:5.1.2-9alpha.el7 will be updated
+---> Package xz-libs.x86_64 0:5.2.2-1.el7 will be an update
+---> Package yelp.x86_64 1:3.8.1-7.el7 will be updated
+---> Package yelp.x86_64 1:3.22.0-1.el7 will be an update
+---> Package yelp-libs.x86_64 1:3.8.1-7.el7 will be updated
+---> Package yelp-libs.x86_64 1:3.22.0-1.el7 will be an update
+---> Package yelp-xsl.noarch 0:3.8.1-2.el7 will be updated
+---> Package yelp-xsl.noarch 0:3.20.1-1.el7 will be an update
+---> Package yum.noarch 0:3.4.3-125.el7 will be updated
+---> Package yum.noarch 0:3.4.3-158.el7.centos will be an update
+--> Processing Dependency: yum-plugin-fastestmirror for package: yum-3.4.3-158.el7.centos.noarch
+---> Package yum-langpacks.noarch 0:0.4.2-3.el7 will be updated
+---> Package yum-langpacks.noarch 0:0.4.2-7.el7 will be an update
+---> Package yum-rhn-plugin.noarch 0:2.0.1-5.el7 will be updated
+---> Package yum-rhn-plugin.noarch 0:2.0.1-10.el7 will be an update
+---> Package yum-utils.noarch 0:1.1.31-29.el7 will be updated
+---> Package yum-utils.noarch 0:1.1.31-45.el7 will be an update
+---> Package zenity.x86_64 0:3.8.0-4.el7 will be updated
+---> Package zenity.x86_64 0:3.22.0-1.el7 will be an update
+---> Package zip.x86_64 0:3.0-10.el7 will be updated
+---> Package zip.x86_64 0:3.0-11.el7 will be an update
+---> Package zlib.x86_64 0:1.2.7-13.el7 will be updated
+---> Package zlib.x86_64 0:1.2.7-17.el7 will be an update
+--> Running transaction check
+---> Package GeoIP.x86_64 0:1.5.0-11.el7 will be installed
+---> Package abrt-retrace-client.x86_64 0:2.1.11-50.el7.centos will be installed
+---> Package adwaita-icon-theme.noarch 0:3.26.0-1.el7 will be installed
+---> Package boost-date-time.x86_64 0:1.53.0-27.el7 will be installed
+---> Package clutter-gst3.x86_64 0:3.0.22-1.el7 will be installed
+---> Package compat-cheese314.x86_64 0:3.14.2-1.el7 will be installed
+---> Package compat-gnome-desktop314.x86_64 0:3.14.2-1.el7 will be installed
+---> Package compat-libcolord1.x86_64 0:1.0.4-1.el7 will be installed
+---> Package copy-jdk-configs.noarch 0:3.3-2.el7 will be installed
+---> Package dleyna-server.x86_64 0:0.5.0-3.el7 will be installed
+--> Processing Dependency: dleyna-connector-dbus(x86-64) for package: dleyna-server-0.5.0-3.el7.x86_64
+--> Processing Dependency: libgupnp-dlna-2.0.so.3()(64bit) for package: dleyna-server-0.5.0-3.el7.x86_64
+--> Processing Dependency: libdleyna-core-1.0.so.4()(64bit) for package: dleyna-server-0.5.0-3.el7.x86_64
+---> Package efivar-libs.x86_64 0:31-4.el7 will be installed
+---> Package elfutils-default-yama-scope.noarch 0:0.170-4.el7 will be installed
+---> Package firewalld-filesystem.noarch 0:0.4.4.4-14.el7 will be installed
+---> Package geoclue2.x86_64 0:2.4.5-1.el7 will be installed
+---> Package geoclue2-libs.x86_64 0:2.4.5-1.el7 will be installed
+---> Package geocode-glib.x86_64 0:3.20.1-1.el7 will be installed
+---> Package glibc.i686 0:2.17-222.el7 will be installed
+--> Processing Dependency: libfreebl3.so(NSSRAWHASH_3.12.3) for package: glibc-2.17-222.el7.i686
+--> Processing Dependency: libfreebl3.so for package: glibc-2.17-222.el7.i686
+---> Package glusterfs-client-xlators.x86_64 0:3.8.4-53.el7.centos will be installed
+---> Package gnome-dictionary-libs.x86_64 0:3.20.0-1.el7 will be installed
+---> Package gnome-documents-libs.x86_64 0:3.22.2-8.el7 will be installed
+---> Package gnome-online-miners.x86_64 0:3.22.0-2.el7 will be installed
+---> Package gnome-packagekit-installer.x86_64 0:3.22.1-2.el7 will be installed
+--> Processing Dependency: gnome-packagekit-common(x86-64) = 3.22.1-2.el7 for package: gnome-packagekit-installer-3.22.1-2.el7.x86_64
+---> Package gnome-packagekit-updater.x86_64 0:3.22.1-2.el7 will be installed
+---> Package gnome-shell-extension-top-icons.noarch 0:3.26.2-3.el7 will be installed
+---> Package gnome-shell-extension-user-theme.noarch 0:3.26.2-3.el7 will be installed
+---> Package gom.x86_64 0:0.3.2-1.el7 will be installed
+---> Package gperftools-libs.x86_64 0:2.6.1-1.el7 will be installed
+---> Package grub2-common.noarch 1:2.02-0.65.el7.centos.2 will be installed
+---> Package grub2-pc.x86_64 1:2.02-0.65.el7.centos.2 will be installed
+--> Processing Dependency: grub2-pc-modules = 1:2.02-0.65.el7.centos.2 for package: 1:grub2-pc-2.02-0.65.el7.centos.2.x86_64
+---> Package gsound.x86_64 0:1.0.2-2.el7 will be installed
+---> Package gspell.x86_64 0:1.2.3-1.el7 will be installed
+---> Package gtk-update-icon-cache.x86_64 0:3.22.26-3.el7 will be installed
+---> Package gucharmap-libs.x86_64 0:3.18.2-1.el7 will be installed
+---> Package gvfs-client.x86_64 0:1.30.4-5.el7 will be installed
+---> Package ipset.x86_64 0:6.29-1.el7 will be installed
+--> Processing Dependency: ipset-libs(x86-64) = 6.29-1.el7 for package: ipset-6.29-1.el7.x86_64
+--> Processing Dependency: libipset.so.3(LIBIPSET_3.0)(64bit) for package: ipset-6.29-1.el7.x86_64
+--> Processing Dependency: libipset.so.3(LIBIPSET_2.0)(64bit) for package: ipset-6.29-1.el7.x86_64
+--> Processing Dependency: libipset.so.3(LIBIPSET_1.0)(64bit) for package: ipset-6.29-1.el7.x86_64
+--> Processing Dependency: libipset.so.3()(64bit) for package: ipset-6.29-1.el7.x86_64
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.161-2.b14.el7 will be installed
+--> Processing Dependency: java-1.8.0-openjdk-headless(x86-64) = 1:1.8.0.161-2.b14.el7 for package: 1:java-1.8.0-openjdk-1.8.0.161-2.b14.el7.x86_64
+---> Package libXfont2.x86_64 0:2.0.1-2.el7 will be installed
+---> Package libblockdev.x86_64 0:2.12-3.el7 will be installed
+---> Package libblockdev-crypto.x86_64 0:2.12-3.el7 will be installed
+--> Processing Dependency: libvolume_key.so.1()(64bit) for package: libblockdev-crypto-2.12-3.el7.x86_64
+---> Package libblockdev-fs.x86_64 0:2.12-3.el7 will be installed
+---> Package libblockdev-loop.x86_64 0:2.12-3.el7 will be installed
+---> Package libblockdev-mdraid.x86_64 0:2.12-3.el7 will be installed
+--> Processing Dependency: libbytesize.so.1()(64bit) for package: libblockdev-mdraid-2.12-3.el7.x86_64
+---> Package libblockdev-part.x86_64 0:2.12-3.el7 will be installed
+---> Package libblockdev-swap.x86_64 0:2.12-3.el7 will be installed
+---> Package libblockdev-utils.x86_64 0:2.12-3.el7 will be installed
+---> Package libepoxy.x86_64 0:1.3.1-1.el7 will be installed
+---> Package libevdev.x86_64 0:1.5.6-1.el7 will be installed
+---> Package libfastjson.x86_64 0:0.99.4-2.el7 will be installed
+---> Package libgepub.x86_64 0:0.4-1.el7 will be installed
+---> Package libinput.x86_64 0:1.8.4-2.el7 will be installed
+---> Package libmbim-utils.x86_64 0:1.14.2-1.el7 will be installed
+---> Package libmediaart.x86_64 0:1.9.1-1.el7 will be installed
+---> Package libmspack.x86_64 0:0.5-0.5.alpha.el7 will be installed
+---> Package libnma.x86_64 0:1.8.6-2.el7 will be installed
+---> Package libpeas-gtk.x86_64 0:1.20.0-1.el7 will be installed
+---> Package libpeas-loader-python.x86_64 0:1.20.0-1.el7 will be installed
+---> Package libqmi-utils.x86_64 0:1.18.0-2.el7 will be installed
+---> Package libreofficekit.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libreoffice-filters(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreofficekit-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-core(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreofficekit-5.3.6.1-10.el7.x86_64
+---> Package libreport-centos.x86_64 0:2.1.11-40.el7.centos will be installed
+---> Package libreport-plugin-mantisbt.x86_64 0:2.1.11-40.el7.centos will be installed
+---> Package libsrtp.x86_64 0:1.4.4-10.20101004cvs.el7 will be installed
+---> Package libstoragemgmt-python-clibs.x86_64 0:1.6.1-2.el7 will be installed
+---> Package libtimezonemap.x86_64 0:0.4.4-1.el7 will be installed
+---> Package libusbmuxd.x86_64 0:1.0.10-5.el7 will be installed
+---> Package libvirt-daemon-config-network.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-core.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-disk.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-gluster.x86_64 0:3.9.0-14.el7 will be installed
+--> Processing Dependency: /usr/sbin/gluster for package: libvirt-daemon-driver-storage-gluster-3.9.0-14.el7.x86_64
+---> Package libvirt-daemon-driver-storage-iscsi.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-logical.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-mpath.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-rbd.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-daemon-driver-storage-scsi.x86_64 0:3.9.0-14.el7 will be installed
+---> Package libvirt-libs.x86_64 0:3.9.0-14.el7 will be installed
+--> Processing Dependency: cyrus-sasl-gssapi for package: libvirt-libs-3.9.0-14.el7.x86_64
+---> Package libwayland-client.x86_64 0:1.14.0-2.el7 will be installed
+---> Package libwayland-cursor.x86_64 0:1.14.0-2.el7 will be installed
+---> Package libwayland-server.x86_64 0:1.14.0-2.el7 will be installed
+---> Package libxkbcommon.x86_64 0:0.7.1-1.el7 will be installed
+---> Package libxkbcommon-x11.x86_64 0:0.7.1-1.el7 will be installed
+---> Package libxshmfence.x86_64 0:1.2-1.el7 will be installed
+---> Package lksctp-tools.x86_64 0:1.0.17-2.el7 will be installed
+---> Package llvm-private.x86_64 0:5.0.0-3.el7 will be installed
+---> Package lsscsi.x86_64 0:0.27-6.el7 will be installed
+---> Package lz4.x86_64 0:1.7.5-2.el7 will be installed
+---> Package mesa-libGLES.x86_64 0:17.2.3-8.20171019.el7 will be installed
+---> Package mesa-libwayland-egl.x86_64 0:17.2.3-8.20171019.el7 will be installed
+---> Package ncompress.x86_64 0:4.2.4.4-3.el7 will be installed
+---> Package osinfo-db.noarch 0:20170813-6.el7 will be installed
+---> Package osinfo-db-tools.x86_64 0:1.1.0-1.el7 will be installed
+---> Package pcre2.x86_64 0:10.23-2.el7 will be installed
+---> Package pcsc-lite-libs.x86_64 0:1.8.8-7.el7 will be installed
+---> Package python-firewall.noarch 0:0.4.4.4-14.el7 will be installed
+---> Package python-ipaddress.noarch 0:1.0.16-2.el7 will be installed
+---> Package python-linux-procfs.noarch 0:0.4.9-3.el7 will be installed
+---> Package python-magic.noarch 0:5.11-33.el7 will be installed
+---> Package python-ntplib.noarch 0:0.3.2-1.el7 will be installed
+---> Package python-perf.x86_64 0:3.10.0-862.el7 will be installed
+---> Package python-schedutils.x86_64 0:0.4-6.el7 will be installed
+---> Package samba-client-libs.x86_64 0:4.7.1-6.el7 will be installed
+---> Package samba-common-libs.x86_64 0:4.7.1-6.el7 will be installed
+---> Package subscription-manager-rhsm-certificates.x86_64 0:1.20.11-1.el7.centos will be installed
+---> Package systemd-libs.i686 0:219-57.el7 will be installed
+--> Processing Dependency: libselinux.so.1 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libpam_misc.so.0(LIBPAM_MISC_1.0) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libpam_misc.so.0 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libpam.so.0(LIBPAM_MODUTIL_1.0) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libpam.so.0(LIBPAM_EXTENSION_1.0) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libpam.so.0(LIBPAM_1.0) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libpam.so.0 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: liblzma.so.5(XZ_5.0) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: liblzma.so.5 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: liblz4.so.1 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libgpg-error.so.0 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libgcrypt.so.11(GCRYPT_1.2) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libgcrypt.so.11 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libgcc_s.so.1(GCC_3.3.1) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libgcc_s.so.1(GCC_3.0) for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libgcc_s.so.1 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libdw.so.1 for package: systemd-libs-219-57.el7.i686
+--> Processing Dependency: libcap.so.2 for package: systemd-libs-219-57.el7.i686
+---> Package vte-profile.x86_64 0:0.46.2-1.el7 will be installed
+---> Package vte291.x86_64 0:0.46.2-1.el7 will be installed
+---> Package webkitgtk4.x86_64 0:2.16.6-6.el7 will be installed
+--> Processing Dependency: webkitgtk4-plugin-process-gtk2(x86-64) = 2.16.6-6.el7 for package: webkitgtk4-2.16.6-6.el7.x86_64
+--> Processing Dependency: libhyphen.so.0()(64bit) for package: webkitgtk4-2.16.6-6.el7.x86_64
+---> Package webkitgtk4-jsc.x86_64 0:2.16.6-6.el7 will be installed
+---> Package xmlsec1.x86_64 0:1.2.20-7.el7_4 will be installed
+---> Package xmlsec1-openssl.x86_64 0:1.2.20-7.el7_4 will be installed
+---> Package yum-plugin-fastestmirror.noarch 0:1.1.31-45.el7 will be installed
+--> Running transaction check
+---> Package cyrus-sasl-gssapi.x86_64 0:2.1.26-23.el7 will be installed
+---> Package dleyna-connector-dbus.x86_64 0:0.2.0-2.el7 will be installed
+---> Package dleyna-core.x86_64 0:0.5.0-1.el7 will be installed
+---> Package elfutils-libs.i686 0:0.170-4.el7 will be installed
+--> Processing Dependency: elfutils-libelf(x86-32) = 0.170-4.el7 for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libz.so.1(ZLIB_1.2.2.3) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libz.so.1 for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.7) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.6) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.5) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.4) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.3) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.1.1) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1(ELFUTILS_1.0) for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libelf.so.1 for package: elfutils-libs-0.170-4.el7.i686
+--> Processing Dependency: libbz2.so.1 for package: elfutils-libs-0.170-4.el7.i686
+---> Package glusterfs-cli.x86_64 0:3.8.4-53.el7.centos will be installed
+---> Package gnome-packagekit-common.x86_64 0:3.22.1-2.el7 will be installed
+---> Package grub2-pc-modules.noarch 1:2.02-0.65.el7.centos.2 will be installed
+---> Package gupnp-dlna.x86_64 0:0.10.5-1.el7 will be installed
+---> Package hyphen.x86_64 0:2.8.6-5.el7 will be installed
+---> Package ipset-libs.x86_64 0:6.29-1.el7 will be installed
+---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.161-2.b14.el7 will be installed
+---> Package libbytesize.x86_64 0:1.2-1.el7 will be installed
+---> Package libcap.i686 0:2.22-9.el7 will be installed
+--> Processing Dependency: libattr.so.1(ATTR_1.0) for package: libcap-2.22-9.el7.i686
+--> Processing Dependency: libattr.so.1 for package: libcap-2.22-9.el7.i686
+---> Package libgcc.i686 0:4.8.5-28.el7 will be installed
+---> Package libgcrypt.i686 0:1.5.3-14.el7 will be installed
+---> Package libgpg-error.i686 0:1.12-3.el7 will be installed
+---> Package libreoffice-core.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libreoffice-x11(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-ure(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-opensymbol-fonts = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-langpack-en = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-gtk3(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-gtk2(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-data = 1:5.3.6.1-10.el7 for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_salhelpergcc3.so.3(UDK_3_0_0)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_salhelpergcc3.so.3(UDK_3.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_salhelpergcc3.so.3(LIBO_UDK_3.6)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3_0_0)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.8)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.7)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.6)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.5)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.3)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.2)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.11)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(UDK_3.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(PRIVATE_1.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_5.3)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_5.2)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_5.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_5.0)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_4.3)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_4.2)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_4.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_4.0)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_3.6)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3(LIBO_UDK_3.5)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3_0_0)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3.8)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3.7)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3.6)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3.3)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3.2)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(UDK_3.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(LIBO_UDK_5.3)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3(LIBO_UDK_3.9)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppu.so.3(UDK_3_0_0)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppu.so.3(UDK_3.3)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppu.so.3(UDK_3.1)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppu.so.3(LIBO_UDK_4.4)(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libxmlreaderlo.so()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_salhelpergcc3.so.3()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_sal.so.3()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppuhelpergcc3.so.3()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libuno_cppu.so.3()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: librevenge-stream-0.0.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: librevenge-0.0.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: librdf.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libraptor2.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: liborcus-parser-0.12.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: liborcus-0.12.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libodfgen-0.1.so.1()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libmythes-1.2.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libjvmfwklo.so()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libjvmaccesslo.so()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libi18nlangtag.so()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libexttextcat-2.0.so.0()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libcmis-0.5.so.5()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libclucene-shared.so.1()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libclucene-core.so.1()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libclucene-contribs-lib.so.1()(64bit) for package: 1:libreoffice-core-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-filters.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libreoffice-xsltfilter(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-writer(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-math(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-impress(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-graphicfilter(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-draw(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libreoffice-calc(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-filters-5.3.6.1-10.el7.x86_64
+---> Package libselinux.i686 0:2.5-12.el7 will be installed
+--> Processing Dependency: libsepol(x86-32) >= 2.5-6 for package: libselinux-2.5-12.el7.i686
+--> Processing Dependency: libsepol.so.1(LIBSEPOL_1.0) for package: libselinux-2.5-12.el7.i686
+--> Processing Dependency: libsepol.so.1 for package: libselinux-2.5-12.el7.i686
+--> Processing Dependency: libpcre.so.1 for package: libselinux-2.5-12.el7.i686
+---> Package lz4.i686 0:1.7.5-2.el7 will be installed
+---> Package nss-softokn-freebl.i686 0:3.34.0-2.el7 will be installed
+---> Package pam.i686 0:1.1.8-22.el7 will be installed
+--> Processing Dependency: libdb-5.3.so for package: pam-1.1.8-22.el7.i686
+--> Processing Dependency: libcrack.so.2 for package: pam-1.1.8-22.el7.i686
+--> Processing Dependency: libaudit.so.1 for package: pam-1.1.8-22.el7.i686
+---> Package volume_key-libs.x86_64 0:0.3.9-8.el7 will be installed
+---> Package webkitgtk4-plugin-process-gtk2.x86_64 0:2.16.6-6.el7 will be installed
+---> Package xz-libs.i686 0:5.2.2-1.el7 will be installed
+--> Running transaction check
+---> Package audit-libs.i686 0:2.8.1-3.el7 will be installed
+--> Processing Dependency: libcap-ng.so.0 for package: audit-libs-2.8.1-3.el7.i686
+---> Package bzip2-libs.i686 0:1.0.6-13.el7 will be installed
+---> Package clucene-contribs-lib.x86_64 0:2.3.3.4-11.el7 will be installed
+---> Package clucene-core.x86_64 0:2.3.3.4-11.el7 will be installed
+---> Package cracklib.i686 0:2.9.0-11.el7 will be installed
+---> Package elfutils-libelf.i686 0:0.170-4.el7 will be installed
+---> Package libattr.i686 0:2.4.46-13.el7 will be installed
+---> Package libcmis.x86_64 0:0.5.1-2.el7 will be installed
+---> Package libdb.i686 0:5.3.21-24.el7 will be installed
+---> Package libexttextcat.x86_64 0:3.4.1-3.el7 will be installed
+---> Package libodfgen.x86_64 0:0.1.4-1.el7 will be installed
+---> Package liborcus.x86_64 0:0.12.1-2.el7 will be installed
+--> Processing Dependency: libboost_iostreams-mt.so.1.53.0()(64bit) for package: liborcus-0.12.1-2.el7.x86_64
+--> Processing Dependency: libboost_filesystem-mt.so.1.53.0()(64bit) for package: liborcus-0.12.1-2.el7.x86_64
+---> Package libreoffice-calc.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libreoffice-pyuno(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-calc-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libwps-0.4.so.4()(64bit) for package: 1:libreoffice-calc-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libstaroffice-0.0.so.0()(64bit) for package: 1:libreoffice-calc-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libmwaw-0.3.so.3()(64bit) for package: 1:libreoffice-calc-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: liblpsolve55.so()(64bit) for package: 1:libreoffice-calc-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libetonyek-0.1.so.1()(64bit) for package: 1:libreoffice-calc-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-data.noarch 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-draw.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libreoffice-pdfimport(x86-64) = 1:5.3.6.1-10.el7 for package: 1:libreoffice-draw-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-graphicfilter.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libzmf-0.0.so.0()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libwpg-0.3.so.3()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libwpd-0.10.so.10()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libvisio-0.1.so.1()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libpagemaker-0.0.so.0()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libmspub-0.1.so.1()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libfreehand-0.1.so.1()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: libcdr-0.1.so.1()(64bit) for package: 1:libreoffice-graphicfilter-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-gtk2.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-gtk3.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: gstreamer1(element-gtksink)()(64bit) for package: 1:libreoffice-gtk3-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-impress.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-langpack-en.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: mythes-en for package: 1:libreoffice-langpack-en-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: hyphen-en for package: 1:libreoffice-langpack-en-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: autocorr-en for package: 1:libreoffice-langpack-en-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-math.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-opensymbol-fonts.noarch 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-ure.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libreoffice-ure-common = 1:5.3.6.1-10.el7 for package: 1:libreoffice-ure-5.3.6.1-10.el7.x86_64
+--> Processing Dependency: liblangtag.so.1()(64bit) for package: 1:libreoffice-ure-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-writer.x86_64 1:5.3.6.1-10.el7 will be installed
+--> Processing Dependency: libabw-0.1.so.1()(64bit) for package: 1:libreoffice-writer-5.3.6.1-10.el7.x86_64
+---> Package libreoffice-x11.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-xsltfilter.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package librevenge.x86_64 0:0.0.2-2.el7 will be installed
+---> Package libsepol.i686 0:2.5-8.1.el7 will be installed
+---> Package mythes.x86_64 0:1.2.3-7.el7 will be installed
+---> Package pcre.i686 0:8.32-17.el7 will be installed
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4.9) for package: pcre-8.32-17.el7.i686
+--> Processing Dependency: libstdc++.so.6(GLIBCXX_3.4) for package: pcre-8.32-17.el7.i686
+--> Processing Dependency: libstdc++.so.6(CXXABI_1.3) for package: pcre-8.32-17.el7.i686
+--> Processing Dependency: libstdc++.so.6 for package: pcre-8.32-17.el7.i686
+---> Package raptor2.x86_64 0:2.0.9-3.el7 will be installed
+---> Package redland.x86_64 0:1.0.16-6.el7 will be installed
+--> Processing Dependency: librasqal.so.3()(64bit) for package: redland-1.0.16-6.el7.x86_64
+---> Package zlib.i686 0:1.2.7-17.el7 will be installed
+--> Running transaction check
+---> Package autocorr-en.noarch 1:5.3.6.1-10.el7 will be installed
+---> Package boost-filesystem.x86_64 0:1.53.0-27.el7 will be installed
+---> Package boost-iostreams.x86_64 0:1.53.0-27.el7 will be installed
+---> Package gstreamer1-plugins-bad-free-gtk.x86_64 0:1.10.4-3.el7 will be installed
+---> Package hyphen-en.noarch 0:2.8.6-5.el7 will be installed
+---> Package libabw.x86_64 0:0.1.1-2.el7 will be installed
+---> Package libcap-ng.i686 0:0.7.5-4.el7 will be installed
+---> Package libcdr.x86_64 0:0.1.4-1.el7 will be installed
+---> Package libetonyek.x86_64 0:0.1.7-1.el7 will be installed
+---> Package libfreehand.x86_64 0:0.1.1-1.el7 will be installed
+---> Package liblangtag.x86_64 0:0.6.2-1.1.el7 will be installed
+---> Package libmspub.x86_64 0:0.1.2-1.el7 will be installed
+---> Package libmwaw.x86_64 0:0.3.5-1.el7 will be installed
+---> Package libpagemaker.x86_64 0:0.0.3-1.el7 will be installed
+---> Package libreoffice-pdfimport.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-pyuno.x86_64 1:5.3.6.1-10.el7 will be installed
+---> Package libreoffice-ure-common.noarch 1:5.3.6.1-10.el7 will be installed
+---> Package libstaroffice.x86_64 0:0.0.4-1.el7 will be installed
+---> Package libstdc++.i686 0:4.8.5-28.el7 will be installed
+---> Package libvisio.x86_64 0:0.1.6-1.el7 will be installed
+---> Package libwpd.x86_64 0:0.10.0-1.el7 will be installed
+---> Package libwpg.x86_64 0:0.3.0-1.el7 will be installed
+---> Package libwps.x86_64 0:0.4.7-1.el7 will be installed
+---> Package libzmf.x86_64 0:0.0.2-1.el7 will be installed
+---> Package lpsolve.x86_64 0:5.5.2.0-8.el7 will be installed
+---> Package mythes-en.noarch 0:3.0-13.el7 will be installed
+---> Package rasqal.x86_64 0:0.9.30-4.el7 will be installed
+--> Processing Conflict: initscripts-9.49.41-1.el7.x86_64 conflicts redhat-release < 7.5-0.11
+--> Processing Conflict: unbound-libs-1.6.6-1.el7.x86_64 conflicts redhat-release-server < 7.2-7
+--> Finished Dependency Resolution
+ You could try using --skip-broken to work around the problem
+ You could try running: rpm -Va --nofiles --nodigest
+Loaded plugins: langpacks, product-id, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Resolving Dependencies
+--> Running transaction check
+---> Package wget.x86_64 0:1.14-10.el7_0.1 will be updated
+---> Package wget.x86_64 0:1.14-15.el7_4.1 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package       Arch            Version                    Repository       Size
+================================================================================
+Updating:
+ wget          x86_64          1.14-15.el7_4.1            centos          547 k
+
+Transaction Summary
+================================================================================
+Upgrade  1 Package
+
+Total download size: 547 k
+Downloading packages:
+No Presto metadata available for centos
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : wget-1.14-15.el7_4.1.x86_64                                  1/2 
+  Cleanup    : wget-1.14-10.el7_0.1.x86_64                                  2/2 
+  Verifying  : wget-1.14-15.el7_4.1.x86_64                                  1/2 
+  Verifying  : wget-1.14-10.el7_0.1.x86_64                                  2/2 
+
+Updated:
+  wget.x86_64 0:1.14-15.el7_4.1                                                 
+
+Complete!
+Preparing...                          ########################################
+Preparing...                          ########################################
+Updating / installing...
+mysql-community-release-el7-5         ########################################
+Loaded plugins: langpacks, product-id, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Resolving Dependencies
+--> Running transaction check
+---> Package mysql-community-server.x86_64 0:5.6.40-2.el7 will be installed
+--> Processing Dependency: mysql-community-common(x86-64) = 5.6.40-2.el7 for package: mysql-community-server-5.6.40-2.el7.x86_64
+--> Processing Dependency: mysql-community-client(x86-64) >= 5.6.10 for package: mysql-community-server-5.6.40-2.el7.x86_64
+--> Processing Dependency: perl(DBI) for package: mysql-community-server-5.6.40-2.el7.x86_64
+--> Running transaction check
+---> Package mysql-community-client.x86_64 0:5.6.40-2.el7 will be installed
+--> Processing Dependency: mysql-community-libs(x86-64) >= 5.6.10 for package: mysql-community-client-5.6.40-2.el7.x86_64
+---> Package mysql-community-common.x86_64 0:5.6.40-2.el7 will be installed
+---> Package perl-DBI.x86_64 0:1.627-4.el7 will be installed
+--> Processing Dependency: perl(RPC::PlServer) >= 0.2001 for package: perl-DBI-1.627-4.el7.x86_64
+--> Processing Dependency: perl(RPC::PlClient) >= 0.2000 for package: perl-DBI-1.627-4.el7.x86_64
+--> Running transaction check
+---> Package mariadb-libs.x86_64 1:5.5.41-2.el7_0 will be obsoleted
+---> Package mysql-community-libs.x86_64 0:5.6.40-2.el7 will be obsoleting
+---> Package perl-PlRPC.noarch 0:0.2020-14.el7 will be installed
+--> Processing Dependency: perl(Net::Daemon) >= 0.13 for package: perl-PlRPC-0.2020-14.el7.noarch
+--> Processing Dependency: perl(Net::Daemon::Test) for package: perl-PlRPC-0.2020-14.el7.noarch
+--> Processing Dependency: perl(Net::Daemon::Log) for package: perl-PlRPC-0.2020-14.el7.noarch
+--> Processing Dependency: perl(Compress::Zlib) for package: perl-PlRPC-0.2020-14.el7.noarch
+--> Running transaction check
+---> Package perl-IO-Compress.noarch 0:2.061-2.el7 will be installed
+--> Processing Dependency: perl(Compress::Raw::Zlib) >= 2.061 for package: perl-IO-Compress-2.061-2.el7.noarch
+--> Processing Dependency: perl(Compress::Raw::Bzip2) >= 2.061 for package: perl-IO-Compress-2.061-2.el7.noarch
+---> Package perl-Net-Daemon.noarch 0:0.48-5.el7 will be installed
+--> Running transaction check
+---> Package perl-Compress-Raw-Bzip2.x86_64 0:2.061-3.el7 will be installed
+---> Package perl-Compress-Raw-Zlib.x86_64 1:2.061-4.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                   Arch     Version           Repository           Size
+================================================================================
+Installing:
+ mysql-community-libs      x86_64   5.6.40-2.el7      mysql56-community   2.0 M
+     replacing  mariadb-libs.x86_64 1:5.5.41-2.el7_0
+ mysql-community-server    x86_64   5.6.40-2.el7      mysql56-community    59 M
+Installing for dependencies:
+ mysql-community-client    x86_64   5.6.40-2.el7      mysql56-community    19 M
+ mysql-community-common    x86_64   5.6.40-2.el7      mysql56-community   257 k
+ perl-Compress-Raw-Bzip2   x86_64   2.061-3.el7       centos               32 k
+ perl-Compress-Raw-Zlib    x86_64   1:2.061-4.el7     centos               57 k
+ perl-DBI                  x86_64   1.627-4.el7       centos              802 k
+ perl-IO-Compress          noarch   2.061-2.el7       centos              260 k
+ perl-Net-Daemon           noarch   0.48-5.el7        centos               51 k
+ perl-PlRPC                noarch   0.2020-14.el7     centos               36 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages (+8 Dependent packages)
+
+Total download size: 82 M
+Downloading packages:
+Public key for mysql-community-common-5.6.40-2.el7.x86_64.rpm is not installed
+--------------------------------------------------------------------------------
+Total                                              883 kB/s |  82 MB  01:35     
+Retrieving key from file:/etc/pki/rpm-gpg/RPM-GPG-KEY-mysql
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mysql-community-common-5.6.40-2.el7.x86_64                  1/11 
+  Installing : mysql-community-libs-5.6.40-2.el7.x86_64                    2/11 
+  Installing : mysql-community-client-5.6.40-2.el7.x86_64                  3/11 
+  Installing : 1:perl-Compress-Raw-Zlib-2.061-4.el7.x86_64                 4/11 
+  Installing : perl-Net-Daemon-0.48-5.el7.noarch                           5/11 
+  Installing : perl-Compress-Raw-Bzip2-2.061-3.el7.x86_64                  6/11 
+  Installing : perl-IO-Compress-2.061-2.el7.noarch                         7/11 
+  Installing : perl-PlRPC-0.2020-14.el7.noarch                             8/11 
+  Installing : perl-DBI-1.627-4.el7.x86_64                                 9/11 
+  Installing : mysql-community-server-5.6.40-2.el7.x86_64                 10/11 
+  Erasing    : 1:mariadb-libs-5.5.41-2.el7_0.x86_64                       11/11 
+  Verifying  : perl-Compress-Raw-Bzip2-2.061-3.el7.x86_64                  1/11 
+  Verifying  : perl-Net-Daemon-0.48-5.el7.noarch                           2/11 
+  Verifying  : mysql-community-server-5.6.40-2.el7.x86_64                  3/11 
+  Verifying  : perl-PlRPC-0.2020-14.el7.noarch                             4/11 
+  Verifying  : mysql-community-client-5.6.40-2.el7.x86_64                  5/11 
+  Verifying  : 1:perl-Compress-Raw-Zlib-2.061-4.el7.x86_64                 6/11 
+  Verifying  : mysql-community-libs-5.6.40-2.el7.x86_64                    7/11 
+  Verifying  : mysql-community-common-5.6.40-2.el7.x86_64                  8/11 
+  Verifying  : perl-DBI-1.627-4.el7.x86_64                                 9/11 
+  Verifying  : perl-IO-Compress-2.061-2.el7.noarch                        10/11 
+  Verifying  : 1:mariadb-libs-5.5.41-2.el7_0.x86_64                       11/11 
+
+Installed:
+  mysql-community-libs.x86_64 0:5.6.40-2.el7                                    
+  mysql-community-server.x86_64 0:5.6.40-2.el7                                  
+
+Dependency Installed:
+  mysql-community-client.x86_64 0:5.6.40-2.el7                                  
+  mysql-community-common.x86_64 0:5.6.40-2.el7                                  
+  perl-Compress-Raw-Bzip2.x86_64 0:2.061-3.el7                                  
+  perl-Compress-Raw-Zlib.x86_64 1:2.061-4.el7                                   
+  perl-DBI.x86_64 0:1.627-4.el7                                                 
+  perl-IO-Compress.noarch 0:2.061-2.el7                                         
+  perl-Net-Daemon.noarch 0:0.48-5.el7                                           
+  perl-PlRPC.noarch 0:0.2020-14.el7                                             
+
+Replaced:
+  mariadb-libs.x86_64 1:5.5.41-2.el7_0                                          
+
+Complete!
+180625 11:13:46 mysqld_safe Logging to '/var/log/mysqld.log'.
+180625 11:13:46 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+Loaded plugins: langpacks, product-id, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-80.el7.centos will be installed
+--> Processing Dependency: httpd-tools = 2.4.6-80.el7.centos for package: httpd-2.4.6-80.el7.centos.x86_64
+--> Processing Dependency: /etc/mime.types for package: httpd-2.4.6-80.el7.centos.x86_64
+--> Running transaction check
+---> Package httpd-tools.x86_64 0:2.4.6-80.el7.centos will be installed
+---> Package mailcap.noarch 0:2.1.41-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package           Arch         Version                      Repository    Size
+================================================================================
+Installing:
+ httpd             x86_64       2.4.6-80.el7.centos          centos       2.7 M
+Installing for dependencies:
+ httpd-tools       x86_64       2.4.6-80.el7.centos          centos        89 k
+ mailcap           noarch       2.1.41-2.el7                 centos        31 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+2 Dependent packages)
+
+Total download size: 2.8 M
+Installed size: 9.6 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              2.7 MB/s | 2.8 MB  00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mailcap-2.1.41-2.el7.noarch                                  1/3 
+  Installing : httpd-tools-2.4.6-80.el7.centos.x86_64                       2/3 
+  Installing : httpd-2.4.6-80.el7.centos.x86_64                             3/3 
+  Verifying  : httpd-tools-2.4.6-80.el7.centos.x86_64                       1/3 
+  Verifying  : mailcap-2.1.41-2.el7.noarch                                  2/3 
+  Verifying  : httpd-2.4.6-80.el7.centos.x86_64                             3/3 
+
+Installed:
+  httpd.x86_64 0:2.4.6-80.el7.centos                                            
+
+Dependency Installed:
+  httpd-tools.x86_64 0:2.4.6-80.el7.centos     mailcap.noarch 0:2.1.41-2.el7    
+
+Complete!
+Loaded plugins: langpacks, product-id, subscription-manager
+This system is not registered to Red Hat Subscription Management. You can use subscription-manager to register.
+Resolving Dependencies
+--> Running transaction check
+---> Package php.x86_64 0:5.4.16-45.el7 will be installed
+--> Processing Dependency: libcrypto.so.10(OPENSSL_1.0.2)(64bit) for package: php-5.4.16-45.el7.x86_64
+---> Package php-cli.x86_64 0:5.4.16-45.el7 will be installed
+---> Package php-common.x86_64 0:5.4.16-45.el7 will be installed
+--> Processing Dependency: libzip.so.2()(64bit) for package: php-common-5.4.16-45.el7.x86_64
+---> Package php-gd.x86_64 0:5.4.16-45.el7 will be installed
+--> Processing Dependency: libt1.so.5()(64bit) for package: php-gd-5.4.16-45.el7.x86_64
+---> Package php-ldap.x86_64 0:5.4.16-45.el7 will be installed
+---> Package php-mcrypt.x86_64 0:5.4.16-7.el7 will be installed
+--> Processing Dependency: libmcrypt.so.4()(64bit) for package: php-mcrypt-5.4.16-7.el7.x86_64
+---> Package php-mysql.x86_64 0:5.4.16-45.el7 will be installed
+--> Processing Dependency: php-pdo(x86-64) = 5.4.16-45.el7 for package: php-mysql-5.4.16-45.el7.x86_64
+--> Running transaction check
+---> Package libmcrypt.x86_64 0:2.5.8-13.el7 will be installed
+---> Package libzip.x86_64 0:0.10.1-8.el7 will be installed
+---> Package openssl-libs.x86_64 1:1.0.1e-42.el7 will be updated
+--> Processing Dependency: openssl-libs(x86-64) = 1:1.0.1e-42.el7 for package: 1:openssl-1.0.1e-42.el7.x86_64
+---> Package openssl-libs.x86_64 1:1.0.2k-12.el7 will be an update
+---> Package php-pdo.x86_64 0:5.4.16-45.el7 will be installed
+---> Package t1lib.x86_64 0:5.1.2-14.el7 will be installed
+--> Running transaction check
+---> Package openssl.x86_64 1:1.0.1e-42.el7 will be updated
+---> Package openssl.x86_64 1:1.0.2k-12.el7 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch          Version                  Repository     Size
+================================================================================
+Installing:
+ php                 x86_64        5.4.16-45.el7            centos        1.4 M
+ php-cli             x86_64        5.4.16-45.el7            centos        2.7 M
+ php-common          x86_64        5.4.16-45.el7            centos        565 k
+ php-gd              x86_64        5.4.16-45.el7            centos        128 k
+ php-ldap            x86_64        5.4.16-45.el7            centos         53 k
+ php-mcrypt          x86_64        5.4.16-7.el7             epel           20 k
+ php-mysql           x86_64        5.4.16-45.el7            centos        101 k
+Installing for dependencies:
+ libmcrypt           x86_64        2.5.8-13.el7             epel           99 k
+ libzip              x86_64        0.10.1-8.el7             centos         48 k
+ php-pdo             x86_64        5.4.16-45.el7            centos         99 k
+ t1lib               x86_64        5.1.2-14.el7             centos        166 k
+Updating for dependencies:
+ openssl             x86_64        1:1.0.2k-12.el7          centos        492 k
+ openssl-libs        x86_64        1:1.0.2k-12.el7          centos        1.2 M
+
+Transaction Summary
+================================================================================
+Install  7 Packages (+4 Dependent packages)
+Upgrade             ( 2 Dependent packages)
+
+Total download size: 7.0 M
+Downloading packages:
+No Presto metadata available for centos
+Public key for libmcrypt-2.5.8-13.el7.x86_64.rpm is not installed
+--------------------------------------------------------------------------------
+Total                                              2.8 MB/s | 7.0 MB  00:02     
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : 1:openssl-libs-1.0.2k-12.el7.x86_64                         1/15 
+  Installing : libmcrypt-2.5.8-13.el7.x86_64                               2/15 
+  Installing : libzip-0.10.1-8.el7.x86_64                                  3/15 
+  Installing : php-common-5.4.16-45.el7.x86_64                             4/15 
+  Installing : php-cli-5.4.16-45.el7.x86_64                                5/15 
+  Installing : php-pdo-5.4.16-45.el7.x86_64                                6/15 
+  Installing : t1lib-5.1.2-14.el7.x86_64                                   7/15 
+  Installing : php-gd-5.4.16-45.el7.x86_64                                 8/15 
+  Installing : php-mysql-5.4.16-45.el7.x86_64                              9/15 
+  Installing : php-5.4.16-45.el7.x86_64                                   10/15 
+  Installing : php-ldap-5.4.16-45.el7.x86_64                              11/15 
+  Installing : php-mcrypt-5.4.16-7.el7.x86_64                             12/15 
+  Updating   : 1:openssl-1.0.2k-12.el7.x86_64                             13/15 
+  Cleanup    : 1:openssl-1.0.1e-42.el7.x86_64                             14/15 
+  Cleanup    : 1:openssl-libs-1.0.1e-42.el7.x86_64                        15/15 
+  Verifying  : php-ldap-5.4.16-45.el7.x86_64                               1/15 
+  Verifying  : 1:openssl-libs-1.0.2k-12.el7.x86_64                         2/15 
+  Verifying  : php-common-5.4.16-45.el7.x86_64                             3/15 
+  Verifying  : t1lib-5.1.2-14.el7.x86_64                                   4/15 
+  Verifying  : php-5.4.16-45.el7.x86_64                                    5/15 
+  Verifying  : php-mcrypt-5.4.16-7.el7.x86_64                              6/15 
+  Verifying  : php-cli-5.4.16-45.el7.x86_64                                7/15 
+  Verifying  : php-gd-5.4.16-45.el7.x86_64                                 8/15 
+  Verifying  : php-pdo-5.4.16-45.el7.x86_64                                9/15 
+  Verifying  : php-mysql-5.4.16-45.el7.x86_64                             10/15 
+  Verifying  : libzip-0.10.1-8.el7.x86_64                                 11/15 
+  Verifying  : libmcrypt-2.5.8-13.el7.x86_64                              12/15 
+  Verifying  : 1:openssl-1.0.2k-12.el7.x86_64                             13/15 
+  Verifying  : 1:openssl-1.0.1e-42.el7.x86_64                             14/15 
+  Verifying  : 1:openssl-libs-1.0.1e-42.el7.x86_64                        15/15 
+
+Installed:
+  php.x86_64 0:5.4.16-45.el7              php-cli.x86_64 0:5.4.16-45.el7        
+  php-common.x86_64 0:5.4.16-45.el7       php-gd.x86_64 0:5.4.16-45.el7         
+  php-ldap.x86_64 0:5.4.16-45.el7         php-mcrypt.x86_64 0:5.4.16-7.el7      
+  php-mysql.x86_64 0:5.4.16-45.el7       
+
+Dependency Installed:
+  libmcrypt.x86_64 0:2.5.8-13.el7          libzip.x86_64 0:0.10.1-8.el7         
+  php-pdo.x86_64 0:5.4.16-45.el7           t1lib.x86_64 0:5.1.2-14.el7          
+
+Dependency Updated:
+  openssl.x86_64 1:1.0.2k-12.el7       openssl-libs.x86_64 1:1.0.2k-12.el7      
+
+Complete!
+Creating directory '/var/www/html/wordpress/'.
+Downloading WordPress 4.9.6 (en_US)...
+md5 hash verified: f168643b20001cc46b3478facd4f539b
+[32;1mSuccess:[0m WordPress downloaded.
+[32;1mSuccess:[0m Generated 'wp-config.php' file.
+[32;1mSuccess:[0m WordPress installed successfully.
+

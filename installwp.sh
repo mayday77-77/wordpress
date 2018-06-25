@@ -53,13 +53,13 @@ installWP()
    installWPCli
    
    # get latest wp files
-   wp core download --path=$pathWP
+   /usr/bin/wp core download --path=$pathWP
 
    # DB credentials
-   wp core config --path=$pathWP --dbname=$DB_NAME --dbuser=$DB_USER --dbpass=$DB_PASSWORD 
+   /usr/bin/wp core config --path=$pathWP --dbname=$DB_NAME --dbuser=$DB_USER --dbpass=$DB_PASSWORD 
 
    # installation
-   wp core install --path=$pathWP --url="$siteInput/wordpress" --title="Testing WP" \
+   /usr/bin/wp core install --path=$pathWP --url="$siteInput/wordpress" --title="Testing WP" \
 			--admin_user=tester --admin_password=tester123 --admin_email=mayday77@gmail.com
 
    service httpd start 

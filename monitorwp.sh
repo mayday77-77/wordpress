@@ -6,7 +6,7 @@
 httpLog=/var/log/httpd/access_log
 errorFile=monitor_log/wp_errors.log
 
-tail -Fn0 $httpLog | while read line
+tail -F $httpLog | while read line
 do
-  echo $line |awk '($9>=300 && $9!=304 || $7 ~ /xmlrpc.php/ ){print}' >> $errorFile
+  echo $line |awk '($9!=200 && $9!=304){print}' >> $errorFile
 done
