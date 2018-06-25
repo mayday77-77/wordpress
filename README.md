@@ -19,7 +19,8 @@ Note: The script will download and install apache webserver, mqsql, php and Word
 3) run the script:  
    ./installwp.sh <IP/domain name where the site will be hosted>  
    e.g:  
-   ./installwp.sh 192.168.31.129
+   ./installwp.sh 192.168.31.129  
+   (sample install log: )  
    
 4) Once completed, access the URL : http://<IP/domain>/wordpress  
     e.g http://192.168.31.129/wordpress/
@@ -32,7 +33,7 @@ Note: The script will download and install apache webserver, mqsql, php and Word
  2) To run in background:  
     ./monitorwp.sh &
  3) Errors written to monitor_log/wp_errors.log  
-    (example: 
+    (example: https://github.com/mayday77-77/wordpress/blob/master/monitor_log/wp_errors.log)
  
  # Miscellaneous
  ----------------
