@@ -1,5 +1,6 @@
 # Description
 --------------
+Note : Below are done using Shell scripts
 1) Install wordpress
 2) Access wordpress website
 3) Monitoring
